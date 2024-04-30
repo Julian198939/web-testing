@@ -1,0 +1,244 @@
+{
+  "time": 1712733258865,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "W111_右下浮動區塊",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W111_Top鈕",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(政令宣導\n為防治動物傳染...)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='five-banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//footer[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-footer__decree"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAZuLDJ5MzjwUUQE5oH5TQCdygYu1AcDqAuh0BMaYG6bQKtKgSydAzQqBl80CjroBh-wMEagNE0HgNCMHQCJXQEGVQElvQEnDQF7TQCKrQGrXe0AOeMBTRUBEI0BodXdwwDJvQAgVBzjAeMjALO13QDI5QFz5YsBmV0BpqLjAIAZAUZNAK8DkqLj7QFAAwABzQA2swHvlQFUwgHZAFz1AU7lAaDlASHNAfHNAJP1ARCV3QHT9QFd5QEXPQAbTQC-AwGM9AGYABiPAGhDAYUUpwAd-QEXE+sAqc0qi2rjOnQwIPFBIAHMAOQgAFsEMxNDooAAbCAoFDMCEwZQSZAAfWR7AQUCQCBBlAhGCg9EwWAA8kh0UhmGQAL6UfF0L7gCD-IEg-CI1QUyiQ6Gw-Dw9nIHR4glgImk8mUkA03RQGgU3BYACuEIhtKgOFw3yZAOBoK44KhMLhCJUKORaCwWEFuPxhOw4sF+AATFK1VA8NwtczdfgwVzDbyQFBsJALcgAATBrChq1IGAwCE-IW20X2smOwhSqRqsDMMAYGjhghHABsgAflQDoyoAgPUA5JqASO1AALKgDNTQBoyoB1ZUA97GAGLlAK3WxYArIB9MII-cAyFaAR19AABygAvfQeALH+CCWS6Xi07ADTmgCbfQCbXiFAE+6gFSjQC78oAZ7UAZQmBewhQA1MVKgA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "向下滾動到某個區塊使Top按鈕出現",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "3000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@class='c-toolBar__box c-toolBar__box--top']//a[@class='c-toolBar__link gtmClickV2']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-toolBar__arrow > span:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "Top按鈕",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "3000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "assertNotPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@class='c-toolBar__box c-toolBar__box--top']//a[@class='c-toolBar__link gtmClickV2']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

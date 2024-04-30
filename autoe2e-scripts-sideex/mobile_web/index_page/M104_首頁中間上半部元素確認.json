@@ -1,0 +1,2057 @@
+{
+  "time": 1675733853009,
+  "version": {
+    "sideex": [
+      3,
+      7,
+      3
+    ],
+    "format": [
+      2,
+      0,
+      0
+    ]
+  },
+  "suites": [
+    {
+      "title": "M104_首頁中間上半部元素確認",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "M104_首頁_首頁中上方圓形圖示和文字確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 143.78,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[1]/a/div/img"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'強檔活動')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='javascript:void(0);'])[7]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#anchorActivity > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=強檔活動"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[2]/a/div/img"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'強檔活動')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='javascript:void(0);'])[7]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#anchorActivity > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=強檔活動"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[3]/a/div/img"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'強檔活動')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='javascript:void(0);'])[7]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#anchorActivity > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=強檔活動"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[4]/a/div/img"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'強檔活動')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='javascript:void(0);'])[7]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#anchorActivity > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=強檔活動"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[5]/a/div/img"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'強檔活動')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='javascript:void(0);'])[7]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#anchorActivity > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=強檔活動"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[6]/a/div/img"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'強檔活動')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='javascript:void(0);'])[7]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#anchorActivity > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=強檔活動"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[7]/a/div/img"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'強檔活動')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='javascript:void(0);'])[7]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#anchorActivity > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=強檔活動"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[8]/a/div/img"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'強檔活動')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='javascript:void(0);'])[7]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#anchorActivity > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=強檔活動"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[1]/a/span"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "我的折價券"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[2]/a/span"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "儲值拿回饋"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[3]/a/span"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "銀行享萬元"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[4]/a/span"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "優惠神算器"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[5]/a/span"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "開工開學啦"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[6]/a/span"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "情人節特輯"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[7]/a/span"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "電競娛樂城"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@id=\"Block25Container\"]/dd/ul/li[8]/a/span"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "節能補助"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M104_首頁_『我的折價卷』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 23.45,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='Block25Container']/dd[1]/ul[1]/li[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dl[6]/dd[1]/ul[1]/li[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='我的折價券']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"我的折價券\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "128,108"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://shopping.pchome.com.tw/marketing/coupon/collection/?app_132x132_01&_gl=1*kiawek*_ga*MTEyNTY5MzQ0Mi4xNjU2MzE1MzMy*_ga_9CE1X6J1FG*MTY3NTY0NzEyOS4yNzkuMS4xNjc1NjU0MzM2LjU5LjAuMA..*_fplc*bGRwV2tETlo2NzNuJTJCUldXWmZTd2ZVOWdyZEdXJTJCWFN5QjF1aEo2SVh5aUJvUDk5cEQyOFklMkZPYlBNOTc5U0tiJTJGUTA4MWRhSnhWOCUyQmlPOTQ1MnJsYkcxZUxBMkVRU3lJaFRUbGZhbiUyRiUyQlkwNkM4R3BUcnB2cVRzamhwVDNkUnclM0QlM0Q.&_ga=2.89281053.705763633.1675647145-1125693442.1656315332&_gac=1.86851050.1672904239.Cj0KCQiA5NSdBhDfARIsALzs2ECpVulI2pOyHmrq5RF_PthqcJanAbNkHjm9Bwm9mQb9KnP0l0Yj0uYaAu5pEALw_wcB"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M104_首頁_『儲值拿回饋』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 124.99,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='Block25Container']/dd[1]/ul[1]/li[2]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='儲值拿回饋']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"儲值拿回饋\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "92,116"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "selectWindow",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "win_ser_1"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://www.pchomeec.tw/activity/AC00051773?app_132x132_02&_gl=1*se11a*_ga*MTEyNTY5MzQ0Mi4xNjU2MzE1MzMy*_ga_9CE1X6J1FG*MTY3NTY0NzEyOS4yNzkuMS4xNjc1NjU0Mzc4LjE3LjAuMA..*_fplc*bGRwV2tETlo2NzNuJTJCUldXWmZTd2ZVOWdyZEdXJTJCWFN5QjF1aEo2SVh5aUJvUDk5cEQyOFklMkZPYlBNOTc5U0tiJTJGUTA4MWRhSnhWOCUyQmlPOTQ1MnJsYkcxZUxBMkVRU3lJaFRUbGZhbiUyRiUyQlkwNkM4R3BUcnB2cVRzamhwVDNkUnclM0QlM0Q.&_ga=2.98203289.705763633.1675647145-1125693442.1656315332&_gac=1.20812106.1672904239.Cj0KCQiA5NSdBhDfARIsALzs2ECpVulI2pOyHmrq5RF_PthqcJanAbNkHjm9Bwm9mQb9KnP0l0Yj0uYaAu5pEALw_wcB"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "close",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M104_首頁_『銀行享萬元』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 125.4,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='Block25Container']/dd[1]/ul[1]/li[3]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[3]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='銀行享萬元']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"銀行享萬元\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "121,119"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "selectWindow",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "win_ser_1"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://www.pchomeec.tw/activity/AC00051533?app_132x132_03&_gl=1*5459my*_ga*MTEyNTY5MzQ0Mi4xNjU2MzE1MzMy*_ga_9CE1X6J1FG*MTY3NTY0NzEyOS4yNzkuMS4xNjc1NjU0NzE0LjYwLjAuMA..*_fplc*bGRwV2tETlo2NzNuJTJCUldXWmZTd2ZVOWdyZEdXJTJCWFN5QjF1aEo2SVh5aUJvUDk5cEQyOFklMkZPYlBNOTc5U0tiJTJGUTA4MWRhSnhWOCUyQmlPOTQ1MnJsYkcxZUxBMkVRU3lJaFRUbGZhbiUyRiUyQlkwNkM4R3BUcnB2cVRzamhwVDNkUnclM0QlM0Q.&_ga=2.123345037.705763633.1675647145-1125693442.1656315332&_gac=1.114711925.1672904239.Cj0KCQiA5NSdBhDfARIsALzs2ECpVulI2pOyHmrq5RF_PthqcJanAbNkHjm9Bwm9mQb9KnP0l0Yj0uYaAu5pEALw_wcB"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "close",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M104_首頁_『優惠神算器』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 129.21,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='Block25Container']/dd[1]/ul[1]/li[4]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[4]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='優惠神算器']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"優惠神算器\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "170,154"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "selectWindow",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "win_ser_1"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://savemoney.pchomeec.tw/?app_132x132_04&_gl=1*pqtupf*_ga*MTEyNTY5MzQ0Mi4xNjU2MzE1MzMy*_ga_9CE1X6J1FG*MTY3NTY0NzEyOS4yNzkuMS4xNjc1NjU0ODk1LjIzLjAuMA..*_fplc*bGRwV2tETlo2NzNuJTJCUldXWmZTd2ZVOWdyZEdXJTJCWFN5QjF1aEo2SVh5aUJvUDk5cEQyOFklMkZPYlBNOTc5U0tiJTJGUTA4MWRhSnhWOCUyQmlPOTQ1MnJsYkcxZUxBMkVRU3lJaFRUbGZhbiUyRiUyQlkwNkM4R3BUcnB2cVRzamhwVDNkUnclM0QlM0Q.&_ga=2.164265529.705763633.1675647145-1125693442.1656315332&_gac=1.90732904.1672904239.Cj0KCQiA5NSdBhDfARIsALzs2ECpVulI2pOyHmrq5RF_PthqcJanAbNkHjm9Bwm9mQb9KnP0l0Yj0uYaAu5pEALw_wcB"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "close",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M104_首頁_『開工開學拉』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 88.74,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='Block25Container']/dd[1]/ul[1]/li[5]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[5]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='開工開學啦']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"開工開學啦\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "251,257"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "selectWindow",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "win_ser_1"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://www.pchomeec.tw/activity/AC04635222?app_132x132_05&_gl=1*kqupfa*_ga*MTEyNTY5MzQ0Mi4xNjU2MzE1MzMy*_ga_9CE1X6J1FG*MTY3NTY0NzEyOS4yNzkuMS4xNjc1NjU0ODk1LjIzLjAuMA..*_fplc*bGRwV2tETlo2NzNuJTJCUldXWmZTd2ZVOWdyZEdXJTJCWFN5QjF1aEo2SVh5aUJvUDk5cEQyOFklMkZPYlBNOTc5U0tiJTJGUTA4MWRhSnhWOCUyQmlPOTQ1MnJsYkcxZUxBMkVRU3lJaFRUbGZhbiUyRiUyQlkwNkM4R3BUcnB2cVRzamhwVDNkUnclM0QlM0Q.&_ga=2.101332615.705763633.1675647145-1125693442.1656315332&_gac=1.183482964.1672904239.Cj0KCQiA5NSdBhDfARIsALzs2ECpVulI2pOyHmrq5RF_PthqcJanAbNkHjm9Bwm9mQb9KnP0l0Yj0uYaAu5pEALw_wcB"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "close",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M104_首頁_『情人節特輯』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 88.74,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='Block25Container']/dd[1]/ul[1]/li[6]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='美好新生活']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"美好新生活\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "157,177"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "selectWindow",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "win_ser_1"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://shopping.pchome.com.tw/activity/campaign/C717834786?app_132x132_06&_gl=1*nl8bx7*_ga*MTEyNTY5MzQ0Mi4xNjU2MzE1MzMy*_ga_9CE1X6J1FG*MTY3NTY2MzMyOC4yODAuMS4xNjc1NjYzNDY4LjguMC4w*_fplc*bGRwV2tETlo2NzNuJTJCUldXWmZTd2ZVOWdyZEdXJTJCWFN5QjF1aEo2SVh5aUJvUDk5cEQyOFklMkZPYlBNOTc5U0tiJTJGUTA4MWRhSnhWOCUyQmlPOTQ1MnJsYkcxZUxBMkVRU3lJaFRUbGZhbiUyRiUyQlkwNkM4R3BUcnB2cVRzamhwVDNkUnclM0QlM0Q.&_ga=2.190976556.705763633.1675647145-1125693442.1656315332&_gac=1.123042937.1672904239.Cj0KCQiA5NSdBhDfARIsALzs2ECpVulI2pOyHmrq5RF_PthqcJanAbNkHjm9Bwm9mQb9KnP0l0Yj0uYaAu5pEALw_wcB"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "close",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M104_首頁_『電競娛樂城』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 99.08,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='Block25Container']/dd[1]/ul[1]/li[7]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[7]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='隨拍隨玩']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"隨拍隨玩\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "selectWindow",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "win_ser_1"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://www.pchomeec.tw/activity/AC70406942?app_132x132_07&_gl=1*e7sc8i*_ga*MTEyNTY5MzQ0Mi4xNjU2MzE1MzMy*_ga_9CE1X6J1FG*MTY3NTczMjQwMS4yODEuMS4xNjc1NzMzNjI4LjU4LjAuMA..*_fplc*bjFTbXlJNkxmY2RZS1RCNUFqN1ZYV0ZKRXR4RWJ6SWs5clVSN0slMkZ1ZXRkMUJ2MUpKUGJlTUd3VTdsSHFYJTJGYTdWNUtpYUpjdEx2U3lhOTRJWUJ3QXRiblZHRHUzY0dMJTJGV2txV25EaVJna1lTT3ZJTVhNN2djSXF2Tk40UFJnJTNEJTNE&_ga=2.194663979.705763633.1675647145-1125693442.1656315332&_gac=1.89617897.1672904239.Cj0KCQiA5NSdBhDfARIsALzs2ECpVulI2pOyHmrq5RF_PthqcJanAbNkHjm9Bwm9mQb9KnP0l0Yj0uYaAu5pEALw_wcB"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "close",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M104_首頁_『節能補助』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 123.37,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='Block25Container']/dd[1]/ul[1]/li[8]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[8]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='保暖好物']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"保暖好物\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "159,179"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "selectWindow",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "win_ser_1"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://shopping.pchome.com.tw/activity/campaign/C511076590?app_132x132_08&_gl=1*1xhha7h*_ga*MTEyNTY5MzQ0Mi4xNjU2MzE1MzMy*_ga_9CE1X6J1FG*MTY3NTY2MzMyOC4yODAuMS4xNjc1NjcxNjc2LjU5LjAuMA..*_fplc*bGRwV2tETlo2NzNuJTJCUldXWmZTd2ZVOWdyZEdXJTJCWFN5QjF1aEo2SVh5aUJvUDk5cEQyOFklMkZPYlBNOTc5U0tiJTJGUTA4MWRhSnhWOCUyQmlPOTQ1MnJsYkcxZUxBMkVRU3lJaFRUbGZhbiUyRiUyQlkwNkM4R3BUcnB2cVRzamhwVDNkUnclM0QlM0Q.&_ga=2.93591195.705763633.1675647145-1125693442.1656315332&_gac=1.82727012.1672904239.Cj0KCQiA5NSdBhDfARIsALzs2ECpVulI2pOyHmrq5RF_PthqcJanAbNkHjm9Bwm9mQb9KnP0l0Yj0uYaAu5pEALw_wcB"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "close",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

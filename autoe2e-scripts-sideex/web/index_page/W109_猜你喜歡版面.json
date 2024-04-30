@@ -1,0 +1,424 @@
+{
+  "time": 1712732531613,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "W109_猜你喜歡版面",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W109_猜你喜歡版面",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(猜你喜歡)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='venraas-block']/div[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[@id='venraas-block']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-listTitle.c-listTitle--lg > div.c-listTitle__title"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOSIsSCBBQwARgBsMUANbCAuhy7cC6zj20UQGMM0A4zoAN5QDmqgQ2sDGCHlCQA5gDkIAWwTNdBqHKkozLByaChgYGhgcggA+jERUV6UClD0mFgA8kjsyMxkAL6UinQO4BCuHl74PpR+AUEwIWEJ0QAEwaHhkdEwjU4GKWnYWTlIeSCFhlA0Y7hYAK5yckVQOHOLy1NQeNyO5W6e3ly+-iiB+B3N3bHxCFTGyYpDmdm5+AWqK8b4gI76gM-pgAgdQACyoBod0AL2aALE0GDQUO4IEhwhAsEoAOwATgArIBk6LMgFR4wBg2YBCH0AdaqAKOjAAhGsPhYEAp6aAb59APiGgGlkwAyroA9T0Alk6AQH+wBgAGZ8gCegBoQwAUroB+qNafIwSEA33KASk1AEAaKAA7pEoAwAFYYQUwKDYQB6GYAV60A6poACgALIBTRQAlIB7IMAPAqq9UMQAq2RzANxygBkMj2AfStALvygHdo800KCAHusANSAM91AM-KEyAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(猜你喜歡)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='venraas-block']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[12]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-listTitle.c-listTitle--lg > div.c-listTitle__title"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOSIsSCBBQwARgBsMUANbCAuhy7cC6zj20UQGMM0A4zoAN5QDmqgQ2sDGCHlCQA5gDkIAWwTNdBqHKkozLByaChgYGhgcggA+jERUV6UClD0mFgA8kjsyMxkAL6UinQO4BCuHl74PpR+AUEwIWEJ0QAEwaHhkdEwjU4GKWnYWTlIeSCFhlA0Y7hYAK5yckVQOHOLy1NQeNyO5W6e3ly+-iiB+B3N3bHxCFTGyYpDmdm5+AWqK8b4gI76gM-pgAgdQACyoBod0AL2aALE1AA2mgH0rQBQcoAgPRgCBoKGwcgArBiAJwABkAm2mAJt9AM0KgHx3QBeZoBzQ0AmgmAcuNAMQJgBi-QDZ8oAKjUA4JGACBUYQxUe4IEhwhAsEoAOzY1qAe+DAJUeUnmKCQGCcADMIHIoAx0gA2DEAUkAhI6ALd9AN9pgDevQCuyYATt24GuQSAAnoAldMAH3EsGgyMAsQCPQYBw01UMrlComQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "猜你喜歡區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(猜你喜歡)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='venraas-block']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-listTitle.c-listTitle--lg > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOSIsSCBBQwARgBsMUANbCAuhy7cC6zj20a96hgGYtqiiAxhmgHGdABvKAc1UCG1hYwQ8oSAHMAchAC2CMwmFgpQ9JhYAPJI7MjMZAC+lIp0HuAQvgFB+LoWUHJSKMywcmgoYGBoYHIIAPp1YAhU1pRhEdgxcUgJIMmWUDQ9uJ6ZfoHMeZQFRcwYMFAYCkjeAATzi8veMLJyAK5BbYod0bHx+EkpUDi4WHtycldQeNyqV9b4gI76gM-pgBA6gALKgGh3QAvZoAsTQYNBQ-ggK0gWCUAHYAJwAVkAydF2QCo8YAwbMAhD6AOtVAFHRgAQjKEwsCAU9NAN8+gHxDQDSyYAZV0Aep6ASydAID-YAwADMuQBPQA0IYAKV0A-VGrLkYJCAb7lAJSagCANFAAd2qUAYACsMLyFthAHoZgBXrQDqmgAKAAsgFNFACUgHsgwA8CorlQxACrZLMA3HKAGQznYB9K0Au-KAd2ijTQoIAe6wA1IAz3UAz8p9IA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "猜你喜歡"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W109_猜你喜歡版面_切頁按鈕",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(猜你喜歡)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='venraas-block']/div[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[@id='venraas-block']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-listTitle.c-listTitle--lg > div.c-listTitle__title"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOSIsSCBBQwARgBsMUANbCAuhy7cC6zj20UQGMM0A4zoAN5QDmqgQ2sDGCHlCQA5gDkIAWwTNdBqHKkozLByaChgYGhgcggA+jERUV6UClD0mFgA8kjsyMxkAL6UinQO4BCuHl74PpR+AUEwIWEJ0QAEwaHhkdEwjU4GKWnYWTlIeSCFhlA0Y7hYAK5yckVQOHOLy1NQeNyO5W6e3ly+-iiB+B3N3bHxCFTGyYpDmdm5+AWqK8b4gI76gM-pgAgdQACyoBod0AL2aALE0GDQUO4IEhwhAsEoAOwATgArIBk6LMgFR4wBg2YBCH0AdaqAKOjAAhGsPhYEAp6aAb59APiGgGlkwAyroA9T0Alk6AQH+wBgAGZ8gCegBoQwAUroB+qNafIwSEA33KASk1AEAaKAA7pEoAwAFYYQUwKDYQB6GYAV60A6poACgALIBTRQAlIB7IMAPAqq9UMQAq2RzANxygBkMj2AfStALvygHdo800KCAHusANSAM91AM-KEyAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-gtm-location_block=\"youmayalsolike\" and @data-gtm-name=\"right\"]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[12]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#venraas-block > div.c-listInfo.c-listInfo--lg:nth-child(2) > div.c-listInfo__body > div.c-slider.c-slider--outside > div.swiper-button-next.gtmClickV2:nth-child(3) > i.o-iconFonts.o-iconFonts--arrowSolidRight"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "右箭頭",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-gtm-location_block=\"youmayalsolike\" and @class=\"swiper-button-prev gtmClickV2\"]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[12]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#venraas-block > div.c-listInfo.c-listInfo--lg:nth-child(2) > div.c-listInfo__body > div.c-slider.c-slider--outside > div.swiper-button-prev.gtmClickV2:nth-child(2) > i.o-iconFonts.o-iconFonts--arrowSolidLeft"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "左箭頭",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

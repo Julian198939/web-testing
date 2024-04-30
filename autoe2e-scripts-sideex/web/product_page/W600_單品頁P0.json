@@ -1,0 +1,3860 @@
+{
+  "time": 1714360166674,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "W600_單品頁P0",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W600_商品簡介_元素確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "INCLUDE",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "COMMON.LOGIN"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GX41K"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@data-regression='prod_info_mainpic']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品主圖",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@class='c-mediaGallery__control']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品小圖區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@class='c-infoTextToolBar__text']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品編號",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@class='c-infoTextToolBar__btn']/a/span/i"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "facebook分享button",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//button[@class='btn btn--xxl gtmClickV2']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "複製連結button",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//h1[@data-regression='prod_info_name']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品名稱/銷售口號",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@data-regression='prod_price']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "價格",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//ul[@data-gtm-location_block='description']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "主賣點",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@data-regression='prod_select_num']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品數量下拉式選單",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//span[@data-regression='prod_txt_add2Wish']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "追蹤button",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//ul[@data-regression='prod_info_payment']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "付款方式",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//ul[@data-regression='prod_info_ship']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "出貨",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@data-regression='prod_info_shipDiscount']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "配送",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_商品簡介_商品售價格式顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GHXXX"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTextRegex",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@data-regression='prod_price']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.o-prodPrice__price"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "\\$\\d\\,\\d"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "檢查是否有千分位",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_FixBar_FixBar上的加入購物車按鈕正常顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@class='c-boxGrid c-boxGrid--bankOffer']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[2]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-boxGrid.c-boxGrid--bankOffer > div.c-blockCombine > div.c-blockCombine__flex"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "1000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(加入購物車)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//i[@data-regression='prod_icon_add2Wish']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/span[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.btn__outLine.btn__outLine--primary > span.btn__text"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAFJBnYAhJGgQAzNFgDmwgLocu3Ahs48dmngCZdWgKynjl7iZYAjAK5gw2bRpR0sblh4hedFCAYYMyABUqApoqAPzGAlk6AU3GBGBB4oJDKAHIQALYIzL44lFAANhAoKMx2YFgA+lVgCFQhlIUYUPSYWADySOzIzGQAvpQtdMngEOlZOfh5gUUlZfgV1VUYToVKCAAESzWrYOtYCDAwNLKZEEgAnpubgc2tYO1dPUh9IINBUKd4WA6FhUMoDhcL9-oCoHhuGpASF8IBf+MAJnGbQDTXoBnZUigHaY95AA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "Fixbar追蹤button",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(加入購物車)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//button[@data-regression='product_button_addToCart']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/span[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.btn__outLine.btn__outLine--primary > span.btn__text"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAFJBnYAhJGgQAzNFgDmwgLocu3Ahs48dmngCZdWgKynjl7iZYAjAK5gw2bRpR0sblh4hedFCAYYMyABUqApoqAPzGAlk6AU3GBGBB4oJDKAHIQALYIzL44lFAANhAoKMx2YFgA+lVgCFQhlIUYUPSYWADySOzIzGQAvpQtdMngEOlZOfh5gUUlZfgV1VUYToVKCAAESzWrYOtYCDAwNLKZEEgAnpubgc2tYO1dPUh9IINBUKd4WA6FhUMoDhcL9-oCoHhuGpASF8IBf+MAJnGbQDTXoBnZUigHaY95AA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "Fixbar加入購物車button",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(加入購物車)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//button[@data-regression='product_button_buyNow']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/button[1]/span[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.btn__outLine.btn__outLine--primary > span.btn__text"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAFJBnYAhJGgQAzNFgDmwgLocu3Ahs48dmngCZdWgKynjl7iZYAjAK5gw2bRpR0sblh4hedFCAYYMyABUqApoqAPzGAlk6AU3GBGBB4oJDKAHIQALYIzL44lFAANhAoKMx2YFgA+lVgCFQhlIUYUPSYWADySOzIzGQAvpQtdMngEOlZOfh5gUUlZfgV1VUYToVKCAAESzWrYOtYCDAwNLKZEEgAnpubgc2tYO1dPUh9IINBUKd4WA6FhUMoDhcL9-oCoHhuGpASF8IBf+MAJnGbQDTXoBnZUigHaY95AA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "Fixbar立即購買button",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_商品簡介_有設定建議售價之顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "($28,400)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "//div[@data-regression='prod_price']//div[@class='o-prodPrice__originalPrice']"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAFJBnYAhJGgQAzNFgDmwgLocu3Ahs48dmngCZdWk4e2n9VyxYN7uJiiAxhmAEiMAOcgBYADP7OGBB4oJDKAHIQALYIzHrOUAA2ECgozBgwNBLsOWhQCAD6RRiyykoQyfmFzskYUPSYWADySOzIzEYgAL6UDXRh4BBRsfH4iZQpaRn4WTmSNcVFSwBGGFR1DU3YbR1IzGR9LlA5QxHRcQlcSanpmdm5SyVLW41gzXud+Ef9UDi4LAAV2SyT+UDw3DUfzc+E8ADZyABOFEAAkAQHqAT4VPF4Av5AHD-gE8nTGADMJ3IAkf8AaP+ATH-aYA-50A7TF0wCA7u4CAECIAFNMA84mEwBd1oAeIkAFWmAITNAHtqmIFgEB-qUwOXyhUwXpAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "檢查是否有建議售價",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_商品簡介_無設定建議售價之顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GX41K"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyNotPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@data-regression='prod_price']//div[@class='o-prodPrice__originalPrice']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_商品簡介_訂閱制商品價格欄位顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DYAJFU-1900HA721"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTextRegex",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "($1,534)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.o-prodPrice__price"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAFJBnYAhJGgQAzNFgDmwgLocu3Ahs48dmngCZdWk4e2n9VyxfN7LFEBjDMAJAXIBWAMwAWJwwIPFBIZQA5CABbBGY9JygAGwgUFGYMGBoJdiy0KAQAfQLc-KdEjCh6TCwAeSR2ZGYyAF9KCroQ8AgI6Nj8eMoklLT8DKzJEsLi2XyAIwwqMoqq7DqGpGYjEFbnKCy8LABXRMS2qBxcUO7ImLiuBOTU9MzsyaKwBCpXSnLKsGq1o18FsdhUoHhuGozq58IAgKMAjamAT4UAASAfHNABtyAApAI6KBCMqIAlNsgA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "\\$\\d{1,3},(\\d{3})"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(期付 (共12期))"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.o-prodPrice__text"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAFJBnYAhJGgQAzNFgDmwgLocu3Ahs48dmngCZdWk4e2n9VyxfN7uJiiAxhmgfHNAG3IAKQI6KBI3cASmcMCDxQSGUAOQgAWwRmPWcoABsIFBRmDBgaCXY8tCgEAH0SsAQqN0pUjCh6TCwAeSR2ZGYjEABfSjq6CPAIGPjE-GTKNIys-By8yULisoWEACMMKmda+rBGlrakDu7eqDyBqNiEpK4U9Mzs3PzlpdlizbqG7D32-DIelygcLgsABXVKpY5QPDcNTHNz4AAkBHIAFYAMwAFgABIBeP0AQFGARtTAJ8KiIAHOR0QAGEndIA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "期付 (共12期)"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTextRegex",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "($18,408)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[2]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.o-prodPrice.o-prodPrice--isSubscriptionSubPrice > div.o-prodPrice__priceBox:nth-child(2) > div.o-prodPrice__price"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAFJBnYAhJGgQAzNFgDmwgLocu3Ahs48dmngCZdWk4e2n9V7ub22bOiiAxhmAEgIAOcgBYADF7OGBB4oJDKAHIQALYIzHrOUAA2ECgozBgwNBLsOWhQCAD6RfmFzskYUPSYWADySOzIzGQAvpRVdGHgEFGx8fiJlClpGfhZOZJlxaWyhQBGGFQVVTXYDU1IzEYg7S5QOXhYAK7JyR1QOLgnZxdQeNxqF274gLx+gEBRgI2pgJ8KAARoNAY2AQX0AnaaACQtAEQEgBc9aGAbeNAA2mgAj9QD3yoBTuUhgHnrQAQ5oBUeMAYNmADblAM7KKMA-vKACldAADmCIBQKwCEA0kaAfStADD-gGmowB7eYATa0Ap+aAIyjAM5RgAZfCGAKqjAHBmuyAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "\\$\\d{1,3},(\\d{3})"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_商品簡介_任選館商品價格欄位顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": false,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBCP60-B900F9FRD"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(大成燒烤館$999免運)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.btn__oval.btn__oval--blue > span.btn__text"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAFJBnYAhJGgQAzNFgDmwgLocu3Ahs48dmngCZdWgwFcANto2W0NlhAco6WZ65sUQGMM0DkmoAIRoBLjoAnDoAUmQAkAJwxgLKKgNIJXhgQeKCQygByEAC2CMwuEDiUUJYQKCjMAEZgWAD6tWAIVL6UlhhQ9JhYAPJI7MjMZAC+lO10qeAQmTl5+AVFICVlFfjVdbUYcBCWAARr9ZvbMDCVluYIOztebR1gXb39SIMgI95QNE+4WFaWo1A4Xx+fygeG4aj+vnwgUA+xmAQZVAIx-gAULQDt+oBFvMAOOGAGxjAKEWgEagwCRAYBxJ3hAApAEAZgCxfVGYwAPyoBjB0xAEodhECAA2KIRIwABm5LyAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "($169)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.o-prodPrice__price"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAFJBnYAhJGgQAzNFgDmwgLocu3Ahs48dmngCZdWk4e2n9VyxYN7LFEBjDMAJAQBsATicYIeKCQygByEAC2CMx6TlAANhAoKMwYMDQS7OloUAgA+rlZOU5xGFD0mFgA8kjsyMxkAL6UpXSB4BChEVH4MZTxicn4qemShXkFsjkARhhUxaXl2NW1SPUgTc5Q6XhYAK5xcc1QOLhBHWGR0VyxCUkpaRlj+RiyykoQcWPzZWAVy3X4IzrI5QPDcNRHVz4QDkmoAEI0AxzGAFpjAFgJgEYNOGAfYzAIMqgEY-wAKFoB2-UAi3mAHHDADYxgFCLQCNQYBIgMA4k44gAUgCAMwBYvkSyYAH5UAxg5kgCUcMAS46AE4dABSZbm8ksAsoqAaQSAARuIwABiV6yAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "($200)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.o-prodPrice__originalPrice"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAFJBnYAhJGgQAzNFgDmwgLocu3Ahs48dmngCZdWk4e2n9VyxYN7uJiiAxhmAEiMAGL84wQ8UEhlADkIAFsEZj1nKAAbCBQUZgwYGgl2dLQoBAB9XIxZZSUIOKyc5ziMKHpMLAB5JHZkZiMQAF9KarpA8AhQiKj8GMp4xOT8VPTJcrzc2YAjDCpK6trsRuakZjJOlyh03uCwyOiuWISklLSM2fzZ1ZqwOs2W-F2uqBxcLABXOLinygeG4ak+bnw7gIADYAJwAAkACXaAK8DACdugGlFQDwmoBFvMAWjGAELdAHXZgBxXQDgQYAsTUAgjaAB+VAMYOgAp1QAM6oBzJ0ALBqACB1AF1ygAZfQDD+oAfjMAUJkkwBBmoAccMAMP9GAAsXkAlJqAVW1AE0BgAtnQCeTh0gA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_規格品加車_已選規格品加入購物車功能確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-1900H00YP"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "組合+規格品",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//li[@class='c-blockCombine__item c-blockCombine__item--combine']//div[@class='c-dropdown__arrow']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[2]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=i.o-iconFonts.o-iconFonts--arrowSolidDown"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "規格一下拉選單",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//li[@class='c-dropdown__item ']/div"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-dropdown__itemText.c-dropdown__itemText--option"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "選第一個",
+              "pwt": {
+                "pbw": -2233,
+                "paw": 1000,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//li[@class='c-blockCombine__item c-blockCombine__item--combine'][2]//div[@class='c-dropdown__arrow']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[2]/div[1]/div[2]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.c-prodBriefing__setCombineItem:nth-child(2) > div.c-dropdown.c-dropdown--smAuto:nth-child(2) > div.c-dropdown__desc.c-dropdown__desc--fill > div.c-dropdown__arrow:nth-child(2) > i.o-iconFonts.o-iconFonts--arrowSolidDown"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "規格二下拉選單",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//li[@class='c-dropdown__item ']/div"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.c-dropdown__item:nth-child(2) > div.c-dropdown__itemText.c-dropdown__itemText--option"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "選第二個",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//button[@data-regression='product_button_addToCart']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[6]/div[2]/div[2]/button[1]/span[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.btn__outLine.btn__outLine--primary > span.btn__text"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "點擊【加入購物車】按鈕",
+              "pwt": {
+                "pbw": 0,
+                "paw": 568,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[2]/div[1]/div[1]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "等 Toast 出現",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": true,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@data-regression='toast']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//main[1]/div[2]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-toast__message"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "商品已加入購物車！\n立即查看"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "確認 Toast 文字訊息",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_組合_搭配組合區塊有子商品時的顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-1900H00YP"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "組合+規格品",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[5]/ul[1]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyCSS",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[5]/ul[1]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"flex-wrap\": \"wrap\"}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_商品簡介_檢查一般商品預設可購買量_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GX41K"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@data-regression=\"prod_select_num\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "數量預設1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@class=\"c-dropdown__value\" and text()=\"1\"]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[6]/div[1]/div[1]/div[1]/div[2]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=i.o-iconFonts.o-iconFonts--arrowSolidDown"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 7
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@class='c-dropdown__menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[6]/div[1]/div[1]/div[1]/ul[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=ul.c-dropdown__menu"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "點了數量選單要出現",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_商品簡介_優惠活動列表顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": false,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GX1EV"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "assertPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": ""
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='prod_promotions']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[6]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-prodBriefing__promotion"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAFJBnYAhJGgQAzNFgDmwgLocu3Ahs48dmngCZdWgGxqKIDGGaBvN0AYUYF6jQAgMgHttA8JqAfmMCWToGNtQEQGQAtFQE2vQHBjQCztQEGVQDrVQDFvQH+7QFkMxydAKv1ABpdAcSMWQHRbQHSPQH0rAApAJONAEzTAJkVAHgUWQG+0wAVtQAtPQA4lFkBoOUBIeMA9vMAPUxY+wENlQDFVKIBKQGh3IMALhKsMCDxQSGUAOQgAWwRmPSsoABsIFBRmWBoJdgAjWQUlZQB9O7OMdZtMHEo9jCh6N4B5JHYyGYZhAAF9KF86ItwBBVhstvgdpR9odjvhTucrnJFCoHhAkAgFh8vj9sP9AUhmEYwRCoGdocs1pttlxdgcjicYE9Ltccfc7hB2OwwCSkLZid8wH8AUD8ABWGnWKA4XBLWFMhEgJEgFEc9FczG824PeR7BBUAAEGMkWJuuLupvNMC5EAAnpssOKQJ9JdKKcwAOyKr5QPDcNVw5n4ACuezZqM53NtfIeTxeUuwSnkGCsPtJWHJssINIjGuYF2jYBF7x17LRIAuYCwFsbWGd63YFuUYHW+zQUAA1nBqZQwK6aJqK1XsFZ2PQIDBu+sYHmM1g7hcfQPmOt8QOEFKVLmSWvC5T8GRQWpabYL4Bf+MAJnGAAqVAKaKvkAU3GAaa9AM7KXkA7TEWoAG3KAHzWgCdpoA8PqAIfygAUroMgCADIAhI6DIAYEqAPjmcGADIRgCrSoA9KaAYAMP+AOBBgBuioAa3KAFiagB0XhBgCn5hMgDsSjQUAMM8CCAPYBgCwKoMcRxIA1XKAADmgAbWWYACkYJAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "優惠活動列表",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_商品簡介_付款方式、出貨、配送、其他區塊顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GX1EV"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='prod_info_payment']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[7]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-prodBriefing__flexTitle"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "付款方式欄位",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='prod_info_ship']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[7]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-prodBriefing__flexTitle"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "出貨欄位",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='prod_info_shipDiscount']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[7]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-prodBriefing__flexTitle"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "配送欄位",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_出貨_24小時出貨顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "COMMENT",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "驗證24h TAG 和 到貨文案"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GX1EV"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_24hTag']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "24h標籤"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='prod_shipExplain']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[8]/ul[1]/li[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-discountEvent__info:nth-child(2) > div.c-discountEvent__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "文案:PChome 倉庫出貨，24小時到貨",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_出貨_低溫商品出貨顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "COMMENT",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "確認低溫標籤，以及\"不受24h到貨限制\"文案"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX08-A900GX1CQ"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_lowTemp_tag']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "低溫標籤"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_shipExplain']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "本商品不受24h到貨限制",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_出貨_大材積商品出貨顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "COMMENT",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "確認大材積標籤，以及\"PChome 倉庫出貨\"文案"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900HA6A8"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_bigTag']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "大材積標籤"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_shipExplain']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "PChome 倉庫出貨",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_出貨_超大材積商品出貨顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "COMMENT",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "驗證超大材積標籤，以及\"不受24h到貨限制\"文案"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GX5HP"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_largeTag']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "超大材積標籤"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_shipExplain']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "PChome 倉庫出貨，本商品不受24h到貨限制",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_出貨_廠商出貨商品出貨顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "COMMENT",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "確認廠商出貨標籤，以及\"不受24h到貨限制\"文案"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GX41K"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='prod_companyTag']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[8]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-label__rectangle.c-label__rectangle--tertiary300"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "廠商出貨 TAG",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='prod_shipExplain']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[8]/ul[1]/li[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-discountEvent__info:nth-child(2) > div.c-discountEvent__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "本商品不受24h到貨限制"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "文案:本商品不受24h到貨限制",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_出貨_廠商+低溫商品出貨顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "COMMENT",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "確認廠商出貨標籤和低溫標籤，以及\"不受24h到貨限制\"文案"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}prod/DBDX08-A900HA6EO"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_companyTag']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "廠商出貨標籤"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "檢查出貨說明區塊中是否有出現廠商出貨標籤",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_lowTemp_tag']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "低溫標籤"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "檢查出貨說明區塊中是否有出現低溫標籤",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_shipExplain']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "文案: 本商品不受24h到貨限制",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_出貨_電子票券商品出貨顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "COMMENT",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "確認電子票券標籤，以及\"非實體商品出貨\"文案，以及電子票券說明頁網址。"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GHXUL"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_elecVoucher']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "檢查出貨說明區塊中是否有出現電子票券標籤",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_shipExplain']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "文案: 非實體商品出貨，請查看使用方法",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_出貨_獨立結帳商品出貨顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": false,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "COMMENT",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "確認獨立結帳標籤，以及\"無法合併結帳\"文案"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GHXUL"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_singleTag']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "獨立結帳標籤"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "檢查出貨說明區塊中是否有出現獨立結帳標籤",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_shipExplain']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "文案: 本商品無法與其他商品合併結帳",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_出貨_訂閱商品出貨顯示確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "COMMENT",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "確認獨立結帳標籤，以及\"無法合併結帳\"文案"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DYAJFU-1900HA721"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_subscribeTag']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "訂閱標籤"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "檢查出貨說明區塊中是否有出現獨立結帳標籤",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_subscribeTag']/following-sibling::div[@data-regression='prod_shipExplain']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "訂閱商品 每期支付訂閱價給分期趣，並由分期趣開立發票"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "文案: 訂閱商品 每期支付訂閱價給分期趣，並由分期趣開立發票",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_立即購買_按鈕功能確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='product_button_buyNow']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "3000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-it_name='回歸測試_寄倉商品']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W600_FixBar_加入購物車按鈕功能確認_P0",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//html"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,300"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_fixbar']//*[@data-regression='product_button_addToCart']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='toast']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "商品已加入購物車！\n立即查看"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "3000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.CART}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-it_name='回歸測試_寄倉商品']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-it_name='回歸測試_寄倉商品']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "INCLUDE",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "COMMON.LOGOUT"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

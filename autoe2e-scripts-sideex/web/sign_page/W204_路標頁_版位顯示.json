@@ -1,0 +1,5780 @@
+{
+  "time": 1713429881199,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "W204_路標頁_版位顯示",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W204_暢銷排行_顯示確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}3c"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}cp"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}nb"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}mobile"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(新品首發)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}digi"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[1]/div[1]/div[2]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.row.u-mt24 > div.col-3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGu2b1O7gCY9PW1dsUQE5s4wQ8oSAHMAchCKCMyazlAANhAoKMxQGOEwAMzO4RhQ9KYA8kjsyMzWIAC+lGl0XuAQ-oHB+KGUEVEx+GIA7gAEAK4wimDWACwpaRnY2blI+UUlUDTjuN6VAUEhXGGR0bHxMACcg+kmIzl5+GTFLlA4uFgd4eFTUHjc81VLtSv1a00gsBDsAEYQWCwyDa3z+AKBSBgMHQWB84WClFSeyyh1mhCKUimYGYNAQ4TQ6SwbQAbIlEgAzcl9ACsvxpfQAHMQaLDSRSqQAGADsXN+UA5UCILJ8PgwMwwbPJCHJW1+CC590KQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}ce"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}daily"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(新品首發)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}mombaby"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[1]/div[1]/div[2]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.row.u-mt24 > div.col-3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGu2b1O7gCY9PW1dsUQE5s4wQ8oSAHMAchCKCMyazlAANhAoKMxQGOEwAMzO4RhQ9KYA8kjsyMzWIAC+lGl0XuAQ-oHB+KGUEVEx+GIA7gAEAK4wimDWACwpaRnY2blI+UUlUDTjuN6VAUEhXGGR0bHxMACcg+kmIzl5+GTFLlA4uFgd4eFTUHjc81VLtSv1a00gsBDsAEYQWCwyDa3z+AKBSBgMHQWB84WClFSeyyh1mhCKUimYGYgDAlQDA5oAWDV+AGtifiCW1APYBgAgVQCDKoALFSKQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}food"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}life"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}outdoor"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}beauty"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(新品首發)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}vogue"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[1]/div[1]/div[2]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.row.u-mt24 > div.col-3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGu2b1O7gCY9PW1dsUQE5s4wQ8oSAHMAchCKCMyazlAANhAoKMxQGOEwAMzO4RhQ9KYA8kjsyMzWIAC+lGl0XuAQ-oHB+KGUEVEx+GIA7gAEAK4wimDWACwpaRnY2blI+UUlUDTjuN6VAUEhXGGR0bHxMACcg+kmIzl5+GTFLlA4uFgd4eFTUHjc81VLtSv1a00gsBDsAEYQWCwyDa3z+AKBSBgMHQWB84WClFSeyyh1mhCKUimYGYgDAlQDA5oAWDV+AGtifiCW1APYBgAgVQCDKoALFSKQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(新品首發)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}books"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[1]/div[1]/div[2]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.row.u-mt24 > div.col-3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGu2b1O7gCY9PW1dsUQE5s4wQ8oSAHMAchCKCMyazlAANhAoKMxQGOEwAMzO4RhQ9KYA8kjsyMzWIAC+lGl0XuAQ-oHB+KGUEVEx+GIA7gAEAK4wimDWACwpaRnY2blI+UUlUDTjuN6VAUEhXGGR0bHxMACcg+kmIzl5+GTFLlA4uFgd4eFTUHjc81VLtSv1a00gsBDsAEYQWCwyDa3z+AKBSBgMHQWB84WClFSeyyh1mhCKUimYGYgDAlQDA5oAWDV+AGtifiCW1APYBgAgVQCDKoALFSKQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W204_主題櫥窗_顯示確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}daily"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='window1_daily']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "主題櫥窗區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(主題推薦)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//section[@id='window_homepage']/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/i[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[@id='window1_daily']//h3"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=h3.o-colorTag__text"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIA7mixCMEgPoMMAWwR0A5gjEBdFkLRxeBXfsPG9BoycvnTvAEzWzutFZYMAzFYogMYZoDccoAyGYAVxoBloT4YEHigkOoAchCqzJ4+UAA2ECgozBgwUBjpGEhx8vJgCFT+lEVQ9DwA8khCyMxkAL6UGFB0MeAQCUkIzGhpmdm5+YXFpfJoBTg13fXYTS1IbSCdvj0buFgArunpXVA4+0cnO1B4vNqn-viARWaA7UmAScaAMhHqGBjq6WpoKgIdIAdhoSAwAAoCPZ1Cx7ABWABs6gAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNpCABwIgAMynSVHszIABIBkKMAL76Aaj1AIgKgDG0wAQKoBJtS2QA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "主題推薦"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W204_主題櫥窗旁選單_顯示確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}life"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@class='c-themeToolBar']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W204_全幅Banner_顯示確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}mombaby"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='full-banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[6]/div[1]/div[1]/div[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#b012_bn_a_01_00 > div.c-adBanner__img > img"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "全幅banner區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

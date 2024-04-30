@@ -1,0 +1,4804 @@
+{
+  "time": 1710753419077,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "W201_路標header",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W201_Header_連結項目確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}3c"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "3c",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(比比昂日本購物)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_mercari']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'比比昂日本購物')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://shopping.pchome.com.tw/extenal/v1/bibian/url?op=redirect&_gl=1*3an4fq*_ga*Mzk0NDk2Ny4xNjczMzE1MjI0*_ga_9CE1X6J1FG*MTcwMDExOTE3OS4yMTcuMS4xNzAwMTIzNDg3LjYuMC4w*_fplc*OTlIcVFEZkJKeXJIYzlPZ3F1dlNjMGZHT2VxUTAlMkJaMDY4dXElMkZ0eUElMkJkQWpPbEV3JTJGY2xYRXFMejJXWnR0MHZ6c3pKb2xwcHdOdnRaV1VuaWFyc3djczBRczdEWVRiQzJKcVJnOFc1QU5YMDRpSVlHJTJGcW9vbTY1dE52ek92dyUzRCUzRA..']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=比比昂日本購物"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7ZvU6jh7RHUUQE5oBXrG4CAzQKemgGnNAPzGBLJ0sYIeUJADmAHIQALYIzD6UDEgIAGbMDGBgNCi4bCgMGDQ0aFj+RDRQmWFEUBghRGAA7iwIVGAIWBAANixwBCwARmjdEFgsAK5IzQD8WYIxnDFQYABkAPr+zYIEAFQAzH0ALLEAjquLEKshAF4A1gAMWOxnAExYAJ5bVFgAVlAnpwgEIa9oFwd-BB5gBOKDfKgANleBFi-mOYCgVRCqioEgQ6wwKC2DxCiIGIWxLxOEGRYDQJ2u-nWzVeDwJUC2VQOsRozSgqwkzTQUDgsQQ51eZzqfweJ2aNBO61iBHYzTeIX8J0StzgVAGkGaITOr1C7Ce7CoCC1ZxOFwQA2N2qFuyq2U6CDg61eYFe-getyoDyQVFiYVeryoVSwSAuIQYJ0hUHWNDOnU9VSK7Aw7BDEHacAGpNiD2j7HeJ06SA+qiqcCQaF2JyFvNeWAwsSgBF2AwArLj2EgUnBmgwXW6kSC4J0wA9ZQhW7cEGcQbd9QMTsWF0gIEQiJYoM0ICgUMxmjAlCpkPN5ugGtysGcAAT+MAhTc86+3+-cqBnOC3SzsegQGDPmDNBgUD0JgWAwAICTlAg8yHqoSDzGAWSdBASBfj+f53jATRhMwYTFihaBoZAGEhABQEgdg8ydIBb4JMocGWDRFFYAA8kgDH4GQAC+lBAXQvjgBAQShOE+CaBuW47nuB70cep5oA0CkICEjHkeS2BsRxhAgDxVhQDQqG4FgAzNM0vFQDgRkmWZelQHg3BSOZYDMAAPGgsQrmEKDFoIAA6ICJMkqRsFUoVEP44hLAgAQhH0QnIKU5QsFgKBEIkV6AA82gDQ6h4OlAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "比比昂日本購物"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(泰國購物)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_pcthai']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'泰國購物')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://www.pchome.co.th/tw']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__siteItem:nth-child(2) > a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=泰國購物"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7ZvUssEXTu4AmGRHUUQE5oAebQNDqgH5jAlk52MEPKEgBzADkIAFsEZh9KBiQEADNmBjAwGhRcNgB3TKIaKAYMMKIoDCJGFjB0uygAGwgUFGYqmCUVZAB9VvQwBCq0LABrAAJ-MBDqtChB4dGeibgLO3Z6CBgpmCqMKHpMLBgBBPyEVubVJFawDBoAIwgkBaWVkZgTMOYcxgg0O8gHkLWNrewrUu6wmCWUJzsIIBWAA8kgIfgyABfSgbOi+cAQIKhcL4TSVGp1BpNcFtDpoLoUhAhSH-MDbOEIkDzFH2KA0W64LAAVyqVVRUBwXN5-LZUDw3CkArAzEAK9aywBAZoBjuUAmFZK1wDQA5voAIFUAsOaATaUQEigA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "泰國購物"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(綜合服務)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='generalservice']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'綜合服務')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__siteButton"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=綜合服務"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7ZvUssEXTu4BmGRHUUQE5oBzfQBAqgWHNAm0p2MEPKEgBzADkIAFsEZh9KBiQEADNmOygAGwgUFGYkmCUVZAB9XPQwBAAjAFcwMGw7JIwoekwsAHkkVSRmMgBfSlq6X3AIINDw-E1ElLSMrOVW-MKENCKQgAI0FBhoMC5wyhq6zexm1uYLEC77KBo23CxSpKTuqBxcPwHgsOZRymTU9PxM7JmuXYYho7AwAHcsEt-tM8kCQWDITAYEk0FgANYoFZrKAYO4QGgoBDsaq1eoHFrIdqnB5QPDcF6Dd74FB0HBfca-EAwnJIWYLea49ncsn7JqUq6EU5SB5gZiAB5tANDqgB+YwCWTktAE2+gHvYtU0KAMDBhQBiqoB0vUA6hGAJnTAJSagFmjQDHMSEFvrAKemgG+fVyAP4zABaKgGAXNWAXq1AFUqgGxDQCLiYBY8MAu-KAKrSaGgbYAiZMAoMqAZDNAJHaGsAo6aAKQTANhagCArGinIA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "綜合服務"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(最近看過)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_viewitem']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'最近看過')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/?0x15eb23c5ce89a61773cc2380c86d48d7618a3ed640480499691d4ffeab8ba45ea1db1015ce8b5d9afcda85fc6e6d1c41']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__siteService > div.l-header__siteItem > a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=最近看過"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6y9ojqKICc0AA5oEX4wNDugOQT7GCHlCQAcwA5CABbBGZfSgYkBAAzZgYwMBoUXDYEKDg0GiIaKAYMcKIoIqIwAHcWAH4ABioCAFYEACMjAGYoRqgEAA4ATggANgIAdlHOqA7e2qheofYAFl72UZHeiHaEdiHF2uX9-v6h-oIluLjlFt6WiEXmiDOWglqmnpvG9kG4qHYIXsaPyGCAWBCgizIlCgABsICgUMxoTAlCpkAB9NHoMAIaFoLAAawABAEwKEYWgoESSWTcZS4EZ7H9IDBqTBoRgoPRMFg0S12ZTEspVEhGfQICzSWyOVzsDABIkigg0SjhWiwBgaLcRZQmeLWWZwsxsggKmhsaF7PyZVgAPJIYXMMgAX0oHLofnAEGCYQi+E09hhcIR+CRKvRmLNCEjFsoVrA3LtDvwztdUBoItwWAArtDoamcJmc3mHFAoHhuFJU2BmIAV6xrgCAzQDHcoBMK0bgB+YwAPNoBodTbgEsnQA5voAIFUAsOaATaVCX3AFNxICdQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "最近看過"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(購物車)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_anchor_cart']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'購物車')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecssl.pchome.com.tw/sys/cflow/fsindex/BigCar/BIGCAR/ItemList']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__siteService > div.l-header__siteItem:nth-child(2) > a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=購物車"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6yyZYR1FEBOaAfmMCWToCm4hxgh5QkAOYAchAAtgjMPpQMSAgAZswMYGA0KLhsCFAoKAA2RDRQDBhhRFBFRGAA7iwoAJ4oLFCx2RhVsehYqlQsAEZo-lAQSD19A0NoYAgh2WgoYA5Q2RBZzNkwSirIAPqb6BPTWADWAAT+YCELaFDHp+fTV3BGDuz0EDA3MM0DYJhYm92fBwSylUSCeLzeZw+GC+PxgAgSRQQm3WIM2YAwNG6gzBkAhIRgZjCzFGc0on3oPwA8kgQcwyABfSjQui+cAQIKhcL4TTzRbLfCrFFbHbjBCikIOcnfbDU2n4R6MxxQGig3BYACu2WyTKgODVmu1SqgeG4Uh1c3wgABzQCL8YBod0AcglHQCIRoAQt0AQFGAOtUQPSgA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "購物車"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(我的訂單)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_order']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'我的訂單')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/web/order/all']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__siteItem:nth-child(3) > a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=我的訂單"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywGYZEdRRATmgRCNAIW6AgKMB1qo4wQ8oJAA5gByEAC2CMz+lAxICABmzAxgYDQouGwIUHBoNEQ0UAwYkURQJURgAO4sVQgARiwYSKpILBAANh2OUB0QKCjMHTBKKsgA+uPoYAgdaFgA1gAEQWDhvWhQy6vrc1twRo7s9BAwOzAdGFD0mFjj9ZdbycqtRydnaxdXN9gwAsklBDjUatcZgDA0eoQJBvSAfcIwMyRZjNV6UR4-LAAeRayGYZAAvpQrnQAuAIKEIlF8Joen0BkMRi8JlM0DM2Qhwo4MWBbjjXvhrCAiU4oDQYbgsABXLrEqA4SUyjpyqB4bhSOVgZiAH5jAJZOgCm4paAcwzAEXagFo5QDD+sKgA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "我的訂單"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(顧客中心)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_vip']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'顧客中心')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__siteItem.is-active:nth-child(4) > a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=顧客中心"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywBYZEdRRATmgcwzARdqBaOUDD+o4wQ8oJAA5gByEAC2CMz+lAxICABmzAxgYDQouGwIUHBoNEQ0UAwYkURQJURgAO4sjlAANhAoKMz1MEoqyAD6XehgCPVoWADWAARBYOENaFBjE1ODs3BGjuz0EDDzMPUYUPSYWF0ARjuzycqqSKvrm5MwZpHMuTSOp-vYAPJIl8xkAL6UXZ0ALgCChCJRfCaOqNZqtdoXbq9ND9FEIcKjNAoGDQMBcKKUN54z7fZDMawgAFOKA0K64LAAV3q9UBUBwuECYLCjyhXBhTRa+DaHUuPXYYho7AwVSwmOx5WZEHSCHYr127ywXx++H+rKgeG4UlZYGYgEQjQAhboAgKMAdaqjQC-8YATOMAoHbWwAACYAKmMAwOaAQ5VALRRgCztSlAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "顧客中心"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(下載 APP)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_downloadapp']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'下載 APP')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href=' ']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__siteItem.is-active:nth-child(5) > a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=下載 APP"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywFYZEdRRATmgaDlAkPEQaNRxgh5QkADmAHIQALYIzH6UDEgIAGbMAASOUAA2ECgozGkwSirIAPqF6GAIaWhYANZJgWBh6WhQNXUNFc1wRo7s9BAwrTBpGFD0mFiFAEZDzcz5qkjdvf31MGYRzOwYAO5YQyqe3pTTo9gA8kjzzGQAvpTDdP7gECHhkfiaqRlZOXnK88WlBBoMphJJoFAwaBgLiRI7DE5Yc6XfDWEC3JxQGgLXBYACuaTSdygOFwAWeoXW7y4n0y2XwuTmRUK7DENE2OySDL+TJZGDZ2ywMBgaDCgTBEKgGAJnhQCHYjmO0LOF2QVzRRKgeG4UiJYGYgHMMwBF2oBaOUAw-pJQDVcoB15QOgAgdQA2OoAqRUABwZooA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "下載 APP"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(註冊)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_signup']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//nav[1]/div[2]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'註冊')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/login/v3/login.htm?rurl=https://24h.pchome.com.tw/index/v1']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__siteItem.is-visible > a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=註冊"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6dxvRYjqKICc0DcUYCjFexgh5QkAOYA5CABbBGZPSgYkBAAzZgYwMBoUXDYEKDg0GiIaKAYMYKIoPKIwAHcWABsMHzQsFjgAZgqqmqI4wIB+JABXJHLBOISktiMAFgYsnLyEAqLSlhrVKjqySihyiBQUZnKYJRVkAH0D9DAEcpqAawACHzBAtbQoa9v786e4I3t2eggYF5hKlB6JgsAcAEaAi6xZSqJBfH5-O4wMzBZjoHxYLo0eGQRGBAEYIFgEEwASxKYHPawg5gDA0MEQOGUQHA7AAeSQsOYZAAvpRCXQvOAIP4giF8Jp7GsNlt8DsqYdjmhTsqEIErmgUPBNWgISFmYTWVgOVz8Lz+VAaHDcJjyuULTgbV07RaoHhuFILWBmIAAc0Ai-GAaHdAHIJgB+YwCWToApuMAiEaAELdAEBRgDrVQDmGYAi7UAtHKAYf1ANBygEh4iA0GhXQDeboBTRRAPKAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "註冊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(登入)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_login']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//nav[1]/div[2]/div[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'登入')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/login/v3/login.htm?rurl=https%3A%2F%2F24h.pchome.com.tw']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__siteItem.is-visible:nth-child(2) > a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=登入"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6dxvTxMsI6iiAnNA3m6BTRUcYIeUJADmAHIQALYIzN6UDEgIAGbMDGBgNCi4bAhQcGg0RDRQDBihRFAFRGAA7iwANhh+aFgscADMVTV1RAnBAPxIAK5IlYIJSSgApI0QI0YxkzFGACwMOXkFCEUl5Y5QlRAoKMyVMEoqyAD6J+hgCJV1ANYABH5gwVtoUPePz9dvcEaO7PQQGAfGDVKD0TBYE4AI1BN3iylUSD+AKBTxgZlC+1aOEo-0gqOCIIwYLAEJgAniKxOR0RJzAGBoUIgSMooPB2AA8khEcwyABfSjEug+cAQQIhML4TSbba7faHBGnc5oS4qhDBO5oFDwLVoGFhVnE9lYLk8-C-AVOKA0JG4LA9SqVQVQHB2h1Oq1QPDcKTOsDMQDcUYAoxTuLkAX4ogPlAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "登入"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_「比比昂日本購物」連結有效",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}cp"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "周邊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://www.bibian.co.jp"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(比比昂日本購物)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_mercari']//a[@href='https://shopping.pchome.com.tw/extenal/v1/bibian/url?op=redirect']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'比比昂日本購物')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://shopping.pchome.com.tw/extenal/v1/bibian/url?op=redirect&_gl=1*3an4fq*_ga*Mzk0NDk2Ny4xNjczMzE1MjI0*_ga_9CE1X6J1FG*MTcwMDExOTE3OS4yMTcuMS4xNzAwMTIzNDg3LjYuMC4w*_fplc*OTlIcVFEZkJKeXJIYzlPZ3F1dlNjMGZHT2VxUTAlMkJaMDY4dXElMkZ0eUElMkJkQWpPbEV3JTJGY2xYRXFMejJXWnR0MHZ6c3pKb2xwcHdOdnRaV1VuaWFyc3djczBRczdEWVRiQzJKcVJnOFc1QU5YMDRpSVlHJTJGcW9vbTY1dE52ek92dyUzRCUzRA..']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=比比昂日本購物"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7ZvU6jh7RHUUQE5oBXrG4CAzQKemgGnNAPzGBLJ0sYIeUJADmAHIQALYIzD6UDEgIAGbMDGBgNCi4bCgMGDQ0aFj+RDRQmWFEUBghRGAA7iwIVGAIWBAANixwBCwARmjdEFgsAK5IzQD8WYIxnDFQYABkAPr+zYIEAFQAzH0ALLEAjquLEKshAF4A1gAMWOxnAExYAJ5bVFgAVlAnpwgEIa9oFwd-BB5gBOKDfKgANleBFi-mOYCgVRCqioEgQ6wwKC2DxCiIGIWxLxOEGRYDQJ2u-nWzVeDwJUC2VQOsRozSgqwkzTQUDgsQQ51eZzqfweJ2aNBO61iBHYzTeIX8J0StzgVAGkGaITOr1C7Ce7CoCC1ZxOFwQA2N2qFuyq2U6CDg61eYFe-getyoDyQVFiYVeryoVSwSAuIQYJ0hUHWNDOnU9VSK7Aw7BDEHacAGpNiD2j7HeJ06SA+qiqcCQaF2JyFvNeWAwsSgBF2AwArLj2EgUnBmgwXW6kSC4J0wA9ZQhW7cEGcQbd9QMTsWF0gIEQiJYoM0ICgUMxmjAlCpkPN5ugGtysGcAAT+MAhTc86+3+-cqBnOC3SzsegQGDPmDNBgUD0JgWAwAICTlAg8yHqoSDzGAWSdBASBfj+f53jATRhMwYTFihaBoZAGEhABQEgdg8ydIBb4JMocGWDRFFYAA8kgDH4GQAC+lBAXQvjgBAQShOE+CaBuW47nuB70cep5oA0CkICEjHkeS2BsRxhAgDxVhQDQqG4FgAzNM0vFQDgRkmWZelQHg3BSOZYDMAAPGgsQrmEKDFoIAA6ICJMkqRsFUoVEP44hLAgAQhH0QnIKU5QsFgKBEIkV6AA82gDQ6h4OlAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "比比昂日本購物",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_「PChome商店街」連結有效",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}nb"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "nb(筆電)",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://www.pcstore.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(泰國購物)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-gtm-name='pcstore']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'泰國購物')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://www.pchome.co.th/tw']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__siteItem:nth-child(2) > a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=泰國購物"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7ZvUssEXTu4AmGRHUUQE5oAebQNDqgH5jAlk52MEPKEgBzADkIAFsEZh9KBiQEADNmBjAwGhRcNgB3TKIaKAYMMKIoDCJGFjB0uygAGwgUFGYqmCUVZAB9VvQwBCq0LABrAAJ-MBDqtChB4dGeibgLO3Z6CBgpmCqMKHpMLBgBBPyEVubVJFawDBoAIwgkBaWVkZgTMOYcxgg0O8gHkLWNrewrUu6wmCWUJzsIIBWAA8kgIfgyABfSgbOi+cAQIKhcL4TSVGp1BpNcFtDpoLoUhAhSH-MDbOEIkDzFH2KA0W64LAAVyqVVRUBwXN5-LZUDw3CkArAzEAK9aywBAZoBjuUAmFZK1wDQA5voAIFUAsOaATaUQEigA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "綜合服務 > PChome商店街",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_「全球購物」連結有效",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}digi"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "數位",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://global.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(全球購物)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-gtm-name='global']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/a[1]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__dropdownItem:nth-child(4) > a.l-header__dropdownLink.gtmClick.gtmClickV2 > div.l-header__dropdownText:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7ZvU6jhgMx7dxg-ovcATLYAsMiCbkOKICc0AWioGAXQB+YwEsnTwwIPFBIAHMAOQgAWwRmTU8oABsIFBRmNJglFWQAfUL2MRp2DAB3LDAEKjBPNIwoekwsAHkkVSRmOxAAX0pmugjwCFiEpPxwygYkBAAzZgYwMBoUXDYopoAjCDSiGigGDESiKFOiMEqWVIysnLzlbuLSjHKqrDS0LABrAAIomB4uk0FAAUCQd9wXA+pR2PQIDBITAmi0wG1Cjs0b9ls9kJ4EZBkcDUc1WtgYAJlqcEIV8i8wO89j14YiSfEYFhJsxthg9mlGuSMdhOt1mGRBl4oDQerhIuM4olklw7plsvhcgyiiUyhVqk0ohghei2mKCfhJUMoDhcFgAK5pNLWqB4bhSa0NfDxNBgY6AU9NAN8+gFhzQB-Gf9AL1agCqVQDYhgMgA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "綜合服務 > 全球購物",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_「Pi_拍錢包」連結有效",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}ce"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "家電",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://www.piapp.com.tw/personal"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(Pi 拍錢包)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-gtm-name='piapp']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[2]/div[1]/a[1]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__dropdownList:nth-child(2) > div.l-header__dropdownBody:nth-child(2) > div.l-header__dropdownItem > a.l-header__dropdownLink.gtmClick.gtmClickV2 > div.l-header__dropdownText:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7ZvU6jhgMx7dxg3IBMF7nasyIJ21IogJzGmkCzRoCJkwFBlDwwIPFBIAHMAOQgAWwRmTQ8oABsIFBRmVJglFWQAfQL2MRp2DAB3LDAEKjAPVIwoekwsAHkkVSRmGxAAX0omunDwCBj4xPwwygYkBAAzZgYwMBoUXDYKraIfCBoaIigMOKIwCpYaZBRsCFSU9Mzs3OUuopKMMsqsVLQsAGsAASRMBxNJoKCA4Ggn4QuC9SjsegQGBQmCNZpgVoFABG6L+SxeyA8iMgKJBaKaLWwMAES2OCAKeVeYA+2Ig3QRSLJcRgWAm3jQexoDUpmOwHS6zDIA08UBo3VwETGsQSSS49wyWXwOSZhWKpXKVUakQwIoxrQlRPw0sGUBwuCwAFdUqlbVA8NwpLb6vhAIuJgFjwwC78oAqtIBgGQzQCR2oAm336QA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "綜合服務 > Pi錢包",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_「易安網」連結有效",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}daily"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "日用",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://pchome24.einsure.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(易安網)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-gtm-name='einsure']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[2]/div[2]/a[1]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__dropdownList:nth-child(2) > div.l-header__dropdownBody:nth-child(2) > div.l-header__dropdownItem:nth-child(2) > a.l-header__dropdownLink.gtmClick.gtmClickV2 > div.l-header__dropdownText:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7ZvUssEXTu4BmPWcMG5AJmvdH5lxCOHHFEBOaBkM0BI7UAm328MCDxQSABzADkIAFsEZk1vKAAbCBQUZjSYJRVkAH1C9jEadgwAdywwBCowbzSMKHpMLAB5JFUkZnsQAF9KZroI8AhYhKT8cMoGJAQAM2YGMDAaFFw2GigGDET7ABYiBDQsFABXeaIoPaIwSpZUjKycvOVu4tKMcqqsNNOANYAAiiYHi6TQUGBoPB-yhcD6lHY9AgMBhMCaLTAbUKACNMQDlu9kN5kZA0WCMc1WtgYAJlnsEIV8h8wN9cRAekiURT4jATIlmCczpckpRMTSOl0SfgyIMfFAaD1cJFxnFBfgUpR0plsvhciyiiUyhVqk0ohhGtTsdhOt1mHKhlAcLgsOc0mknVA8NwpE6GvgaGhALNGgCJkwCgykDAKOmgCkEwDYWoAgK22u0SsYGQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "綜合服務 > 易安網",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_「PChome 旅遊」連結有效",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}mombaby"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "母嬰",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://www.pchometravel.com/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(PChome 旅遊)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-gtm-name='travel']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/div[2]/div[1]/a[1]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__dropdownList:nth-child(3) > div.l-header__dropdownBody:nth-child(2) > div.l-header__dropdownItem > a.l-header__dropdownLink.gtmClick.gtmClickV2 > div.l-header__dropdownText:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7ZvUssEXTu4BmPWcMG5V8wCZrRiEcPOKICcxpQGGAC2CICjpoBSCV4YEHigkADmAHIQwcyaXlAANhAoKMwZMEoqyAD6xexiNOwYAO5YYAhUYF4ZGFD0mFgA8kiqSMyOIAC+lK10MeAQickIzNGUDEgIAGbMDGBgNCi4bNW7RH4BwWBIpggZRFBBLOlZOXkFyr2l5RiVNVgZaFgA1gAEcWBApk0FA-gCgZ9QXABpR2PQIDBwTAWm0wB1igAjFHfVaPZBeOGQRGA5GtdrYGACVZBBDFQpPMCvDEQPqw+HEwIwEwpfDHU4ZZpktHYbq9ZhkYbeKA0Pq4WKTJI8kBpSiZbK5fD5eklMoVKq1FpxDCC1EdUX4-ASkZQHC4LAAVwyGWtUDw3Ck1qa+HCgGwtQBAVr9AADmgEX4wDQ7oA5BMAPzGASydAFNxgEQjQAhboAgKMAdaqAcwzAEXagFo5QDD+oBoOUAkPEQGg0QDcUYAoxUA3m6AU0UhkA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "綜合服務 > PChome旅遊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_「露天拍賣」連結有效",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}food"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "食品",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//a[@data-gtm-location_block='header' and @data-gtm-name='ruten']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "檢查綜合服務下拉式選單中是否有露天"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_「媽咪愛」連結有效",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}life"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "生活",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://mamilove.com.tw"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(媽咪愛)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-gtm-name='mamilove']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[5]/a[1]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__dropdownItem:nth-child(5) > a.l-header__dropdownLink.gtmClick.gtmClickV2 > div.l-header__dropdownText:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7ZvUssEXTu4BmPWcMH917gCYHAVhkQjh5xRATmgXq1AKpVAbEMfDAg8UEgAcwA5CABbBGZNHygAGwgUFGZ0mCUVZAB9IvYxGnYMAHcsMAQqMB90jCh6TCwAeSRVJGZHEABfSha6SPAIOMTk-AjKBiQEADNmBjAwGhRcNgTEtGbEIigMBKIwKpYAfgBXMASilAwrpCgEQRooBmOEADIbu6TOFcEoJPkk6NEEEUCj00plsrl8soeiUyhgKtUsOk0FgANYAAmitwyaCg+MJCWJpLg-Uo7HoEBg5JgzVaYHaRQARiycSskcgfHTIIzbsyWm1sDABCsvlC+UgimA0RyIL1afThQkYCYkswdgk9hhEE0xWzsF0YfgyENfFAaL1cFEJvEdfhUpQMlkcvg8tDiqVypUas1ohhjaz2ub+ZbBsMoDhcFgrul0rGoHhuFJY418IALRUAwC6AH5jAJZOeMAi4mAWPDALvygCq0mhoQCzRoAiZMAoMqAZDNAJHagCbfQZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "綜合服務 > 媽咪愛",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_「最近看過」連結有效",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}home"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "居家",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://ecvip.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(最近看過)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_viewitem']//a[@href='https://ecvip.pchome.com.tw/?0x15eb23c5ce89a61773cc2380c86d48d7618a3ed640480499691d4ffeab8ba45ea1db1015ce8b5d9afcda85fc6e6d1c41']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'最近看過')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/?0x15eb23c5ce89a61773cc2380c86d48d7618a3ed640480499691d4ffeab8ba45ea1db1015ce8b5d9afcda85fc6e6d1c41']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__siteService > div.l-header__siteItem > a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=最近看過"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6y9ojqKICc0AA5oEX4wNDugOQT7GCHlCQAcwA5CABbBGZfSgYkBAAzZgYwMBoUXDYEKDg0GiIaKAYMcKIoIqIwAHcWAH4ABioCAFYEACMjAGYoRqgEAA4ATggANgIAdlHOqA7e2qheofYAFl72UZHeiHaEdiHF2uX9-v6h-oIluLjlFt6WiEXmiDOWglqmnpvG9kG4qHYIXsaPyGCAWBCgizIlCgABsICgUMxoTAlCpkAB9NHoMAIaFoLAAawABAEwKEYWgoESSWTcZS4EZ7H9IDBqTBoRgoPRMFg0S12ZTEspVEhGfQICzSWyOVzsDABIkigg0SjhWiwBgaLcRZQmeLWWZwsxsggKmhsaF7PyZVgAPJIYXMMgAX0oHLofnAEGCYQi+E09hhcIR+CRKvRmLNCEjFsoVrA3LtDvwztdUBoItwWAArtDoamcJmc3mHFAoHhuFJU2BmIAV6xrgCAzQDHcoBMK0bgB+YwAPNoBodTbgEsnQA5voAIFUAsOaATaVCX3AFNxICdQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "最近看過",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "assertTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//table[3]/tbody[1]/tr[1]/td[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=td.type0"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "‧最近看過商品"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_「顧客中心」的浮動選單正常呈現",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}beauty"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "美妝",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(顧客中心)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_vip']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'顧客中心')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__siteItem.is-active:nth-child(4) > a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=顧客中心"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywBYZEdRRATmgcwzARdqBaOUDD+o4wQ8oJAA5gByEAC2CMz+lAxICABmzAxgYDQouGwIUHBoNEQ0UAwYkURQJURgAO4sjlAANhAoKMz1MEoqyAD6XehgCPVoWADWAARBYOENaFBjE1ODs3BGjuz0EDDzMPUYUPSYWF0ARjuzycqqSKvrm5MwZpHMuTSOp-vYAPJIl8xkAL6UXZ0ALgCChCJRfCaOqNZqtdoXbq9ND9FEIcKjNAoGDQMBcKKUN54z7fZDMawgAFOKA0K64LAAV3q9UBUBwuECYLCjyhXBhTRa+DaHUuPXYYho7AwVSwmOx5WZEHSCHYr127ywXx++H+rKgeG4UlZYGYgEQjQAhboAgKMAdaqjQC-8YATOMAoHbWwAACYAKmMAwOaAQ5VALRRgCztSlAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "顧客中心",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(追蹤清單)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/header[1]/div[1]/div[1]/div[1]/div[2]/nav[1]/div[1]/div[4]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//*[@data-gtm-name='vip_trace']"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'追蹤清單')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/?0xaf58dd02741c48ca6263f78b8e428bc6618a3ed640480499691d4ffeab8ba45eee11ac06430b1614b3e801472a5589c4']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__dropdown.is-collapsed:nth-child(2) > div.l-header__dropdownItem > a.l-header__dropdownLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=追蹤清單"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywBY9Fw9ojqKICc0C-8YBM4wKB2gOtUXGBB4oJAA5gByEAC2CMxBlAxICABmzAxgYDQouGwIUHBoNEQ0UAwYMURQ5URgAO4sAPwADFQQyQCsABzs7E1GAOzWBFDWnVAQAGxGEwDMyf2dAEadCNZGS1ATEwSdEDMI7BPWTaMnAJxnE2cE7NbJycrLixDW7QjvBATQTUczTYsEbbWRb7TpNAjWfpGCDtLpnEYuKAAGwgKBQzCRMCUKmQAH1cewxDR2BhalgkWgsABrAAEoTAUWRaCgtPpjIpLLgRhc7HoEBgbJgSIw4zAmCwuMWwpZaWUqiQPL5AoZQpF9HFMAEaXKCFx2PluLAGBozwVlF5kGVURgZhizAKNENSGgsUo0vV2AA8kh5cwyABfSgiujBcAQCLRWL4TSIlFojFYuV4glEklktBgBBRFzusVen3IP0gQOuKA0BW4LAAVyRSKDUBwlZrddLUDw3Ck9bAzEA5hmAIu1ALRygGH9GmAAATABUxxaAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "追蹤清單"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(退貨)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/header[1]/div[1]/div[1]/div[1]/div[2]/nav[1]/div[1]/div[4]/div[1]/div[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//*[@data-gtm-name='vip_refund']"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'退貨')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/web/order/refund']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__dropdown.is-collapsed:nth-child(2) > div.l-header__dropdownItem:nth-child(2) > a.l-header__dropdownLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=退貨"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywBY9FwyZYR1FEBOaAABMAVMa4wQ8oJAA5gByEAC2CMz+lAxICABmzAxgYDQouGwIUHBoNEQ0UAwYkURQJURgAO4sVQgARiwYSKpILPEJAK5Y7K5QADYQKCjM-TBKKsgA+lPsYjTsGFVY-WhYANYABEFg4QNoUFs7e6uHcEau7PQQMMcw-RhQ9JhYU-UPh8nKrZfXt7v3R7PbAwATJEoIKYTVpTMAYGj1CBIX6Qf7hGBmSLMXI0KYdbq9SgfYFYADyLWQzDIAF9KI86AFwBBQhEovhNH1BsNRuNvtNZvNFss0GAEOFXMSwC9yT98BdaW4oDRkbgsJ1+v06VAcKr1ZrFVA8NwpFqwMxAL-xgBM4wCgdoA61U2gGBzQCHKoBaKMAWdogalAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "退貨"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(會員設定)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-gtm-name='vip_setting']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/div[1]/div[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'會員設定')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/web/membercenter/account']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__dropdown.is-collapsed:nth-child(2) > div.l-header__dropdownItem:nth-child(3) > a.l-header__dropdownLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=會員設定"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywBY9FwwGYZEdRRATmgYHNAhyqBaKMBZ2m4YEHigkADmAHIQALYIzCGUDEgIAGbMDGBgNCi4bAhQcGg0RDRQDBhxRFCVRGAA7iz1CABGLHExLchQCFhgyCzQNQCufW5QADYQKCjMEzBKKsgA+svsYjTsGPVYE2hYANYABOFgMZNoUMen53tXcEZu7PQQMDcwExhQ9JhYyy2fK4ZZSqJBPF5vM4fL4-bAwAQZSoIZaLUHLMAYGgtCBgyjPSCQmIwMxxZhFGjLFAILL7cJuQGwrAAeSQoOYZAAvpQvnRQuAIFFYvF8JpxlMZnMFiCVmsNlsdmh+jF6TCwL8WWz8A4QFz3FAaGDcFhhhMJtyoDgjSazXqoHhuFJzWBmIAABMAFTFHQDQcoBIeIgNBoOqAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "會員設定"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_「追蹤清單」連結有效",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}3c"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "3c",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${LOGIN_PAGE}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(追蹤清單)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/header[1]/div[1]/div[1]/div[1]/div[2]/nav[1]/div[1]/div[4]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//*[@data-gtm-name='vip_trace']//div[@class='c-navList__text']"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'追蹤清單')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/?0xaf58dd02741c48ca6263f78b8e428bc6618a3ed640480499691d4ffeab8ba45eee11ac06430b1614b3e801472a5589c4']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__dropdown.is-collapsed:nth-child(2) > div.l-header__dropdownItem > a.l-header__dropdownLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=追蹤清單"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywBY9Fw9ojqKICc0C-8YBM4wKB2gOtUXGBB4oJAA5gByEAC2CMxBlAxICABmzAxgYDQouGwIUHBoNEQ0UAwYMURQ5URgAO4sAPwADFQQyQCsABzs7E1GAOzWBFDWnVAQAGxGEwDMyf2dAEadCNZGS1ATEwSdEDMI7BPWTaMnAJxnE2cE7NbJycrLixDW7QjvBATQTUczTYsEbbWRb7TpNAjWfpGCDtLpnEYuKAAGwgKBQzCRMCUKmQAH1cewxDR2BhalgkWgsABrAAEoTAUWRaCgtPpjIpLLgRhc7HoEBgbJgSIw4zAmCwuMWwpZaWUqiQPL5AoZQpF9HFMAEaXKCFx2PluLAGBozwVlF5kGVURgZhizAKNENSGgsUo0vV2AA8kh5cwyABfSgiujBcAQCLRWL4TSIlFojFYuV4glEklktBgBBRFzusVen3IP0gQOuKA0BW4LAAVyRSKDUBwlZrddLUDw3Ck9bAzEA5hmAIu1ALRygGH9GmAAATABUxxaAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "顧客中心 > 追蹤清單",
+              "pwt": {
+                "pbw": 37,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_「會員設定」連結有效",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}nb"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "nb(筆電)",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${LOGIN_PAGE}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(會員設定)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/header[1]/div[1]/div[1]/div[1]/div[2]/nav[1]/div[1]/div[4]/div[1]/div[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/div[1]/div[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//*[@data-gtm-name='vip_setting']//div[@class='c-navList__text']"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/web/membercenter/account']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__dropdown.is-collapsed:nth-child(2) > div.l-header__dropdownItem:nth-child(3) > a.l-header__dropdownLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=會員設定"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywBY9FwwGYZEdRRATmgYHNAhyqBaKMBZ2m4YEHigkADmAHIQALYIzCGUDEgIAGbMDGBgNCi4bAhQcGg0RDRQDBhxRFCVRGAA7iz1CABGLHExLchQCFhgyCzQNQCufW5QADYQKCjMEzBKKsgA+svsYjTsGPVYE2hYANYABOFgMZNoUMen53tXcEZu7PQQMDcwExhQ9JhYyy2fK4ZZSqJBPF5vM4fL4-bAwAQZSoIZaLUHLMAYGgtCBgyjPSCQmIwMxxZhFGjLFAILL7cJuQGwrAAeSQoOYZAAvpQvnRQuAIFFYvF8JpxlMZnMFiCVmsNlsdmh+jF6TCwL8WWz8A4QFz3FAaGDcFhhhMJtyoDgjSazXqoHhuFJzWBmIAABMAFTFHQDQcoBIeIgNBoOqAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "顧客中心 > 會員設定",
+              "pwt": {
+                "pbw": 37,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_「下載APP」的浮動選單正常呈現",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}mobile"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "通訊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(下載 APP)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/header[1]/div[1]/div[1]/div[1]/div[2]/nav[1]/div[1]/div[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//*[@data-regression='header_downloadapp']"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href=' ']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__siteItem.is-active:nth-child(5) > a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=下載 APP"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywFYZEdRRATmgaDlAkPEQaNRxgh5QkADmAHIQALYIzH6UDEgIAGbMAASOUAA2ECgozGkwSirIAPqF6GAIaWhYANZJgWBh6WhQNXUNFc1wRo7s9BAwrTBpGFD0mFiFAEZDzcz5qkjdvf31MGYRzOwYAO5YQyqe3pTTo9gA8kjzzGQAvpTDdP7gECHhkfiaqRlZOXnK88WlBBoMphJJoFAwaBgLiRI7DE5Yc6XfDWEC3JxQGgLXBYACuaTSdygOFwAWeoXW7y4n0y2XwuTmRUK7DENE2OySDL+TJZGDZ2ywMBgaDCgTBEKgGAJnhQCHYjmO0LOF2QVzRRKgeG4UiJYGYgHMMwBF2oBaOUAw-pJQDVcoB15QOgAgdQA2OoAqRUABwZooA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 5,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(享受APP專屬優惠)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/header[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[5]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'享受APP專屬優惠')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href=' '])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "//*[@data-gtm-name='downloadapp']//div[@class='c-navList__text']"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=享受APP專屬優惠"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmPbp3rzAVlMXD2iOoogJzQNVygdeUINGoAgdQDY6gFSKgAcGThgQeKCQAOYAchAAtgjM4ZQMSAgAZswABE5QADYQKCjM+TBKKsgA+lXsYjTsGADuWPloWADWTvkYUPSYWADySKpIzGQAvpS9dBHgELEJSfiaeYXFpeXKozV1GA3NWGhgCPHdvf3Yw6PjIFPOUDRjuFgArvn501A4L++fD1A8NxIgs4olmKtKAUiiV8GUKjsqgBHJBQDCqc59MADa7IW4TKRfMDMQDQcoBIeK8NGygG83QBfincgA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "享受APP專屬優惠"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_顧客中心-「追蹤清單」功能確認_登入狀態",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "INCLUDE",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "COMMON.LOGIN"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}food"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "食品",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB.ECVIP}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(顧客中心)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_vip']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'顧客中心')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__siteItem.is-active:nth-child(4) > a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=顧客中心"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywBYZEdRRATmgcwzARdqBaOUDD+o4wQ8oJAA5gByEAC2CMz+lAxICABmzAxgYDQouGwIUHBoNEQ0UAwYkURQJURgAO4sjlAANhAoKMz1MEoqyAD6XehgCPVoWADWAARBYOENaFBjE1ODs3BGjuz0EDDzMPUYUPSYWF0ARjuzycqqSKvrm5MwZpHMuTSOp-vYAPJIl8xkAL6UXZ0ALgCChCJRfCaOqNZqtdoXbq9ND9FEIcKjNAoGDQMBcKKUN54z7fZDMawgAFOKA0K64LAAV3q9UBUBwuECYLCjyhXBhTRa+DaHUuPXYYho7AwVSwmOx5WZEHSCHYr127ywXx++H+rKgeG4UlZYGYgEQjQAhboAgKMAdaqjQC-8YATOMAoHbWwAACYAKmMAwOaAQ5VALRRgCztSlAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "顧客中心",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(追蹤清單)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/header[1]/div[1]/div[1]/div[1]/div[2]/nav[1]/div[1]/div[4]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//*[@data-gtm-name='vip_trace']//div[@class='c-navList__text']"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'追蹤清單')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/?0xaf58dd02741c48ca6263f78b8e428bc6618a3ed640480499691d4ffeab8ba45eee11ac06430b1614b3e801472a5589c4']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__dropdown.is-collapsed:nth-child(2) > div.l-header__dropdownItem > a.l-header__dropdownLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=追蹤清單"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywBY9Fw9ojqKICc0C-8YBM4wKB2gOtUXGBB4oJAA5gByEAC2CMxBlAxICABmzAxgYDQouGwIUHBoNEQ0UAwYMURQ5URgAO4sAPwADFQQyQCsABzs7E1GAOzWBFDWnVAQAGxGEwDMyf2dAEadCNZGS1ATEwSdEDMI7BPWTaMnAJxnE2cE7NbJycrLixDW7QjvBATQTUczTYsEbbWRb7TpNAjWfpGCDtLpnEYuKAAGwgKBQzCRMCUKmQAH1cewxDR2BhalgkWgsABrAAEoTAUWRaCgtPpjIpLLgRhc7HoEBgbJgSIw4zAmCwuMWwpZaWUqiQPL5AoZQpF9HFMAEaXKCFx2PluLAGBozwVlF5kGVURgZhizAKNENSGgsUo0vV2AA8kh5cwyABfSgiujBcAQCLRWL4TSIlFojFYuV4glEklktBgBBRFzusVen3IP0gQOuKA0BW4LAAVyRSKDUBwlZrddLUDw3Ck9bAzEA5hmAIu1ALRygGH9GmAAATABUxxaAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "顧客中心 > 追蹤清單",
+              "pwt": {
+                "pbw": 37,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "assertTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//font[1]/b[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=font.text16:nth-child(2) > b"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "商品追蹤清單"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W201_Header_顧客中心-「會員設定」功能確認_登入狀態",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}home"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "居家",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB.ECVIP}web/membercenter/account"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(顧客中心)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_vip']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'顧客中心')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__siteItem.is-active:nth-child(4) > a.l-header__siteLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=顧客中心"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywBYZEdRRATmgcwzARdqBaOUDD+o4wQ8oJAA5gByEAC2CMz+lAxICABmzAxgYDQouGwIUHBoNEQ0UAwYkURQJURgAO4sjlAANhAoKMz1MEoqyAD6XehgCPVoWADWAARBYOENaFBjE1ODs3BGjuz0EDDzMPUYUPSYWF0ARjuzycqqSKvrm5MwZpHMuTSOp-vYAPJIl8xkAL6UXZ0ALgCChCJRfCaOqNZqtdoXbq9ND9FEIcKjNAoGDQMBcKKUN54z7fZDMawgAFOKA0K64LAAV3q9UBUBwuECYLCjyhXBhTRa+DaHUuPXYYho7AwVSwmOx5WZEHSCHYr127ywXx++H+rKgeG4UlZYGYgEQjQAhboAgKMAdaqjQC-8YATOMAoHbWwAACYAKmMAwOaAQ5VALRRgCztSlAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "顧客中心",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(會員設定)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/header[1]/div[1]/div[1]/div[1]/div[2]/nav[1]/div[1]/div[4]/div[1]/div[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/div[1]/div[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//*[@data-gtm-name='vip_setting']//div[@class='c-navList__text']"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/web/membercenter/account']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__dropdown.is-collapsed:nth-child(2) > div.l-header__dropdownItem:nth-child(3) > a.l-header__dropdownLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=會員設定"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywBY9FwwGYZEdRRATmgYHNAhyqBaKMBZ2m4YEHigkADmAHIQALYIzCGUDEgIAGbMDGBgNCi4bAhQcGg0RDRQDBhxRFCVRGAA7iz1CABGLHExLchQCFhgyCzQNQCufW5QADYQKCjMEzBKKsgA+svsYjTsGPVYE2hYANYABOFgMZNoUMen53tXcEZu7PQQMDcwExhQ9JhYyy2fK4ZZSqJBPF5vM4fL4-bAwAQZSoIZaLUHLMAYGgtCBgyjPSCQmIwMxxZhFGjLFAILL7cJuQGwrAAeSQoOYZAAvpQvnRQuAIFFYvF8JpxlMZnMFiCVmsNlsdmh+jF6TCwL8WWz8A4QFz3FAaGDcFhhhMJtyoDgjSazXqoHhuFJzWBmIAABMAFTFHQDQcoBIeIgNBoOqAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "顧客中心 > 會員設定",
+              "pwt": {
+                "pbw": 37,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "assertTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='CONTENT']/div[1]/div[2]/div[1]/div[1]/div[1]/dl[1]/dt[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dt[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=dt"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "我的帳戶"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='accountArea']/dd[2]/dl[1]/dd[7]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[7]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=dd.formfield-headline:nth-child(11) > div.account_headline"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "個人檔案"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "INCLUDE",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "COMMON.LOGOUT"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

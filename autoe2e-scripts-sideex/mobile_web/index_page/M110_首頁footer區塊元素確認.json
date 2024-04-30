@@ -1,0 +1,1084 @@
+{
+  "time": 1691417438623,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "M110_首頁footer區塊元素確認",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "M110_首頁_前往手機版&電腦版連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 15.8,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@class='ui-btn b-close']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ui-btn.b-close"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@class='ui-btn b-close']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='FOOTER']/ul[2]/li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[2]/li[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#FOOTER > ul:nth-child(4) > li"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//li[@id='goWebPC']/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[2]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'電腦版')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='javascript:void(0);'])[9]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#goWebPC > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=電腦版"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5000"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.pchome.com.tw/index/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//html"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,237"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//html"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,4099"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/footer[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'手機版')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.m.pchome.com.tw/']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.l-footer__viewportItem:nth-child(2) > a.l-footer__link.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=手機版"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "39,13"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 62,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5000"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "M110_首頁_Footer文案顯示確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@class='ui-btn b-close']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ui-btn.b-close"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@class='ui-btn b-close']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='FOOTER']/ul[2]/li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[2]/li[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#FOOTER > ul:nth-child(4) > li"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='FOOTER']/ul[1]/li[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[3]/ul[1]/li[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'PChome')])[3]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https:////www.pchome.com.tw']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#FOOTER > ul > li > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=PChome"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "PChome"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='FOOTER']/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[3]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'隱私權說明')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/m/pages/privacy.htm?_gl=1*sixtjz*_ga*MTY0OTg3MTc3OC4xNjY1NDc3ODMw*_ga_9CE1X6J1FG*MTY3MzkzNTcxNC4xOTguMS4xNjczOTM2NjYxLjU2LjAuMA..*_fplc*MDFCaFhFRkV0OGxRJTJGUHZWelVJOFNveldadE1NSEQzNHVSM1k2dCUyQmltOEtiN2dhRzFWc2tLRHluZU8lMkZMQWNueEw0VDAzNUgweG8ybyUyRjV2dDZOMDc5WWNoWHhVQW5YblRDJTJCbSUyQnRwcUkxJTJGN3NiNkdMUzQlMkI3dkJkRUZLSW1OUSUzRCUzRA..&_ga=2.65772523.491783157.1673856294-1649871778.1665477830']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#FOOTER > ul > li:nth-child(2) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=隱私權說明"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "隱私權說明"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='FOOTER']/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[3]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'故障通報')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/mobile/report.htm?_gl=1*sixtjz*_ga*MTY0OTg3MTc3OC4xNjY1NDc3ODMw*_ga_9CE1X6J1FG*MTY3MzkzNTcxNC4xOTguMS4xNjczOTM2NjYxLjU2LjAuMA..*_fplc*MDFCaFhFRkV0OGxRJTJGUHZWelVJOFNveldadE1NSEQzNHVSM1k2dCUyQmltOEtiN2dhRzFWc2tLRHluZU8lMkZMQWNueEw0VDAzNUgweG8ybyUyRjV2dDZOMDc5WWNoWHhVQW5YblRDJTJCbSUyQnRwcUkxJTJGN3NiNkdMUzQlMkI3dkJkRUZLSW1OUSUzRCUzRA..&_ga=2.65772523.491783157.1673856294-1649871778.1665477830']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#FOOTER > ul > li:nth-child(3) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=故障通報"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "聯絡我們"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='FOOTER']/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[3]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'24h到貨說明')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/mobile/manual.htm?_gl=1*sixtjz*_ga*MTY0OTg3MTc3OC4xNjY1NDc3ODMw*_ga_9CE1X6J1FG*MTY3MzkzNTcxNC4xOTguMS4xNjczOTM2NjYxLjU2LjAuMA..*_fplc*MDFCaFhFRkV0OGxRJTJGUHZWelVJOFNveldadE1NSEQzNHVSM1k2dCUyQmltOEtiN2dhRzFWc2tLRHluZU8lMkZMQWNueEw0VDAzNUgweG8ybyUyRjV2dDZOMDc5WWNoWHhVQW5YblRDJTJCbSUyQnRwcUkxJTJGN3NiNkdMUzQlMkI3dkJkRUZLSW1OUSUzRCUzRA..&_ga=2.65772523.491783157.1673856294-1649871778.1665477830']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#FOOTER > ul > li:nth-child(4) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=24h到貨說明"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "24h到貨說明"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='FOOTER']/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[3]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'服務條款')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecssl.pchome.com.tw/sys/cflowex/m/staticPage/CLAUSE?_gl=1*2nyk5t*_ga*MTY0OTg3MTc3OC4xNjY1NDc3ODMw*_ga_9CE1X6J1FG*MTY3MzkzNTcxNC4xOTguMS4xNjczOTM2OTQxLjYwLjAuMA..*_fplc*MDFCaFhFRkV0OGxRJTJGUHZWelVJOFNveldadE1NSEQzNHVSM1k2dCUyQmltOEtiN2dhRzFWc2tLRHluZU8lMkZMQWNueEw0VDAzNUgweG8ybyUyRjV2dDZOMDc5WWNoWHhVQW5YblRDJTJCbSUyQnRwcUkxJTJGN3NiNkdMUzQlMkI3dkJkRUZLSW1OUSUzRCUzRA..&_ga=2.39411430.491783157.1673856294-1649871778.1665477830']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#FOOTER > ul > li:nth-child(5) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=服務條款"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "服務條款"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='FOOTER']/ul[2]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[2]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'隱私權')])[2]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://policies.google.com/privacy']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#FOOTER > ul:nth-child(4) > li:nth-child(2) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=隱私權"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "隱私權"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='FOOTER']/ul[2]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[2]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'條款')])[2]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://policies.google.com/terms']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=ul:nth-child(4) > li:nth-child(3) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=條款"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "條款"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

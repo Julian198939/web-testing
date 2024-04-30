@@ -1,0 +1,321 @@
+{
+  "time": 1676346848327,
+  "version": {
+    "sideex": [
+      3,
+      7,
+      4
+    ],
+    "format": [
+      2,
+      0,
+      0
+    ]
+  },
+  "suites": [
+    {
+      "title": "W106_銀行優惠版面",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W106_首頁_「銀行優惠」版位確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.pchome.com.tw/index/v1"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(銀行卡、行動支付\n優惠總覽)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-bankOffer__title"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGuds3qWKBFDCY1AZj26dRwwf031FEBOaAApMAyEYENlQIAMXoCrSoD0poAbcoBUioAHBoC8foC9ka4YEHigkADmAHIQigjMmq5QADYQKCjMsABGEFgA1hgAZnXIAPpN5mAFOZQFGFD0FgDySOzIzGQAvpQ9dMngEBlZOfh5lIXFpfgVVbUNzU0MCBDsrt295tiDw0ijIBNuUDRXuFgArgUFk1A4uClzmdnMSUoDCQCDqzAYYDANBQuDYAHcEUQaFAGBhsqYiGA4SxoOY4GgwABPHFQAAM5IArAQKZZLPkiiUyjBKjV6o0kC0CqpqgACVJgRSFNBQapwABMrgEzHKlKa5TATQgTVJBGVpNckCQqQQYGYcqKNVcIIKzCwGBB7JBV0o7HoEBg-MUMBOfWw+p61WlWzlVSwIy6PVdWAuI3w4w+UDw3B+83++HK1pALrOwaGocINykH11+EAEsqANmDAHsxBcLgCGnQCyaYBZRUANCGAbzdABhRgEAEgBsrZoABIAJzkTu99sEADs5Gb5JQDDQJgEGEA4zGAfFdAEAagD83cKAPp9ACi+gGc5QA46QOKYoeYBT80A0O6AF7NAFiaNyAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "銀行卡、行動支付\n優惠總覽"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(銀行卡、行動支付\n優惠總...)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-bankOffer"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoDMe3TvXWFFEBOaAApMAyEYENlQIAMLwKtKgelNAG3KAVIqABwaAvH6AvZGAp+aA0O6AL2aAWJqAboqAa3IpAAwEAEyAD8qA6MqAM9qAZQmuABxpJYCRzoCOOq6AFoqAE24A1HQAnmVmgPYBxS4lBGmA+GaAqjqufSWAvmmAh-KAYqpOaQCsaYBfgYDGDoCA8k72GBB4oJAA5gByEIoIzJr2UAA2ECgozLAARhBYANYYAGbvyPaXGFD0pgA8kh2N98GQAL6UP50HbgCCHY6nfDnShXG53fBQDCXGBZH5-AHYYGgpDMSHQqA0Mm4LAAV0ul0pOFpDKZDigUDw3F2CKOJzOXAu11u9xgT1eHy+SAA+jKGAgIOwCf8TMSQWDCCAobzEQKUUK0SLMSBHs83p9kHKHhh2C0VUSsCTNZltVJKWBmIAFNMAQmaAaDdAGwmvsDfVwaTSgD-nQDG1oHTEgIFQWgA2NKGeiGMCAXzdAE5BgDL4wA2ioBQSxYgG+0wBmgcWS4A3r0LBDmYYABIADeUAIW6ADKNAJ8KgA4laK1QAXCbVAJteXsAWdqAAWVABSZJQALG3MoAIc0A5oqARQ1AMYRgAVfQDMeoBFxMAshmAf7sCEmSoBhRQjgFajGdtztdgAUfcAv3JEZ+ZNKZMwsbVAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(<i/>)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-slider.c-slider--outside > div.swiper-button-next.gtmClickV2:nth-child(3) > i.o-iconFonts.o-iconFonts--arrowSolidRight"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoDMe3TvXXtm7gCZLN+xZZp1FEBOZeMEPFBIAHMAOQhFBGY0LygAGwgUFGYMGDQobAAzbDAUAAJU9KyclBgYCCQxAHcUDDiBJDRghjAvOIwoelMAeSR2ZGYyAF9KDrpA8AgwiKj8TViEpOYUKrQaZBgAIwBXMDBsGCwEKjA84LBFePSAazgHL3Z6CBhzxRh2zpNsAH1Nj+vmJsIFhrr9gUckA8ni8LocZsxGs1WpQPl1sL1+pD8GYQCNvFAaFisNs4nFRlAcLhiaTyVA8NwpOTWvhAG6KgDW5dkABgIDkAD8qAdGVADPagDKEwABSYAZCIAHJzJYBI50AjjoSwAWioAJtwA1HQAJ7SsyAewCxVKCJzAPhmgFUdCVGyWAXzTAIfygDFVUWcgCsnLygAN5QAhboAMo0AnwqADiVANDuSsAFwlKwCbXoAFNMAWdqAAWVABSZkoALF6HIAIc0A5oqARQ1AMYRgAVfQDMeoBFxMAshmAf7sCAA2SWAYUVAH-OgFajJNe31+gAUwcAv3JEbsOTkOMwsXFAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(<i/>)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-slider.c-slider--outside > div.swiper-button-next.gtmClickV2:nth-child(3) > i.o-iconFonts.o-iconFonts--arrowSolidRight"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoDMe3TvXXtm7gCZLN+xZZp1FEBOZeMEPFBIAHMAOQhFBGY0LygAGwgUFGYMGDQobAAzbDAUAAJU9KyclBgYCCQxAHcUDDiBJDRghjAvOIwoelMAeSR2ZGYyAF9KDrpA8AgwiKj8TViEpOYUKrQaZBgAIwBXMDBsGCwEKjA84LBFePSAazgHL3Z6CBhzxRh2zpNsAH1Nj+vmJsIFhrr9gUckA8ni8LocZsxGs1WpQPl1sL1+pD8GYQCNvFAaFisNs4nFRlAcLhiaTyVA8NwpOTWvhAG6KgDW5dkABgIDkAD8qAdGVADPagDKEwABSYAZCIAHJzJYBI50AjjoSwAWioAJtwA1HQAJ7SsyAewCxVKCJzAPhmgFUdCVGyWAXzTAIfygDFVUWcgCsnLygAN5QAhboAMo0AnwqADiVANDuSsAFwlKwCbXoAFNMAWdqAAWVABSZkoALF6HIAIc0A5oqARQ1AMYRgAVfQDMeoBFxMAshmAf7sCAA2SWAYUVAH-OgFajJNe31+gAUwcAv3JEbsOTkOMwsXFAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "waitForElementPresent",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(<i/>)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/i[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[2]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-slider.c-slider--outside > div.swiper-button-prev.gtmClickV2:nth-child(2) > i.o-iconFonts.o-iconFonts--arrowSolidLeft"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoDMe3TvXXtm7gCZLN+05Zp1FEBOZeMEPFBIAHMAOQhFBGY0LygAGwgUFGYMGDQobAAzbDAUAAJU9KyclBgYCCQxAHcUDDiBOIRMsC84jCh6UwB5JHZkZjIAX0p2ukDwCDCIqPxNWISk5hQqtBpkGAAjAFcwMGwYGiQEODzgsEV49IBrOAcvdnoIGDPFGDaOk2wAfQ33q+YNhAsFcfkCsP1KA9IM9zjAsNNmI1mq12p1sD0+khmHdht4oIc8FgtnE4iMoDhcESSWSoHhuFIyS18IA3RUAa3JsgAMBAcgAflQDoyoAZ7UAZQmAAKTADIRAA4ORLAJHOgEcdcWAC0VABNuAGo6ABPKVmQD2AaLJQQOYB8M0Aqjriw0SwC+aYBD+UAYqoijkAVg5eUABvKAELdABlGgE+FQAcSoBod0VgAuExWATa9AAppgCztQACyoAKTIlABZPQ5ABDmgHNFQCKGoBjCMACr6AZj1AIuJgFkMwD-dgQAGwSwDCioA-50ArUaJz0+30ACiDgF+5IhdhwchxmFggQZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(<i/>)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/i[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[2]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-slider.c-slider--outside > div.swiper-button-prev.gtmClickV2:nth-child(2) > i.o-iconFonts.o-iconFonts--arrowSolidLeft"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoDMe3TvXXtm7gCZLN+05Zp1FEBOZeMEPFBIAHMAOQhFBGY0LygAGwgUFGYMGDQobAAzbDAUAAJU9KyclBgYCCQxAHcUDDiBOIRMsC84jCh6UwB5JHZkZjIAX0p2ukDwCDCIqPxNWISk5hQqtBpkGAAjAFcwMGwYGiQEODzgsEV49IBrOAcvdnoIGDPFGDaOk2wAfQ33q+YNhAsFcfkCsP1KA9IM9zjAsNNmI1mq12p1sD0+khmHdht4oIc8FgtnE4iMoDhcESSWSoHhuFIyS18IA3RUAa3JsgAMBAcgAflQDoyoAZ7UAZQmAAKTADIRAA4ORLAJHOgEcdcWAC0VABNuAGo6ABPKVmQD2AaLJQQOYB8M0Aqjriw0SwC+aYBD+UAYqoijkAVg5eUABvKAELdABlGgE+FQAcSoBod0VgAuExWATa9AAppgCztQACyoAKTIlABZPQ5ABDmgHNFQCKGoBjCMACr6AZj1AIuJgFkMwD-dgQAGwSwDCioA-50ArUaJz0+30ACiDgF+5IhdhwchxmFggQZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1760 @@
+{
+  "time": 1675740467851,
+  "version": {
+    "sideex": [
+      3,
+      7,
+      4
+    ],
+    "format": [
+      2,
+      0,
+      0
+    ]
+  },
+  "suites": [
+    {
+      "title": "M201_路標頁確認",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "M201_路標頁_所有路標確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 39.47,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@class='ui-btn b-close']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ui-btn.b-close"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@class='ui-btn b-close']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/dl[1]/dd[1]/ul[1]/li[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'3C')])[3]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/3c.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=dd.swiper-container-horizontal.swiper-container-free-mode.swiper-container-multirow.swiper-container-android > ul.swiper-wrapper > li.swiper-slide.swiper-slide-active > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "39,13"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 27,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/sign/3c.htm"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyCSS",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'3C')])[3]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/3c.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide.actived.swiper-slide-active > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"color\":\"rgb(221, 0, 0)\"}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'周邊')])[7]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/cp.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide.swiper-slide-next:nth-child(2) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=周邊"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "44,17"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 15,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/sign/cp.htm"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyCSS",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'周邊')])[7]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/cp.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide.actived.swiper-slide-next > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=周邊"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"color\":\"rgb(221, 0, 0)\"}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'NB')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/nb.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide:nth-child(3) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=NB"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "30,19"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 11,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/sign/nb.htm"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyCSS",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'NB')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/nb.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide.actived > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=NB"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"color\":\"rgb(221, 0, 0)\"}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'通訊')])[2]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/mobile.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide:nth-child(4) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=通訊"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "32,21"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 13,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/sign/mobile.htm"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyCSS",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'通訊')])[2]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/mobile.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide.actived > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=通訊"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"color\":\"rgb(221, 0, 0)\"}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'數位')])[2]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/digi.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide:nth-child(5) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=數位"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "28,21"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 29,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/sign/digi.htm"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyCSS",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'數位')])[2]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/digi.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide.actived > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=數位"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"color\":\"rgb(221, 0, 0)\"}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[6]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[6]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'家電')])[3]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/ce.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide:nth-child(6) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=家電"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "18,21"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 14,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/sign/ce.htm"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyCSS",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[6]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[6]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'家電')])[3]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/ce.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide.actived > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=家電"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"color\":\"rgb(221, 0, 0)\"}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[7]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[7]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'日用')])[2]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/daily.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide:nth-child(7) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=日用"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "18,21"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 12,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/sign/daily.htm"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyCSS",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[7]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[7]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'日用')])[2]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/daily.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide.actived > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=日用"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"color\":\"rgb(221, 0, 0)\"}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[8]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[8]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'食品')])[2]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/food.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide:nth-child(8) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=食品"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "32,20"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 10,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/sign/food.htm"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyCSS",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[8]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[8]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'食品')])[2]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/food.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide.actived > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=食品"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"color\":\"rgb(221, 0, 0)\"}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[9]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[9]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'生活')])[7]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/life.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide:nth-child(9) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=生活"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "32,20"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 10,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/sign/life.htm"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyCSS",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[9]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[9]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'生活')])[7]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/life.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide.actived > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=生活"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"color\":\"rgb(221, 0, 0)\"}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[10]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[10]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'運動戶外')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/outdoor.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide:nth-child(10) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=運動戶外"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "32,20"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 1901,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/sign/outdoor.htm"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyCSS",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[10]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[10]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'運動戶外')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/outdoor.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide.actived > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=運動戶外"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"color\":\"rgb(221, 0, 0)\"}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[11]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[11]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'美妝')])[3]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/beauty.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide:nth-child(11) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=美妝"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "34,24"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 18,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/sign/vogue.htm"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyCSS",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[11]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[11]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'美妝')])[3]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/beauty.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide.actived > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=美妝"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"color\":\"rgb(221, 0, 0)\"}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[12]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[12]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'衣鞋包錶')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/vogue.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide:nth-child(12) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=衣鞋包錶"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "45,24"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/sign/vogue.htm"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyCSS",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//dl[@id='SignListContainer']/dd[1]/ul[1]/li[12]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[12]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'衣鞋包錶')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/sign/vogue.htm'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.swiper-slide.actived > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=衣鞋包錶"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "{\"color\":\"rgb(221, 0, 0)\"}"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "time": 1712732471534,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "W108_影音專區版面",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W108_影音專區",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@id=\"video-block\"]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[11]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-listTitle.c-listTitle--white > div.c-listTitle__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "影音專區區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(影音專區\n看更多)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='video-block']/div[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//*[@id=\"video-block\"]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-listTitle.c-listTitle--white > div.c-listTitle__title"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORwBCDDABGAGwxQA1sIC6HLtwKrOPTRRAYwzQI76gZ-TAEDqABZUDQ7oBezQFiaejBDyhIAcwByEALYJm2vSgZCBQUZlgZNBQwMDQwGQQAfUTY+L9KOSh6TCwAeSR2ZGYyAF9KeToXcAhPHz98AMogkLD8CKiYuISAAnbo1ISYGAB3Bjj0kEzs7HzCpGKQMv0oGnncLABXGRlyqBx1rZ3lqDxuVxqvX38uQODQ8JhI-q6klIQqQwz5abyCovxSuRzrUrg0bk07q0QH1OmlklIwDgvllYjM-msQAAmRbKXaGfCARsdAO1JgB2IwAVMbY7IAEBggaGGEEAp6aAGnNANiGgHvgwCIDIB8d0AhI6ALd9ALOhgE0nQDMAYB9K3oMCoAA4AAwAKwAFIBFvJYgF83ACUNLpEAAPsz2Rz+QLugwaChvBAkDEIFgFAB2ACcAFZAMnRgAN5QCo8YAwbMAhD6AOtVAFHRgAQjC1WsAMwDfPoB8Q0A0smAGVdAHqegEsnQCA-2AMAAzTMAT0ANCGACldAP1RgDAXWOABwNAAxKgF9NQCqYYAQt0WQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(影音專區)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@id=\"video-block\"]//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[11]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-listTitle.c-listTitle--white > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORwBCDDABGAGwxQA1sIC6HLtwKrOPTWp2qGAZg3KKIDGGaBHfUDP6YAgdQALKZjBDyhIAcwByEALYJmIzM5KHpMLAB5JHZkZjIAX0p5OjdwCG8-APxtMygZCBQUZlgZNBQwMDQwGQQAfVqwBCpLShCw7CiYpDiQRPMoGm7cd3Sff2YcyjyCovxJKAw5JE8AAnnFjGX0mGkZAFcA1vl2yOjY-ASkqBxcLD2ZGSuoPG5lK8t8QEbHQHakwB2IwAqYwDQ7oAXs0AWJqABAYIGgAO4QQCnpoAac0A2IaAe+DAIgMgHx3QCEjoAt30As6GATSdAMwBgH0regwKgADgADAArAAUgEW8liAXzcAJSQmEQAA+iNRaNxeJWINBvSAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "影音專區"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W108_影音專區_看更多button",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://www.youtube.com/channel/UCb2aGEzl5Ki5juwPolnC-PA"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@id=\"video-block\"]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[11]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-listTitle.c-listTitle--white > div.c-listTitle__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(看更多)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@id=\"video-block\"]//span[@class='btn__text']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[11]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]/span[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#b014_tl_a_01_00 > span.btn__noFrame.btn__noFrame--blue > span.btn__text"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYgG0ABNAEwF4A5ACMADAQAsAfTAAbKRCnilowQF0WKOlg4ENWiDr0UQGMM0DQ7oBezQFiaJjBDyhIAcwByEALYJmBnJShZCBQUZmEwLCkZBCpzSlkMKHpMLAB5JF5kZjIAX0pEuidwCHcvH3w-E0Dg0PxwyKksDAAzJDKAAnqoptaymBhhWQBXBHb2kwSksBT0zKRskDzTKBp53Cwh2Vl8qBx1ze3lqDwONR3zfEBHfUBn9MAIHUABZXaGGhRPCCQwSCwAawB2AE4AKyAZOjAAbygFR4wBg2YBCH0AdaqAKOjAAhGr3eYEAp6aAb59APiGgGlkwAyroA9T0Alk6AQH+wC1mgBPQA0IYAKV0A-VGAMBccYAHA0ADEqAX01AKphgBC3RZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "看更多",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,692 @@
+{
+  "time": 1712732344599,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "W107_熱銷補貨版面",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W107_熱銷補貨版面_正常顯示",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(熱銷補貨\n看更多)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='replenish-block']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[10]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#replenish-block > div.c-listTitle > div.c-listTitle__title"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIENADYIsaFAxgAjCRigBrYQF0OXbgS2ceeiiAxhmgRsdA7UmAdiMAVMYGh3QC9mgLE1jGCHlCQA5gDkIALYIzAbGUBIQKCjMsBKyYGBoYFIA+imJycGUylD0mFgA8kjsyMxkAL6UKnSe4BB+gcH4oZThkdH4sfEZUgAExjl52EUlSGUglSZQNGO4WACuEhJVUDhzi8tTUHjcXvX+QSFcYRFRMTBxKAlJqekIVGbZKkOFxaX4FeR7DYfNx62nDogLpXHoINIKMA4J65RLDN6zEAAJgmGhWZnwgA+zQDpeoAm30Ao6aASHNADUxgAflQDGDoA+n0AgyqAFetaYAgM16gAQGCBoADuEEAp6aAGnNANiGgHvgwCIDIB8d0AhI6ALd9ALOhgE0nQDMAYB9K3oMCoAA4AAwAKwAFIBFvJYgF83ACUrI5EAAPrzBULJbLANNegBWswBOAYqPOUgA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "熱銷捕獲區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(熱銷補貨\n看更多)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='replenish-block']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[10]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#replenish-block > div.c-listTitle > div.c-listTitle__title"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIENADYIsaFAxgAjCRigBrYQF0OXbgS2ceeiiAxhmgRsdA7UmAdiMAVMYGh3QC9mgLE1jGCHlCQA5gDkIALYIzAbGUBIQKCjMsBKyYGBoYFIA+imJycGUylD0mFgA8kjsyMxkAL6UKnSe4BB+gcH4oZThkdH4sfEZUgAExjl52EUlSGUglSZQNGO4WACuEhJVUDhzi8tTUHjcXvX+QSFcYRFRMTBxKAlJqekIVGbZKkOFxaX4FeR7DYfNx62nDogLpXHoINIKMA4J65RLDN6zEAAJgmGhWZnwgA+zQDpeoAm30Ao6aASHNADUxgAflQDGDoA+n0AgyqAFetaYAgM16gAQGBQIBRoYqAIHDAKc5gEQGQBeZoBfgMA98qANMjAGjGgGYAwBLFkgAMyAXJjAD3WgF83QA6-+KpYBlBKk7EAWdqAWXlAJBygA+4wACaYAu8MAAIrCwDlxoBqu3mKAUgFFFQDfaShAtFykA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "熱銷捕獲區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(熱銷補貨)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='replenish-block']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[10]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#replenish-block > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIENADYIsaFAxgAjCRigBrYQF0OXbgS2cee7Ya0MAzLo0UQGMM0CNjoHakwDsRgCpjrGCHlCQA5gDkIAFsEZnNrZSh6TCwAeSR2ZGYyAF9KFTpvcAgA4ND8A2soCQgUFGZYCVkwMDQwKQB9BrAEKjtKSOjseMSkZJA0mygaPtwfHMCQ5kLKYtLy-AwYKAxlJD8AAiWVtb8YRQkAV1COlS64hKT8VPSoHFwsQ4kJW6g8bg1bu3xAD7NAdL1AE2+gFHTQCQ5oAamMAD8qAYwdAH0+gEGVQAr1gjAEBmG0A0O6AF7NAFiaAyAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "熱銷補貨"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W107_熱銷補貨版面_看更多button",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(熱銷補貨\n看更多)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='replenish-block']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[10]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#replenish-block > div.c-listTitle > div.c-listTitle__title"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIENADYIsaFAxgAjCRigBrYQF0OXbgS2ceeiiAxhmgRsdA7UmAdiMAVMYGh3QC9mgLE1jGCHlCQA5gDkIALYIzAbGUBIQKCjMsBKyYGBoYFIA+imJycGUylD0mFgA8kjsyMxkAL6UKnSe4BB+gcH4oZThkdH4sfEZUgAExjl52EUlSGUglSZQNGO4WACuEhJVUDhzi8tTUHjcXvX+QSFcYRFRMTBxKAlJqekIVGbZKkOFxaX4FeR7DYfNx62nDogLpXHoINIKMA4J65RLDN6zEAAJgmGhWZnwgA+zQDpeoAm30Ao6aASHNADUxgAflQDGDoA+n0AgyqAFetaYAgM16gAQGCBoADuEEAp6aAGnNANiGgHvgwCIDIB8d0AhI6ALd9ALOhgE0nQDMAYB9K3oMCoAA4AAwAKwAFIBFvJYgF83ACUrI5EAAPrzBULJbLANNegBWswBOAYqPOUgA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "熱銷捕獲區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(看更多)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='replenish-block']//span[@class='btn__text']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[10]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]/span[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub05_tl_a_01_00 > span.btn__noFrame.btn__noFrame--blue > span.btn__text"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYgG0ABNAEwF4A5AFcARgAYArAH0wAG2kRp4gsvGCAuixR0sHAlp0Q9BiiAxhmgaHdAL2aAsTTMYIeUJADmAOQgBbBMyM4lFByECgozKJgWNKyCFSWlHIYUPSYWADySLzIzGQAvpTJdC7gEJ4+fvgBZsGh4fiR0dJYGABmSBUABI0xLe0VMDCicsIInZ1mSSlgaZnZSLkgBeZQNAu4WMJycoVQOBtbOytQeBwau5b4gI2OgO1JgDsRgBUxnYAIDBBoAO4QgKemgDTmgNiGgHvgwCIDIB8d0AhI6ALd9ALOhgE0nQDMAYB9K3oMCoAA5xAArAAUgEW8liAXzcAJSvD4QAA+v0BQMhsMA016AFazAE4BiOceSAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "看更多"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(看更多)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='replenish-block']//span[@class='btn__text']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[10]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]/span[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub05_tl_a_01_00 > span.btn__noFrame.btn__noFrame--blue > span.btn__text"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYgG0ABNAEwF4A5AFcARgAYArAH0wAG2kRp4gsvGCAuixR0sHAlp0Q9BiiAxhmgaHdAL2aAsTTMYIeUJADmAOQgBbBMyM4lFByECgozKJgWNKyCFSWlHIYUPSYWADySLzIzGQAvpTJdC7gEJ4+fvgBZsGh4fiR0dJYGABmSBUABI0xLe0VMDCicsIInZ1mSSlgaZnZSLkgBeZQNAu4WMJycoVQOBtbOytQeBwau5b4gI2OgO1JgDsRgBUxnYAIDBBoAO4QgKemgDTmgNiGgHvgwCIDIB8d0AhI6ALd9ALOhgE0nQDMAYB9K3oMCoAA5xAArAAUgEW8liAXzcAJSvD4QAA+v0BQMhsMA016AFazAE4BiOceSAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.pchome.com.tw/replenish/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W107_熱銷補貨版面_切頁按鈕",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(熱銷補貨\n看更多)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='replenish-block']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[10]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#replenish-block > div.c-listTitle > div.c-listTitle__title"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIENADYIsaFAxgAjCRigBrYQF0OXbgS2ceeiiAxhmgRsdA7UmAdiMAVMYGh3QC9mgLE1jGCHlCQA5gDkIALYIzAbGUBIQKCjMsBKyYGBoYFIA+imJycGUylD0mFgA8kjsyMxkAL6UKnSe4BB+gcH4oZThkdH4sfEZUgAExjl52EUlSGUglSZQNGO4WACuEhJVUDhzi8tTUHjcXvX+QSFcYRFRMTBxKAlJqekIVGbZKkOFxaX4FeR7DYfNx62nDogLpXHoINIKMA4J65RLDN6zEAAJgmGhWZnwgA+zQDpeoAm30Ao6aASHNADUxgAflQDGDoA+n0AgyqAFetaYAgM16gAQGCBoADuEEAp6aAGnNANiGgHvgwCIDIB8d0AhI6ALd9ALOhgE0nQDMAYB9K3oMCoAA4AAwAKwAFIBFvJYgF83ACUrI5EAAPrzBULJbLANNegBWswBOAYqPOUgA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "熱銷捕獲區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='replenish-block']/div[2]//div[@data-gtm-name='right']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[10]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-listInfo.c-listInfo--lg:nth-child(2) > div.c-listInfo__body > div.c-slider.c-slider--outside > div.swiper-button-next.gtmClickV2:nth-child(3) > i.o-iconFonts.o-iconFonts--arrowSolidRight"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "右箭頭",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='replenish-block']//div[@class='swiper-button-prev gtmClickV2']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[10]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-listInfo.c-listInfo--lg:nth-child(2) > div.c-listInfo__body > div.c-slider.c-slider--outside > div.swiper-button-prev.gtmClickV2:nth-child(2) > i.o-iconFonts.o-iconFonts--arrowSolidLeft"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

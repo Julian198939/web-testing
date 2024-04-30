@@ -1,0 +1,1004 @@
+{
+  "time": 1713231705228,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "W601_共用元件顯示及功能確認",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W601_顧客中心_聯絡我們_功能確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "INCLUDE",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "COMMON.LOGIN"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(聯絡我們)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/header[1]/div[1]/div[1]/div[1]/div[2]/nav[1]/div[1]/div[4]/div[1]/div[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/div[1]/div[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'聯絡我們')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://ecvip.pchome.com.tw/web/service/BugNotify?url=https%3A%2F%2F24h.pchome.com.tw%2Fprod%2FDEDK1B-1900B7JUY&_gl=1*19gurke*_ga*Mzk0NDk2Ny4xNjczMzE1MjI0*_ga_9CE1X6J1FG*MTY5NzA5ODk1MC4xMjUuMS4xNjk3MDk5MzQzLjYwLjAuMA..*_fplc*Y2VZZGI0SlpKeVFsTVNjRkhmeFNtJTJGb3FWJTJCaXl3NXZweFl3Tkk5ZEZhUVNRJTJGdW1PUlNuQ2s3ZEpvcUlNU1pxc2E5JTJGQ1hBcmpsSHE0dndvWW9ESDk3RyUyRkgza1FKcENkMGQ3cEJRMGF5bFBRbCUyRjhURjJFcFRtMFJFa0IzSEJRJTNEJTNE&_ga=2.123900105.259505994.1696987803-3944967.1673315224']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__dropdown.is-collapsed:nth-child(2) > div.l-header__dropdownItem:nth-child(2) > a.l-header__dropdownLink.gtmClick.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=聯絡我們"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgtlaNc7Zu4AmGVgi6d6ywBY9FwyZYR1FEBOaB7AMCGvoEQjQIgKrhgQeKCQAOYAchAAtgjMwZQMSAgAZswMYGA0KLhsCFBwaDRENFAMGLFEUBVEYADuLHUIAEYsKMiFUAgszQCuYVgSaCkAngD8vUgANoIZWSgApADMEAtGKWspRtYMJWUVCFU19Zs0YuybquwA1gTNMAQAnAAMz80A7ABWvSMAZAD6YRmBAAVE8wpNrggQYCICDogAva7PLA3IxYEbWKhYT5QBGIhAEaKfNDPGFhCD-R5dAhUABsnwIKTC8LAIwArFgERB2RgbkSoFjib1etEUFicdcltEbuzEQBHBFTT4jOrKiCiiBEIgwlI0KZQEEjIxwBEIsKklBTGhQuApFBgOA4pDXBixFJYMCfL1hZpLFJ1b24iBUKZLLBUBFNFJhsDXa7shEIBEMXpOpBBsLsOoEGi9KZYXryowoJZJmhwKD5wu5qhQIwIdmZ+UEBjNKDRbIoJTPdiouB1OqPBAoG5LJAjH4usLcpnXLpYa7RMLypZdT5IZcpdnNFLNJDtqefVMZz4pKApJBgaIpM8QZ5oBHtDferAIV8IAEUwRGEhGJYvM8BDPOyRBGOyjzsiBjyPNYJB0o8CEABzvEhzxLDAAHWNYiHvPB7xLEsBDskY2yuFAUwQCgKDMFMMBKCoyD-P87BiDQ7AYHUWBTGgi4AARhNeFFoFA1wCUJPGiXARiuOw9AQDAgnRDAUwYFA9CYFg-zNKponpMoqhILJ8mKdeKlqRp2AwAI6QHP8DGGf8YAYDQzQQEZlByZApnKWYsTMIUND-N2nF9GE7RIJ0cSULpllYAA8kghnMGQAC+lBqXQITgBAkQxHE+CaORlHUbR9EGUxLFsRxXFoGACDRK4sVgJpiXJfgMnpW4UBnHghZTFMGVQDguD9YN3VQHg3BSENYDMIAv-GACZxgCgdoAdap8YAAAmABUxICpUAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://ecvip.pchome.com.tw/web/service/BugNotify"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "RETURN FAILED"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(聯絡我們)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='WRAPPER']/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.l-header__title"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQB1AEoBBAArSAouOEBdFgwQR2ybgRWceOjl226jBvccP6TViiAxhmgewDAhr6BEI0CICrYwQ8oSAHMAOQgAWwRmPVsoABsIFBRmaJg1DWQAfTSwNDBo8MpojCh6TCwAeSRNJGYyAF9KQrpfcAgg0PD8SMoYuIT8JJTKjIL-DFsCoqzscsrqkDq7KBoq3D8W4LDmH0oGJAQAM2YGMDAaFFw2ACYAFgYiGigGDDCiKCeiMAB3FijY+MTk9SDNLDDD3R4bfKFYpTCrIWbzQo4XBYACu0Wi9SgUDw3CUmIc+DBTwQ1wYgB+YwCWTmg9gAKdiFFFhLBgIgaTSIZnRNAoMAILDIACUwHpUEZfJZAAJABUGgEDIwBGUYB5VUAVyqAVn1AEBRgDrVQD4-4BpqMAz4GAGAZNYBT8zlgFgGQAx+oA9vMAHgkKhWAGQzAOBBgCLtQCw5i5ADD-gFO5QCUSoAuj0AsVFSwAhbprHYAgBkAeunhh2ewD3yt7APAJgDkEuZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(非訂單問題，可以透過表單...)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='WRAPPER']/main[1]/div[1]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.row.u-mb24:nth-child(2) > div.col-12 > div.c-contactUs > div.c-contactUs__head > h3.c-contactUs__title"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQB1AEoBBAArSAouOEBdFgFsIaLNwIrOPHRy7bdRgygRQwmLQb3cATCf1Pjh5ywYBmYxRAYwzIB66YBAUYB1qoDyqoAyGYAw-4D3yoCncoDwCYByCYAWEaGA4EGAiEaAiAqA9gGA1n6+GBB4oJAA5gByEKoIzF6+UAA2ECgozLBQ2JCWAK4oAPqDVmDN9ZTNGFD01gDySOzIzGQAvpTTdGXgENW19fh6Ta3tnTDdWL1gA8MMCBDsvlMzVtgLS0grIOt+UDSfuCwfWazQ2UBwgOBoN+UDw3CUYIC+EAFQaAQMjAEZR4UAVyqAVn0woB8f8A01GAZ8DADAMYUAp+bowCwDIAY-UAe3mADwTwlEMoAi7UAsOZ5QCGvtF4oBKJUAXR6AWKjkYAQtzCUUAQAwAAkAy5qAWBUeYBD+UAjd6EwAc8YBTRRVqp5gG+0wCOUVFAHoZgGj1QmMwDjJqazVFAPPGgAf4wCnQYBIc0AhI6AVZtAD8xgHaYwCADIA0dUA4aZewD2GYAuT39gGIEwAKvoB6ZMAJVHfIA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W601_Header_一般單品_頁面向下滾動Header元素確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//html"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,1400"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(最近看過\n購物車\n6\n我...)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/header[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//header[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=header.l-header--fixed"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgoogJzGlAYYAtggBMAFgaAfmMCWTjowQ8oSAHMAchFPNNOqABsIFBRmKGxINCxkAAIwrAiopBgYf1cdfwwoekwsAHkkVSRmMgBfSky6Z3AIDy8EZiUVZD9A4OYAHSxo7p7u-xhGwuj+weRkgDM0KgR2aLQUGAw6KDQwAE9ozt7u9Mzs7HzC4pAy3SgaItwsAFd-f3KoHCvb+7OoPG4XGs9vfF9KAJBEL4MQAd12WTAOUOzXwpSkDzAzAAPGhxkg6igkFBBO0QAwwGAaChcGxQeSiK5xK5-Ag3MYIFgasgiGFjCwsCgiATogA2CwATjM7AAzLyEAReQAjXkADiIACsaAhXPyIBLZQB2TUAVllspmiuVrkAFRmAcSMaGhALNGgCJkwCgyoAvxUAUgmAOXlAAGpgG6rQCA-wASE5AA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W601_Header_一般單品_頁面向上滾動Header元素確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//html"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,166"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//html"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyNotPresence",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(最近看過\n購物車\n6\n我...)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/header[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//header[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=header.l-header--fixed"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgoogJzGlAYYAtggBMAFgaAfmMCWTjowQ8oSAHMAchFPNNOqABsIFBRmKGxINCxkAAIwrAiopBgYf1cdfwwoekwsAHkkVSRmMgBfSky6Z3AIDy8EZiUVZD9A4OYAHSxo7p7u-xhGwuj+weRkgDM0KgR2aLQUGAw6KDQwAE9ozt7u9Mzs7HzC4pAy3SgaItwsAFd-f3KoHCvb+7OoPG4XGs9vfF9KAJBEL4MQAd12WTAOUOzXwpSkDzAzAAPGhxkg6igkFBBO0QAwwGAaChcGxQeSiK5xK5-Ag3MYIFgasgiGFjCwsCgiATogA2CwATjM7AAzLyEAReQAjXkADiIACsaAhXPyIBLZQB2TUAVllspmiuVrkAFRmAcSMaGhALNGgCJkwCgyoAvxUAUgmAOXlAAGpgG6rQCA-wASE5AA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W601_Top按鈕浮現時機確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//html"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,184"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(<i/>)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/div[1]/div[1]/a[1]/div[1]/i[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/div[1]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=i.o-iconFonts.o-iconFonts--arrowSolidUp"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIzOPBbOUyI8xXJVpNFEBOb6MEPKEgBzAHIQAtgmZp9UADYQUKZhhhoo2AGbYYCgABN6+AUEoMDAQSGIA7igYLgIArjT6LhhQ9JhYAPJI7MjMZAC+lDl0ZuAQ1nYO+ErObh7MsGDiLgBGcQD6-XGJWTl52EUlSGUglQZQNNO4WGkuLlVQOLjm9Tb2zCh0OJTZuWD5k6X4FRtQeNxSG2DMgPiugNy2tmkAVmiAhI6ADsqAeyDAIMqgGgGQAgKoB4fUAmTaAHzdAAgMnx+AJBgEQGQBvhoAKrMAtBlwgAUWOxgFBLQDqmkRAJMWgE45QDn2kRAI+2gFnQgCUgDAlQB6GTQoAwMCEuplykA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W601_Top按鈕功能確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:position",
+                    "value": "//html"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,184"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(Top)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/div[1]/div[1]/a[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//body[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-toolBar__arrow"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIzOPBbOUyI8xXIUUQE5mAw1dGCHlCQA5gDkIAWwTMluqABsIKFM1iGMrgEYQSAD6wUFiAO66rhhQ9JhYAPJI7MjMZAC+lLF05uAQNvaO+GaUDEgIAGbMAMQu7p7eML4BQaGuaFgA1gAElmB2bmhQXXAATNGx8djJqUjpIFl6UDTzuFgArq6u2VA461s7y1B43BYFtg7MaPUeXvgYMMPYldhgKD2Pz1ivWO8wMHCGAiKD8Ag2xkoMTiYASszS+Ey5HOhSu+BQdBwUKmsJmKQRhEWUl2YGYgHxXQDctnYNgArNCAQkdAA7KgHsgwCDKoBoBkAICqAeH1AJk2gB83QAIDNS6Uy2YBEBkAb4aACqzALQZAoAFDLZYBQS0A6ppEQCTFoBOOUA59pEQCPtoBZ0IAlIAwJUAehk0KAMDA9QD8poATuUAxdqAOB1AF0OgCY0wDdNoBVpUAlk6AZoVAMvmgFHXQAw-4BgjUAaJoBwBoRgHAESurMAkt6AScNAL2mgCKrQDVrv7ABzxgFNFQCIRoBodXDacAZN6ACBUA7nAPGRgCztcOAMjlALnyTcAzK6Aaais4sgA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyNotPresence",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(<i/>)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/div[1]/div[1]/a[1]/div[1]/i[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/div[1]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=o-iconFonts o-iconFonts--arrowSolidUp"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIzOPBbOUyI8xXJVpNFEBOb6MEPKEgBzAHIQAtgmZp9UADYQUKZhhhoo2AGbYYCgABN6+AUEoMDAQSGIA7igYLgIArjT6LhhQ9JhYAPJI7MjMZAC+lDl0ZuAQ1nYO+ErObh7MsGDiLgBGcQD6-XGJWTl52EUlSGUglQZQNNO4WGkuLlVQOLjm9Tb2zCh0OJTZuWD5k6X4FRtQeNxSG2DMgPiugNy2tmkAVmiAhI6ADsqAeyDAIMqgGgGQAgKoB4fUAmTaAHzdAAgMnx+AJBgEQGQBvhoAKrMAtBlwgAUWOxgFBLQDqmkRAJMWgE45QDn2kRAI+2gFnQgCUgDAlQB6GTQoAwMCEuplykA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "INCLUDE",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "COMMON.LOGOUT"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

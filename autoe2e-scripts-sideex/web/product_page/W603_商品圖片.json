@@ -1,0 +1,1420 @@
+{
+  "time": 1713938925277,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "W603_商品圖片",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W603_商品簡介_商品圖點擊縮圖切換商品圖功能",
+          "description": "",
+          "enableOnPlaying": false,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "INCLUDE",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "COMMON.LOGIN"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='//cs-a.ecimg.tw/items/DBDX00A900GX1EV/l000001_1708502062.jpg'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-radiusPhotoImage__img.c-radiusPhotoImage__img--grayLighter > img[alt=\"//cs-a.ecimg.tw/items/DBDX00A900GX1EV/l000001_1708502062.jpg\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "第二張圖縮圖",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 121,
+                "pdw": 13
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='//cs-a.ecimg.tw/items/DBDX00A900GX1EV/l000001_1708502062.jpg']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"//cs-a.ecimg.tw/items/DBDX00A900GX1EV/l000001_1708502062.jpg\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "第二張圖主圖",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W603_商品簡介_商品圖燈箱開啟功能",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "INCLUDE",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "COMMON.LOGIN"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@data-regression='prod_info_mainpic']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='//cs-a.ecimg.tw/items/DGADJHA900G7MJL/yt000001_1682994127.jpg']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"//cs-a.ecimg.tw/items/DGADJHA900G7MJL/yt000001_1682994127.jpg\"]:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "點擊商品主圖",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 180,
+                "pdw": 1
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@class='c-popUp__wrapper']//div[@class='c-mediaGallery']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-popUp__mediaContent > div.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden > div.swiper-wrapper > div.swiper-slide.swiper-slide-active"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W603_商品簡介_商品圖燈箱向左切換功能確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@data-regression='prod_info_mainpic']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='//cs-a.ecimg.tw/items/DGADJHA900G7MJL/yt000001_1682994127.jpg']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"//cs-a.ecimg.tw/items/DGADJHA900G7MJL/yt000001_1682994127.jpg\"]:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": -12147,
+                "paw": 0,
+                "prw": 239,
+                "pdw": 4
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-mediaGallery__content.c-mediaGallery__content--fullScreen > div.c-slider.c-slider--media > div.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events > div.swiper-button-next:nth-child(3) > i.o-iconFonts.o-iconFonts--arrowLineRight"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "右箭頭",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 132,
+                "pdw": 1
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/i[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-mediaGallery__content.c-mediaGallery__content--fullScreen > div.c-slider.c-slider--media > div.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events > div.swiper-button-prev:nth-child(2) > i.o-iconFonts.o-iconFonts--arrowLineLeft"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "左箭頭",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='movie_player']/div[4]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[4]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.ytp-cued-thumbnail-overlay-image"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W603_商品簡介_商品圖燈箱向右切換功能確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(右箭頭)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@data-regression='prod_info_mainpic']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-mediaGallery__content.c-mediaGallery__content--fullScreen > div.c-slider.c-slider--media > div.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events > div.swiper-button-next:nth-child(3) > i.o-iconFonts.o-iconFonts--arrowLineRight"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAFJBnYAhJGgQAzNFgDmwgLocu3Ahs48dmngCZdWg3u2njVy4dsXzZmwGYNaSxRAYwzTxgh4oJDKAHIQALYIzGieUAA2ECgozBgwaFDY8thgKAAEqemZ2SgwMBBIEgDucUrIaMoMPpRxGFD0mFgA8kjsyMxkAL6UrXSB4BChEVH4erEJScwolWg0yDAARgCuYGDYMFgIVE0gLW1gHd29SMzOIENeUDTXuFibcXHDUDgvbx8PUHhuGpPj58ABPDDbTbrBBwAQIDA0BJg5BsKAlCBEBBQNDhZREMCVFhoMAIcIoDjKCDsABWDAgAE4AAxM3JojFYnF4glEklkinsKm0+nMpnKADs4RpcRYYLALIVBAA+gQAGwMu5AA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 84,
+                "pdw": 2
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "1500"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-mediaGallery__content.c-mediaGallery__content--fullScreen > div.c-slider.c-slider--media > div.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events > div.swiper-button-next:nth-child(3) > i.o-iconFonts.o-iconFonts--arrowLineRight"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "右箭頭",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "1500"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='//cs-a.ecimg.tw/items/DBDX00A900GX1EV/l000001_1708502062.jpg'])[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-mediaGallery__prodImg > img[alt=\"//cs-a.ecimg.tw/items/DBDX00A900GX1EV/l000001_1708502062.jpg\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "第二張圖",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W603_商品簡介_商品圖燈箱圖已達最左邊時「往左鍵」按鈕顯示確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@data-regression='prod_info_mainpic']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='//cs-a.ecimg.tw/items/DGADJHA900G7MJL/yt000001_1682994127.jpg']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"//cs-a.ecimg.tw/items/DGADJHA900G7MJL/yt000001_1682994127.jpg\"]:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyNotVisibility",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(<i/>)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@class='swiper-button-prev swiper-button-disabled']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-mediaGallery__content.c-mediaGallery__content--fullScreen > div.c-slider.c-slider--media > div.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events > div.swiper-button-prev:nth-child(2) > i.o-iconFonts.o-iconFonts--arrowLineLeft"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAFJBnYAhJGgQAzNFgDmwgLocu3Ahs48dmngCZdWg3u2njVy4dsXzZmyZZpLFEBjDMPGCHlBIZQA5CABbBGY0DygAGwgUFGYMGDQobHlsMBQAAhS0jKyUGBgIJAkAd1ilBFiFb0pYjCh6TCwAeSR2ZGYyAF9KZroA8AgQ8Mj8PRj4xOYUCrQaZBgAIwBXMDBsGBokBDgPJpawNs7upGYjEAHPKD28LHXY2MGoHFwnl7eoPG41N7efAATwwm3WqwOAgQGBo8WByDYUGKECICCgaDCyiIYAqrjACDCKA4ygg7AAVgwIABOAAMtJySJRaIxWJxeLQBKJJLJlJp9OUAHYwuTYixgWB6VKCAB9AgANmpNyAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W603_商品簡介_商品圖燈箱圖已達最右邊時「往右鍵」按鈕顯示確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@data-regression='prod_info_mainpic']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='//cs-a.ecimg.tw/items/DGADJHA900G7MJL/yt000001_1682994127.jpg']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"//cs-a.ecimg.tw/items/DGADJHA900G7MJL/yt000001_1682994127.jpg\"]:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 152,
+                "pdw": 1
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-mediaGallery__content.c-mediaGallery__content--fullScreen > div.c-slider.c-slider--media > div.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events > div.swiper-button-next:nth-child(3) > i.o-iconFonts.o-iconFonts--arrowLineRight"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "右箭頭",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 108,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-mediaGallery__content.c-mediaGallery__content--fullScreen > div.c-slider.c-slider--media > div.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events > div.swiper-button-next:nth-child(3) > i.o-iconFonts.o-iconFonts--arrowLineRight"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "右箭頭",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 114,
+                "pdw": 1
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-mediaGallery__content.c-mediaGallery__content--fullScreen > div.c-slider.c-slider--media > div.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events > div.swiper-button-next:nth-child(3) > i.o-iconFonts.o-iconFonts--arrowLineRight"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "右箭頭",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 114,
+                "pdw": 1
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyNotVisibility",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//*[@class='swiper-button-next swiper-button-disabled']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden > div.swiper-button-next:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W603_商品簡介_商品圖燈箱縮圖列表切換功能確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}${PROD_ID}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(<img/>)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@data-regression='prod_info_mainpic']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='//cs-a.ecimg.tw/items/DGADJHA900G7MJL/l000001_1682994127.jpg']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"//cs-a.ecimg.tw/items/DGADJHA900G7MJL/l000001_1682994127.jpg\"]"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQAFJBnYAhJGgQAzNFgDmwgLocu3Ahs48dm-bq0G9240cPmrprQGYNaALbLzFEBjDM2UFDAhECFDOykRgAO4saGAITigcyhDsAFYMEACcAAyZygDsTskANiyF2WUEAPoEAGwAHABM6ekALAT1uUTJNMruGBB4oJDKAHIQTgjMIe4oSFDMDGBgNCi4bCFENFAMGONEUDthkb5RMXEJSakZ2XkFxaVlmZU1DU2t7Z3d7hCFXvg+fgEgusIidYvF2IkUmksjl8kUSg9HlU6o0Wm0Ol0epRChgoPRMFgAPJIdjIZhkAC+lFxdAG4AgIzGE3wencUEKEBQKGYKHCaBoyBgKEKAgQAAJefzBcLRfA0OgAEaFcWSgVIIUi0n+KBgLgTSgoMAAT2VzD57EYuDFzXS9RoVAA3GKMHRgsarQQnWAkBAsCh5BgkE4rd7fcL6Ag7OwABQwdK1Zr28hizJJlP2gCUXp9fuiBJg7AArj7ddgrZk4g73Ox6BAYMowE45X4kEEEFgwDBsEKoK323GCOlcrlMulkQBWTLMXIEWpTyg1yD1xvNmCKVCd7soXsIfvpQfD0cTqf4Gdz6u15dNuDymBgTzfZtoJUIO-OV-7ocjsc1Sfk7IXkuDbXreaR+OuCDsAOX5Hr+J6EO4OJ4qWRIkmS+B2CAVIeFANBIHgWCFoUhTUlAOC4IRxGkXMuDcGopG-KwLC+P4gTBC4hygmcEIXNC1xwsUiJPCi6Riv8rFAhxILRGC5xQlcsK3CwRpgEJyK1FhQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "288,360"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "1500"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='//cs-a.ecimg.tw/items/DBDX00A900GX1EV/l000001_1708502062.jpg'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.swiper-slide.swiper-slide-visible.swiper-slide-next.swiper-slide-thumb-active > div.c-radiusPhotoImage > div.c-radiusPhotoImage__img > img[alt=\"//cs-a.ecimg.tw/items/DBDX00A900GX1EV/l000001_1708502062.jpg\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "第2張圖",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 154,
+                "pdw": 1
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "1500"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='ProdBriefing']/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='//cs-a.ecimg.tw/items/DBDX00A900GX1EV/l000001_1708502062.jpg'])[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-mediaGallery__prodImg > img[alt=\"//cs-a.ecimg.tw/items/DBDX00A900GX1EV/l000001_1708502062.jpg\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "第2張圖",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "INCLUDE",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "COMMON.LOGOUT"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

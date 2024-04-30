@@ -1,0 +1,57 @@
+{
+    "input": {
+        "testSuites": [
+            "./web/product_page/W315_購買數量.json"
+        ],
+        "variables": [
+            "./globalvar.json"
+        ]
+    },
+    "play": {
+        "entry": "",
+        "mode": 2,
+        "noLog": false,
+        "autoWaitTimeout": 30,
+        "period": {
+            "maxNum": -1,
+            "time": -1
+        },
+        "speed": 3
+    },
+    "report": {
+        "path": "/app/",
+        "snapshot": 1,
+        "snapshotQuality": 2,
+        "type": "json"
+    },
+    "webdriver": {
+        "configs": [
+            {
+                "browsers": [
+                    {
+                        "active": true,
+                        "capability": {
+                            "browserName": "chrome",
+                            "goog:chromeOptions": {
+                                "args": [
+                                    "headless=new",
+                                    "disable-gpu",
+                                    "disable-dev-shm-usage",
+                                    "disable-notifications",
+                                    "window-size=1280,720",
+                                    "no-sandbox",
+                                    "user-agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.8.0.44 Safari/537.36'"
+                                ]
+                            }
+                        }
+                    }
+                ],
+                "serverUrl": "http://127.0.0.1:4444",
+                "type": "selenium"
+            }
+        ]
+    },
+    "webservice": {
+        "testJobExpireTime": 24
+    }
+}

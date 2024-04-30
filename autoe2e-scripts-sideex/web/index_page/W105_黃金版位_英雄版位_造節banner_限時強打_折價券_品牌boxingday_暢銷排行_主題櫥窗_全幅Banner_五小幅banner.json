@@ -1,0 +1,1188 @@
+{
+  "time": 1713346342277,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "W105_黃金版位_英雄版位_造節banner_限時強打_折價券_品牌boxingday_暢銷排行_主題櫥窗_全幅Banner_五小幅banner",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W105_會場入口確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(限時瘋搶\n距離結束\n0\n...)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "//div[@data-regression='index_activityCard']"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoDMe3TvXWFFEBOaAFNMBCZoGg3QGwmgXdjAR2mAFX0B9cwAGXAAmEIIAdgJQ3CCgwD-nQGNrTwIANjigwDS7F0Bo1I9Qgkyc-PjMwDgzQEpNfMBod0AXs0AsTQBOJsAMo0Bo50BBlUAxtMAMdQIzAgAWQGFFQGdlQGq5QA4lAA4CVvYEABsltABWQE20wHyPAHdVAgJACB1AW0tACSdAb7TAM0CzUNaaJAhFAE9AefNAPRd7DAg8UEgAcwAco8EMxNPYoEsICgUMxYAAjDBUP5IAQAAnhiORAhgMHuaGUSCe9iWGCg9FMAHkkIskMwyABfSikug-cAQQHA0FccGQ6GwjBLGAxYmk8nYKk0ukgRkOKD3PBYACuKyZUBwuCVKtlUDw3F+7KBihB+DBlAEzHCoUGQQOMXiPKhMPwsHuGHYKAgSwQJjAXvRuLE7s93rQvoQOLxBKeUAeAC8nqiRWSTOLqcgpYz9RyjVy4A6+c6YKsUCYsAAzDAoVY0-3F0sVqsCZA4hgYI10P5GONPRU0ZEQRZJsVYCXp-ChaVSVVgZhpNYENZNGIINZQGahIZEABWNAQfznBDLECaRjMcLM7Ei293f1RgACkwAyEYBDZUAgAwPwCrSoB6U0AG3KAKkVAAcGgC8foAvZGAKfm9QNDQaCALNGgBEyYAoMqAG6KgBrcjaoSAA-KgDoyoAM9qAGUJj5zBhgANpo+NpmIA0OqAA82gBocoA98GkUE0pAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "限時瘋搶區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W105_限時瘋搶確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(限時瘋搶\n距離結束\n0\n...)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "//div[@data-regression='index_crazySale']"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoDMe3TvXWFFEBOaAFNMBCZoGg3QGwmgXdjAR2mAFX0B9cwAGXAAmEIIAdgJQ3CCgwD-nQGNrTwIANjigwDS7F0Bo1I9Qgkyc-PjMwDgzQEpNfMBod0AXs0AsTQBOJsAMo0Bo50BBlUAxtMAMdQIzAgAWQGFFQGdlQGq5QA4lAA4CVvYEABsltABWQE20wHyPAHdVAgJACB1AW0tACSdAb7TAM0CzUNaaJAhFAE9AefNAPRd7DAg8UEgAcwAco8EMxNPYoEsICgUMxYAAjDBUP5IAQAAnhiORAhgMHuaGUSCe9iWGCg9FMAHkkIskMwyABfSikug-cAQQHA0FccGQ6GwjBLGAxYmk8nYKk0ukgRkOKD3PBYACuKyZUBwuCVKtlUDw3F+7KBihB+DBlAEzHCoUGQQOMXiPKhMPwsHuGHYKAgSwQJjAXvRuLE7s93rQvoQOLxBKeUAeAC8nqiRWSTOLqcgpYz9RyjVy4A6+c6YKsUCYsAAzDAoVY0-3F0sVqsCZA4hgYI10P5GONPRU0ZEQRZJsVYCXp-ChaVSVVgZhpNYENZNGIINZQGahIZEABWNAQfznBDLECaRjMcLM7Ei293f1RgACkwAyEYBDZUAgAwPwCrSoB6U0AG3KAKkVAAcGgC8foAvZGAKfm9QNDQaCALNGgBEyYAoMqAG6KgBrcjaoSAA-KgDoyoAM9qAGUJj5zBhgANpo+NpmIA0OqAA82gBocoA98GkUE0pAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "限時瘋搶區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 3,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(限時瘋搶\n距離結束\n0\n...)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[3]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "//div[@data-regression='index_crazySale']/div[1]/div[1]/div[1]/div/div[2]"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoDMe3TvXWFFEBOaAFNMBCZoGg3QGwmgXdjAR2mAFX0B9cwAGXAAmEIIAdgJQ3CCgwD-nQGNrTwIANjigwDS7F0Bo1I9Qgkyc-PjMwDgzQEpNfMBod0AXs0AsTQBOJsAMo0Bo50BBlUAxtMAMdQIzAgAWQGFFQGdlQGq5QA4lAA4CVvYEABsltABWQE20wHyPAHdVAgJACB1AW0tACSdAb7TAM0CzUNaaJAhFAE9AefNAPRd7DAg8UEgAcwAco8EMxNPYoEsICgUMxYAAjDBUP5IAQAAnhiORAhgMHuaGUSCe9iWGCg9FMAHkkIskMwyABfSikug-cAQQHA0FccGQ6GwjBLGAxYmk8nYKk0ukgRkOKD3PBYACuKyZUBwuCVKtlUDw3F+7KBihB+DBlAEzHCoUGQQOMXiPKhMPwsHuGHYKAgSwQJjAXvRuLE7s93rQvoQOLxBKeUAeAC8nqiRWSTOLqcgpYz9RyjVy4A6+c6YKsUCYsAAzDAoVY0-3F0sVqsCZA4hgYI10P5GONPRU0ZEQRZJsVYCXp-ChaVSVVgZhpNYENZNGIINZQGahIZEABWNAQfznBDLECaRjMcLM7Ei293f1RgACkwAyEYBDZUAgAwPwCrSoB6U0AG3KAKkVAAcGgC8foAvZGAKfm9QNDQaCALNGgBEyYAoMqAG6KgBrcjaoSAA-KgDoyoAM9qAGUJj5zBhgANpo+NpmIA0OqAA82gBocoA98GkUE0pAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "限時瘋搶"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W105_品牌boxing day確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='branddays']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[2]/div[1]/div[1]/div[1]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-brandDay__body"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "品牌boxing day區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(品牌Boxing Day)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//section[@id='branddays']/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[@id='branddays']//h3"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-brandDay > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIARkghYhQiAE8UYgLoshaOLwJqNWnes3bdRg3uOH9ahgGZjFEBjDNAgyqAZJwkYqaLAHN5Cg4YEHigkL4AchAAtgjMtg4ANhhQ9DwA8khCyMxkAL6UKXSh4BCRMXH4eg5QiRAoKMywiWgoYNxgiQgA+t1gCFTOlMmp3NiZ2Ui5IAWOUDRTuGFlUbHM1ZS19Y34GDBQGMlI4QAEewdH4TAwEokArnHDKWnjWTn4+YVQOLhYd4mJL5QPC8FRfZz4QAG8oAQt0AGUaAT4VABxKgGh3QAWioALhNRgE2vQAKaYAs7UAAsqACkzAH-OsIAJARyAAmAAMtNuDwgaCQgHBjPFEwAKvoBmPUAi4mAWQzAP92BAArPTaYBhRRJgFajAh02mwk6APzdABUxgFtPQAA5oA5eQALLDALGKgEAEpWAGhCEYBWpQAbDYdVAhABOAAcCEttIAZlB7UQaH4NYANrMAe2qAaUyCLSAKTslyAdpiCIaCNbbUIZkA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "品牌Boxing Day"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W105_品牌boxing day切頁按鈕正常",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='branddays']/div[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[@id='branddays']//div[@data-gtm-name='right']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-brandDay__body"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "右箭頭",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='branddays']//div[@data-gtm-name='right']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-brandDay__body > div.c-slider.c-slider--outside > div.swiper-button-next.gtmClickV2:nth-child(3) > i.o-iconFonts.o-iconFonts--arrowSolidRight"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "右箭頭",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='branddays']//div[@class='swiper-button-prev gtmClickV2']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/i[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-brandDay__body > div.c-slider.c-slider--outside > div.swiper-button-prev.gtmClickV2:nth-child(2) > i.o-iconFonts.o-iconFonts--arrowSolidLeft"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "左箭頭",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W105_暢銷排行確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='bestSellers']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "暢銷排行區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(暢銷排行)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//h3"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.u-boxShape > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIGGMDABGAGwxQA1mIC6LIWji8C6zdt0atOvccP6TRg+oYBmExRBTmgIrNA7UmAk40AyEY4wQ8oJAA5gByEAC2CMx2jgpQ9DwA8khCyMxkAL6UinQB4BChEVH4+o5QchAoKMywcmgoYNxgcggA+q1gCFRgsYoJ2MmpSOkgWU5QNMO4gQVhkcyllOWV1fgYMFAYCkjBAATrm9vBMLJyAK5RlHH9WINp+JnZUDi4WGdyck9QeLyqTz34QCDKoAZJxkGCoaCwQSEEAAnoA-N0AFTGAW09AADmgDl5AAsgAyjQCxioBABPhgBoQ7GAT4VAK1KADZbJioEIAJwADgQlIADAAzKD0og0KGowAbWYA9tUA0pkEVkAUkA4Ma7IIYDBBFo0NBUBByADskwwAAoCAAmIIsXUAVkpQQAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNlrGUbWeE5FRdazAG8uLEAjd5m0ZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "暢銷排行"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[1]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='ad']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[2]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_02 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[3]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_03 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[4]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[4]/div[1]/a[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='ad'])[4]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_04 > div.o-prodInfo__flex > div.o-prodInfo__head > div.o-prodInfo__img > img[alt=\"ad\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[5]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/ul[1]/li[5]/div[1]/a[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_05 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='bestSellers']//li[6]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/div[1]/a[1]/div[1]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#ub03_lk_a_01_06 > div.o-prodInfo__flex > div.o-prodInfo__body:nth-child(2) > div.o-prodInfo__price:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品6",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W105_主題櫥窗確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='window1_homepage']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "主題櫥窗區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(主題推薦)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//section[@id='window_homepage']/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/i[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[@id='window1_homepage']//h3"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=h3.o-colorTag__text"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehZQSjEywG0ABNABMAvAHIA7mixCMEgPoMMAWwR0A5gjEBdFkLRxeBXfsPG9BoycvnTvAEzWzutFZYMAzFYogMYZoDccoAyGYAVxoBloT4YEHigkOoAchCqzJ4+UAA2ECgozBgwUBjpGEhx8vJgCFT+lEVQ9DwA8khCyMxkAL6UGFB0MeAQCUkIzGhpmdm5+YXFpfJoBTg13fXYTS1IbSCdvj0buFgArunpXVA4+0cnO1B4vNqn-viARWaA7UmAScaAMhHqGBjq6WpoKgIdIAdhoSAwAAoCPZ1Cx7ABWABs6gAlIAds0Az+6ARbzAA-KgF88wDutoBoW0APnmAcgNAEdpgAVtQAsNpCABwIgAMynSVHszIABIBkKMAL76Aaj1AIgKgDG0wAQKoBJtS2QA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "主題推薦"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W105_主題櫥窗旁選單確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@class='c-themeToolBar']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W105_全幅Banner確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='full-banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[6]/div[1]/div[1]/div[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#b012_bn_a_01_00 > div.c-adBanner__img > img"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "全幅banner區塊",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W105_五小幅banner確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//div[@id='five-banner']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "五小福banner",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='five-banner']//a[@id='banner1']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[9]/div[1]/div[1]/div[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='超取/保險']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"超取/保險\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "五小福區塊1",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='five-banner']//a[@id='banner2']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[9]/div[1]/div[1]/div[1]/a[2]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='網旅']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"網旅\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "五小福區塊2",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='five-banner']//a[@id='banner3']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[3]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='品牌/異業']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"品牌/異業\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "五小福區塊3",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='five-banner']//a[@id='banner4']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[4]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='FOCUS']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"FOCUS\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "五小福區塊4",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='five-banner']//a[@id='banner5']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[5]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='比比昂']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=img[alt=\"比比昂\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "五小福區塊5",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

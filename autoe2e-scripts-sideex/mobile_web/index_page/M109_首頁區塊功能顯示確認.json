@@ -1,0 +1,2702 @@
+{
+  "time": 1675674050658,
+  "version": {
+    "sideex": [
+      3,
+      7,
+      3
+    ],
+    "format": [
+      2,
+      0,
+      0
+    ]
+  },
+  "suites": [
+    {
+      "title": "M109_首頁區塊功能顯示確認",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "M109_首頁_「熱銷好貨」區塊確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 128.77,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@class='ui-btn b-close']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ui-btn.b-close"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@class='ui-btn b-close']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Block13Container']/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='熱銷好貨']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#Block13Container > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Block13BodyContainer']/ul[1]/li[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/ul[1]/li[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='Acer Altos P10F7 商用工作站 (i9-11900/32G/1TSSD+2TB/T1000 8G/500W/W10P)']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Block13BodyContainer']/ul[1]/li[2]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/ul[1]/li[2]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='SAMSUNG三星 65吋 QLED 4K 量子聯網電視 QA65Q60BAWXZW']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Block13BodyContainer']/ul[1]/li[3]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/ul[1]/li[3]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='HITACHI 日立12.5公斤日本原裝AI智慧滾筒式洗脫烘BDNV125FH 璀璨金(N)']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(3) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Block13BodyContainer']/ul[1]/li[4]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/ul[1]/li[4]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='Whirlpool惠而浦 840公升對開門冰箱 WRS588FIHZ']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(4) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Block13BodyContainer']/ul[1]/li[5]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/ul[1]/li[5]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='技嘉 AORUS 17 XE5 電競筆電(i7-12700H/16G/RTX3070Ti/1TB SSD/FHD/360Hz/Win11/17.3)']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(5) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Block13BodyContainer']/ul[1]/li[6]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/ul[1]/li[6]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='2.4米X型三桿不鏽鋼伸縮曬衣架/伸縮衣架']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(6) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Block13BodyContainer']/ul[1]/li[7]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/ul[1]/li[7]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='鬼滅之刃（22）拆封不退']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(7) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Block13BodyContainer']/ul[1]/li[8]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/ul[1]/li[8]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='舒潔 頂級三層舒適竹萃迪士尼抽取衛生紙 (90抽x6包/串)']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(8) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Block13BodyContainer']/ul[1]/li[9]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[9]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='《白蘭氏》雙認證雞精(70g/12入)']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(9) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Block13BodyContainer']/ul[1]/li[10]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[10]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='IONRAX OCA6 SEAT SET 翻轉扶手 辦公椅/電腦椅/電競椅 - 黑色']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(10) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M109_首頁_「熱銷好貨」區塊商品連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@class='ui-btn b-close']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ui-btn.b-close"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@class='ui-btn b-close']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Block13Container']/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='熱銷好貨']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#Block13Container > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Block13BodyContainer']/ul[1]/li[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/ul[1]/li[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='Acer Altos P10F7 商用工作站 (i9-11900/32G/1TSSD+2TB/T1000 8G/500W/W10P)']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "4000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyElement",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@id='ButtonCart']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[3]/li[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=ul.fieldset_box.ButtonWrapper:nth-child(5) > li"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M109_首頁_「猜你喜歡」區塊顯示確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@class='ui-btn b-close']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ui-btn.b-close"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@class='ui-btn b-close']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Block22Container']/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dl[24]/dd[2]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='猜你喜歡']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#Block22Container > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dl[24]/dd[2]/div[1]/div[3]/ul[1]/li[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='SanDisk E61 4TB 2.5吋行動固態硬碟']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#VenRaaSBodyContainer > ul.s_grid > li > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[2]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/ul[1]/li[2]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='SanDisk PROFESSIONAL G-DRIVE V2 22TB外接式硬碟(公司貨)']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#VenRaaSBodyContainer > ul.s_grid > li:nth-child(2) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[3]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/ul[1]/li[3]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='SanDisk E61 2TB 2.5吋行動固態硬碟']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#VenRaaSBodyContainer > ul.s_grid > li:nth-child(3) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[4]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/ul[1]/li[4]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='SanDisk E61 4TB Extreme 行動固態硬碟 Portable SSD']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#VenRaaSBodyContainer > ul.s_grid > li:nth-child(4) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[5]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/ul[1]/li[5]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='SanDisk E81 4TB Extreme PRO 行動固態硬碟 Portable SSD']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#VenRaaSBodyContainer > ul.s_grid > li:nth-child(5) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[6]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/ul[1]/li[6]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='SanDisk E30 2TB 2.5吋行動固態硬碟']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#VenRaaSBodyContainer > ul.s_grid > li:nth-child(6) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[7]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/ul[1]/li[7]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='【CookPower鍋寶】不鏽鋼手沖細口快煮壺-1L(KT-1011BA)']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#VenRaaSBodyContainer > ul.s_grid > li:nth-child(7) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[8]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/ul[1]/li[8]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='台熱牌1.5L不鏽鋼快煮壺T-609']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#VenRaaSBodyContainer > ul.s_grid > li:nth-child(8) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[9]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/ul[1]/li[9]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='山崎優賞長壺嘴快煮壺SK-2829SA']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#VenRaaSBodyContainer > ul.s_grid > li:nth-child(9) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[10]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/ul[1]/li[10]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='【SANSUI 山水】電子溫控手沖細口壺 SWB-29N']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#VenRaaSBodyContainer > ul.s_grid > li:nth-child(10) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[11]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[11]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='HTT 不鏽鋼電茶壺 HTT-1725']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(11) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[12]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[12]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='PRINCESS 荷蘭公主 手沖細口快煮壺/0.8L/冰山白 236037']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(12) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[13]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[13]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='Enjoy-專業旗艦版(鋁合金椅腳)藍色']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(13) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[14]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[14]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='Ergohuman (EH-HAM)(W09-01)黑網(組裝)']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(14) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[15]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[15]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='Enjoy-專業旗艦版(鋁合金椅腳)紅色']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(15) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[16]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[16]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='Ergohuman 111 : 預購美黑色']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(16) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[17]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[17]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='irocks T07 人體工學椅-石墨黑']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(17) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[18]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[18]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='【CookPower 鍋寶】不沾電鍋11人份-湖水綠+不鏽鋼外鍋 EO-ER1154G1Y02Z']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(18) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[19]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[19]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='【CookPower鍋寶】萬用316分離式電鍋-11人份-茶花粉ER-1152P-1']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(19) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[20]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[20]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='【CookPower 鍋寶】不沾電鍋11人份-湖水綠+不鏽鋼外鍋 EO-ER1154G1Y02Z'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(20) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[21]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[21]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='【CookPower鍋寶】萬用316分離式電鍋-11人份-玫瑰金ER-1151GR-1']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(21) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[22]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[22]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='【CookPower鍋寶】萬用316分離式電鍋-11人份-檸檬黃ER-1153YL-1']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(22) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[23]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[23]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='【CookPower 鍋寶】Kitty聯名限定款-萬用316分離式電鍋 ER-1159PK-1']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(23) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[24]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[24]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='LG 樂金 CordZero™ WiFi濕拖清潔機器人 VR6698TWAR']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(24) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[25]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[25]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='伊萊克斯PURE i9.2新一代型動機器人PI92-6DGM(尊爵金)']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(25) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[26]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[26]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='Roborock 石頭掃地機器人 Q7']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(26) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[27]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[27]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='【Electrolux 伊萊克斯】PURE i9.2新一代型動機器人PI92-6STN(星河藍)']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(27) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[28]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[28]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='【Electrolux 伊萊克斯】Pure i9.2專用超值配件組(ERK3)']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(28) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[29]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[29]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='Neabot NOMO N1 PLUS 智能感應掃地機器人']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(29) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyVisibility",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[30]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[30]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='【Glico 格力高】Pocky 午茶馬克杯禮盒 465g']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(30) > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M109_首頁_「猜你喜歡」區塊商品連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 114.51,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@class='ui-btn b-close']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ui-btn.b-close"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@class='ui-btn b-close']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "scrollTo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dl[24]/dd[2]/div[1]/div[3]/ul[1]/li[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='Apple iPhone 14 (256G)-星光色(MPW43TA/A)']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#VenRaaSBodyContainer > ul.s_grid > li > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,0"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='VenRaaSBodyContainer']/ul[1]/li[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dl[24]/dd[2]/div[1]/div[3]/ul[1]/li[1]/a[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "//img[@alt='Apple iPhone 14 (256G)-星光色(MPW43TA/A)']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#VenRaaSBodyContainer > ul.s_grid > li > a > div.prod_img > img.b-loaded"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "4000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyElement",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@id='ButtonCart']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[4]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.prod_info"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+    "input": {
+        "testSuites": [
+            "/app/web/index_page/W106_\u9280\u884c\u512a\u60e0\u7248\u9762.json"
+        ]
+    },
+    "play": {
+        "entry": "",
+        "mode": 2,
+        "noLog": false,
+        "period": {
+            "maxNum": -1,
+            "time": -1
+        },
+        "speed": 5
+    },
+    "report": {
+        "path": "/app/",
+        "snapshot": 1,
+        "snapshotQuality": 2,
+        "type": "json"
+    },
+    "webdriver": {
+        "configs": [
+            {
+                "browsers": [
+                    {
+                        "active": true,
+                        "capability": {
+                            "browserName": "chrome",
+                            "goog:chromeOptions": {
+                                "args": [
+                                    "headless",
+                                    "disable-gpu",
+                                    "window-size=1080,720",
+                                    "no-sandbox"
+                                ]
+                            }
+                        }
+                    }
+                ],
+                "serverUrl": "http://127.0.0.1:4444",
+                "type": "selenium"
+            }
+        ]
+    },
+    "webservice": {
+        "testJobExpireTime": 24
+    }
+}

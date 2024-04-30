@@ -1,0 +1,632 @@
+{
+  "time": 1710906733722,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "W209_路標頁_搜尋區域確認",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W209_Header_「搜尋框」確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}digi"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 4,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(<input/>)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@type='text']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "//*[@data-regression='header_search']"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgCYNchbJ77N6gyeNG5AZhlosNAK5h1FEBOYuMEPKEgBzAHIQALYIzLYOYC5gAJ40ofhgCFSRlBCOGFAYQTQANgiJzBgAZkUuEEhoEDBpYBlZufnxIDloKCkg5ZUwmVhgYjkozEjKUGDV6QDuDPQIiEgwZJRQORAog-iw6IkoykhQDOGOAASbaNu7+4djMEUZ9jvsLrnQCAwYOapIzIAc8YCmioAG8oBng0AfkaAELdAGKqgEGVFxwCA5exNFw5DL0TBYADySE+zDIAF9KBk6N5wBAAsEmpoXP0mpkggAjDAMqhlCpVaYoGgYBw0ZgtNpMlldDATLDrEDDaBjGrC6aJOYLQVVJJ0LCqR74IpwnYuZarMWnc7lfZ08pIlFgNGY7H4SwgfGuKA0L64LD2HI5AlQHC4HykwIhZiUygCIYjKWTWWzZAKyjU3mtMACpYrNbMA3IBAoN3tZFQVHYK3IHF2z1QPDcKSeyL4ZG+DBHSxQQAWKoAohKwdMAWAmAKCjAB6mgFl5QBt2oBvtMAp6aACldAPsZkMA+K6AbltANIJgFWlQBsRoA0TUAcf6AXM1AMYRgGj0wCgyoA2ZMhgBknQDrpoAzIMAH2aAdL07UA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "搜尋框",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(<input/>)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//*[@data-regression='header_search_input']//input"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//div[@class='l-header__siteSearchBar']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input.l-header__siteSearchInput.l-header__siteSearchInput--focused"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgCYNchbJ77N6gyeNG5AZhlosNAK5h1FEBOYuMEPKEgBzAHIQALYIzLYOYC5gAJ40ofhgCFSRlBCOGFAYQTQANgiJzBgAZkUuEEhoEDBpYBlZufnxIDloKCkg5ZUwmVhgYjkozEjKUGDV6QDuDPQIiEgwZJRQORAog-g5MEoqyAD6u+iJKMpIUAzhjgAEm9uqSPuHCMflZxdjMEUZ9sfsLrnQCAYGByd2YEBoDRccAgOXsTRcOQy9EwWAA8khQfgyABfSgZOjecAQALBJqaFz9JqZIIAIwwdKoZQqVWmKBoGAcNGYLTaDKZXQwEyw6xAw2gYxqgumiTmC35VSSdCwql++CKMOOLmWqxFN2UdweaCOJzONPKCKRYBR6MxIEsIFxrigNCQeCw9hyOTxUBwuB8xMCIWY5MoAiGIwlk2ls2QcsolO5rTAfKWKzW3K2+r2ByNyCeHvaiKgyOwNuQzBx3qgeG4Um9kXwNDOWQQWgALAxAD8xgEsnJtAkLtrvdy6WKCACxVAFEJWBpgCwEwBQUYAPU0AsvKANu1AN9pgFPTQAUroBZ60ADNqAfYzAIMqgHxXQDctoBRHRXgER5QBJqYBd+UApgqAOP9ALmagCEzQBYOoAPs0A6XoOoA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "switch"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='header_search_input']//input[@value='switch']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W209_Header_「搜尋按鈕」確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 5.37,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}life"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(<span/>)"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//*[@data-regression='header_search_button']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.btn__square.btn__square--primary"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAJgF0WAIwCuYMNm4FBKOlin8KIDGGZKMEPKEgBzAHIQAtgmayIOSlAA2EFCmZCwWAPrOUARxEQkCAASOXN09vBBgYGiQ0Q28AT18lKwwoekwsAHkkdmRmMgBfSiS6LXAIfSMTfFFxbCVrW3t8HTBDazQoAGs4Xn8nHqwwlEMlNHY1SjAYmgqQKokLEETksFSMrKQckHzlKAi8LBErKwKoHFx9w+OoPG5tUoNjZjRamztmDBg27F93z-6YFAQ3igTEoixS2FW2XweX4x1U+ESOgwvgAzFBABYqgCiErBCQBYCYAoKMAHqaAWXlAG3agG+0wCnpoAKV0A+xmAQZVAPiugG5bQDSCYBVpUAbEaANE1AHH+gFzNQDGEYBo9MAoMqANmT6YAZJ0A66aAMyDAB9mgHS9TZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "搜尋鈕",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W209_Header_「搜尋按鈕」正常",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}food"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(<input/>)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//*[@data-regression='header_search_input']//input"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//div[@class='l-header__siteSearchBar']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=input.l-header__siteSearchInput.l-header__siteSearchInput--focused"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyGCCO2TyZnHgCYNchbJ77N6gyeNG5AZhlosNAK5h1FEBOYuMEPKEgBzAHIQALYIzLYOYC5gAJ40ofhgCFSRlBCOGFAYQTQANgiJzBgAZkUuEEhoEDBpYBlZufnxIDloKCkg5ZUwmVhgYjkozEjKUGDV6QDuDPQIiEgwZJRQORAog-g5MEoqyAD6u+iJKMpIUAzhjgAEm9uqSPuHCMflZxdjMEUZ9sfsLrnQCAYGByd2YEBoDRccAgOXsTRcOQy9EwWAA8khQfgyABfSgZOjecAQALBJqaFz9JqZIIAIwwdKoZQqVWmKBoGAcNGYLTaDKZXQwEyw6xAw2gYxqgumiTmC35VSSdCwql++CKMOOLmWqxFN2UdweaCOJzONPKCKRYBR6MxIEsIFxrigNCQeCw9hyOTxUBwuB8xMCIWY5MoAiGIwlk2ls2QcsolO5rTAfKWKzW3K2+r2ByNyCeHvaiKgyOwNuQzBx3qgeG4Um9kXwNDOWQQWgALAxAD8xgEsnJtAkLtrvdy6WKCACxVAFEJWBpgCwEwBQUYAPU0AsvKANu1AN9pgFPTQAUroBZ60ADNqAfYzAIMqgHxXQDctoBRHRXgER5QBJqYBd+UApgqAOP9ALmagCEzQBYOoAPs0A6XoOoA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "switch"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "store",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}search/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "check_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": true,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(<span/>)"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//*[@data-regression='header_search_button']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.btn__square.btn__square--primary"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAJgF0WAIwCuYMNm4FBKOlin8KIDGGZKMEPKEgBzAHIQAtgmayIOSlAA2EFCmZCwWAPrOUARxEQkCAASOXN09vBBgYGiQ0Q28AT18lKwwoekwsAHkkdmRmMgBfSiS6LXAIfSMTfFFxbCVrW3t8HTBDazQoAGs4Xn8nHqwwlEMlNHY1SjAYmgqQKokLEETksFSMrKQckHzlKAi8LBErKwKoHFx9w+OoPG5tUoNjZjRamztmDBg27F93z-6YFAQ3igTEoixS2FW2XweX4x1U+ESOgwvgAzFBABYqgCiErBCQBYCYAoKMAHqaAWXlAG3agG+0wCnpoAKV0A+xmAQZVAPiugG5bQDSCYBVpUAbEaANE1AHH+gFzNQDGEYBo9MAoMqANmT6YAZJ0A66aAMyDAB9mgHS9TZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "搜尋鈕",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "storeEval",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "return window.location.href"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "current_url"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": true,
+              "indent": 0
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "!\"${current_url}\".includes(\"${check_url}\")"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": true,
+              "indent": 0
+            },
+            {
+              "name": "verifyTitle",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "URL MISMATCH"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": true,
+              "indent": 1
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": true,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='layoutBread']/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-searchFilter__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "搜尋結果"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

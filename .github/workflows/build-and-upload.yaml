@@ -1,0 +1,57 @@
+name: Container Build and Upload
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'autoe2e-slave-container/**'
+
+env:
+  PROJECT_ID: ${{ secrets.GCP_PROJECT }}
+  KEYPASS: ${{ secrets.GCP_CREDENTIALS }}
+  GH_TOKEN: ${{ secrets.GH_PAT_RAPI }}
+  STAGE_HOSTS_FILE: ${{ vars.STAGE_HOSTS_FILE }}
+  GAR_LOCATION: asia
+  IMAGE: rapi-runner
+
+jobs:
+  setup-build-publish:
+    name: Automation testing runner container build and upload
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setting container environment
+        run: |
+          mkdir -p autoe2e-slave-container/env
+          echo "$KEYPASS"  > autoe2e-slave-container/env/pchomeec-devops-github-autoe2e-web.json
+          echo "$GH_TOKEN" > autoe2e-slave-container/env/github_token.txt
+          echo "$STAGE_HOSTS_FILE" > autoe2e-slave-container/env/stage_host.txt
+
+      - name: Google authentication
+        id: 'google-auth'
+        uses: 'google-github-actions/auth@v2'
+        with:
+          credentials_json: '${{ env.KEYPASS }}'
+
+      - name: Docker configuration
+        run: |
+          gcloud auth configure-docker $GAR_LOCATION.gcr.io -q
+          echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+
+      # Build the container image
+      - name: Docker build
+        run: |
+          docker build \
+            --tag "$GAR_LOCATION.gcr.io/$PROJECT_ID/$IMAGE:${sha_short}" \
+            autoe2e-slave-container -f autoe2e-slave-container/Dockerfile
+
+      # Push the container image to Google Artifact Registry
+      - name: Publish to GAR
+        run: |
+          docker push "$GAR_LOCATION.gcr.io/$PROJECT_ID/$IMAGE:${sha_short}"
+          echo -e "\e[32m===  New tag: ${sha_short}  ===\e[0m"

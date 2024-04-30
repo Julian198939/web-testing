@@ -1,0 +1,4456 @@
+{
+  "time": 1710313079368,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "W103_MegaMenu版面",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W103_Header_區分類_顯示正確",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_3c']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_3c']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_cp']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_cp']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_nb']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_nb']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_mobile']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_mobile']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_digi']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_digi']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_ce']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_ce']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_daily']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_daily']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_mombaby']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_mombaby']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_food']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_food']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_life']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_life']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_home']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_home']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_outdoor']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_outdoor']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_nutrition']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_nutrition']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_beauty']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_beauty']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_vogue']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_vogue']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_books']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_books']//*[@data-regression='megaboard_menu']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類區塊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W103_Header_區頁旁廣告正常顯示",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_3c']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_3c']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_cp']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_cp']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_nb']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_nb']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_mobile']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_mobile']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_digi']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_digi']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_ce']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_ce']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_daily']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_daily']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_mombaby']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_mombaby']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_food']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_food']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_life']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_life']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_home']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_home']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_outdoor']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_outdoor']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_nutrition']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_nutrition']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_beauty']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_beauty']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_vogue']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_vogue']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "mouseOver",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_books']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'3C')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/sign/3c.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=a.l-header__tabLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "pause",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "2000"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='header_books']//*[@data-regression='megaboard_banner']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/div[1]/div[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆記電腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='https://24h.pchome.com.tw/region/DHAA.htm']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(2) > div.l-header__megaBoardList:nth-child(2) > div.l-header__megaBoardItem > a.l-header__megaBoardLink.gtmClickV2"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆記電腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "區分類廣告"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

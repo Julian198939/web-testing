@@ -1,0 +1,1144 @@
+{
+  "time": 1710838130430,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "W207_路標頁_全部類別",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W207_全部類別_顯示確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}3c"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(3C全部類別)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[@class='c-tagList c-tagList--default']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-category > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoIAmPbp3qb2zbYf39MhgGZ1FEBOZuogC0VAC4TAPQzAUiUvDAg8UEgAcwA5CEUEZncvABsMKHpTAHkkdmRmMgBfSiy6aPAIBKSU-E0vKHSIFBRmWHS0FDATMHSEAH1BsAQqMAysnOx8wqRikDLvKBp53CwAV3T08qgcda2d5ag8bildifxAAKTAGQjAQ2VAQAYbwFWlQHpTQA25QCpFQAODQF4-QF7IwCn5oBod0AL2aALE1AG6KgDW5GEABgsgAflQDoyoAZ7UAZQm3AAccKxgEjnQCOOrd-IAJtwA1HQAJ44tyAewDMTcsQACADEKAgWE4KAA1myEDV6AgWWAaDAulheYBXJUA0ZEswCQcoB8M0ATIqADW0WYAxb0AGFGAb7TAGaBLMAMhaAKDk9SzAGKqgApXU2cRZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}cp"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(3C全部類別)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[@class='c-tagList c-tagList--default']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-category > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoIAmPbp3qb2zbYf39MhgGZ1FEBOZuogC0VAC4TAPQzAUiUvDAg8UEgAcwA5CEUEZncvABsMKHpTAHkkdmRmMgBfSiy6aPAIBKSU-E0vKHSIFBRmWHS0FDATMHSEAH1BsAQqMAysnOx8wqRikDLvKBp53CwAV3T08qgcda2d5ag8bildifxAAKTAGQjAQ2VAQAYbwFWlQHpTQA25QCpFQAODQF4-QF7IwCn5oBod0AL2aALE1AG6KgDW5GEABgsgAflQDoyoAZ7UAZQm3AAccKxgEjnQCOOrd-IAJtwA1HQAJ44tyAewDMTcsQACADEKAgWE4KAA1myEDV6AgWWAaDAulheYBXJUA0ZEswCQcoB8M0ATIqADW0WYAxb0AGFGAb7TAGaBLMAMhaAKDk9SzAGKqgApXU2cRZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}nb"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(3C全部類別)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[@class='c-tagList c-tagList--default']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-category > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoIAmPbp3qb2zbYf39MhgGZ1FEBOZuogC0VAC4TAPQzAUiUvDAg8UEgAcwA5CEUEZncvABsMKHpTAHkkdmRmMgBfSiy6aPAIBKSU-E0vKHSIFBRmWHS0FDATMHSEAH1BsAQqMAysnOx8wqRikDLvKBp53CwAV3T08qgcda2d5ag8bildifxAAKTAGQjAQ2VAQAYbwFWlQHpTQA25QCpFQAODQF4-QF7IwCn5oBod0AL2aALE1AG6KgDW5GEABgsgAflQDoyoAZ7UAZQm3AAccKxgEjnQCOOrd-IAJtwA1HQAJ44tyAewDMTcsQACADEKAgWE4KAA1myEDV6AgWWAaDAulheYBXJUA0ZEswCQcoB8M0ATIqADW0WYAxb0AGFGAb7TAGaBLMAMhaAKDk9SzAGKqgApXU2cRZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}mobile"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(3C全部類別)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[@class='c-tagList c-tagList--default']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-category > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoIAmPbp3qb2zbYf39MhgGZ1FEBOZuogC0VAC4TAPQzAUiUvDAg8UEgAcwA5CEUEZncvABsMKHpTAHkkdmRmMgBfSiy6aPAIBKSU-E0vKHSIFBRmWHS0FDATMHSEAH1BsAQqMAysnOx8wqRikDLvKBp53CwAV3T08qgcda2d5ag8bildifxAAKTAGQjAQ2VAQAYbwFWlQHpTQA25QCpFQAODQF4-QF7IwCn5oBod0AL2aALE1AG6KgDW5GEABgsgAflQDoyoAZ7UAZQm3AAccKxgEjnQCOOrd-IAJtwA1HQAJ44tyAewDMTcsQACADEKAgWE4KAA1myEDV6AgWWAaDAulheYBXJUA0ZEswCQcoB8M0ATIqADW0WYAxb0AGFGAb7TAGaBLMAMhaAKDk9SzAGKqgApXU2cRZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(新品首發)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}digi"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[1]/div[1]/div[2]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.row.u-mt24 > div.col-3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGu2b1O7gCY9PW1dsUQE5s4wQ8oSAHMAchCKCMyazlAANhAoKMxQGOEwAMzO4RhQ9KYA8kjsyMzWIAC+lGl0XuAQ-oHB+KGUEVEx+GIA7gAEAK4wimDWACwpaRnY2blI+UUlUDTjuN6VAUEhXGGR0bHxMACcg+kmIzl5+GTFLlA4uFgd4eFTUHjc81VLtSv1a00gsBDsAEYQWCwyDa3z+AKBSBgMHQWB84WClFSeyyh1mhCKUimYGYNAQ4TQ6SwbQAbIlEgAzcl9ACsvxpfQAHMQaLDSRSqQAGADsXN+UA5UCILJ8PgwMwwbPJCHJW1+CC590KQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(3C全部類別)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[@class='c-tagList c-tagList--default']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-category > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoIAmPbp3qb2zbYf39MhgGZ1FEBOZuogC0VAC4TAPQzAUiUvDAg8UEgAcwA5CEUEZncvABsMKHpTAHkkdmRmMgBfSiy6aPAIBKSU-E0vKHSIFBRmWHS0FDATMHSEAH1BsAQqMAysnOx8wqRikDLvKBp53CwAV3T08qgcda2d5ag8bildifxAAKTAGQjAQ2VAQAYbwFWlQHpTQA25QCpFQAODQF4-QF7IwCn5oBod0AL2aALE1AG6KgDW5GEABgsgAflQDoyoAZ7UAZQm3AAccKxgEjnQCOOrd-IAJtwA1HQAJ44tyAewDMTcsQACADEKAgWE4KAA1myEDV6AgWWAaDAulheYBXJUA0ZEswCQcoB8M0ATIqADW0WYAxb0AGFGAb7TAGaBLMAMhaAKDk9SzAGKqgApXU2cRZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}ce"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(3C全部類別)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[@class='c-tagList c-tagList--default']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-category > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoIAmPbp3qb2zbYf39MhgGZ1FEBOZuogC0VAC4TAPQzAUiUvDAg8UEgAcwA5CEUEZncvABsMKHpTAHkkdmRmMgBfSiy6aPAIBKSU-E0vKHSIFBRmWHS0FDATMHSEAH1BsAQqMAysnOx8wqRikDLvKBp53CwAV3T08qgcda2d5ag8bildifxAAKTAGQjAQ2VAQAYbwFWlQHpTQA25QCpFQAODQF4-QF7IwCn5oBod0AL2aALE1AG6KgDW5GEABgsgAflQDoyoAZ7UAZQm3AAccKxgEjnQCOOrd-IAJtwA1HQAJ44tyAewDMTcsQACADEKAgWE4KAA1myEDV6AgWWAaDAulheYBXJUA0ZEswCQcoB8M0ATIqADW0WYAxb0AGFGAb7TAGaBLMAMhaAKDk9SzAGKqgApXU2cRZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}daily"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(3C全部類別)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[@class='c-tagList c-tagList--default']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-category > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoIAmPbp3qb2zbYf39MhgGZ1FEBOZuogC0VAC4TAPQzAUiUvDAg8UEgAcwA5CEUEZncvABsMKHpTAHkkdmRmMgBfSiy6aPAIBKSU-E0vKHSIFBRmWHS0FDATMHSEAH1BsAQqMAysnOx8wqRikDLvKBp53CwAV3T08qgcda2d5ag8bildifxAAKTAGQjAQ2VAQAYbwFWlQHpTQA25QCpFQAODQF4-QF7IwCn5oBod0AL2aALE1AG6KgDW5GEABgsgAflQDoyoAZ7UAZQm3AAccKxgEjnQCOOrd-IAJtwA1HQAJ44tyAewDMTcsQACADEKAgWE4KAA1myEDV6AgWWAaDAulheYBXJUA0ZEswCQcoB8M0ATIqADW0WYAxb0AGFGAb7TAGaBLMAMhaAKDk9SzAGKqgApXU2cRZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(新品首發)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}mombaby"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[1]/div[1]/div[2]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.row.u-mt24 > div.col-3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGu2b1O7gCY9PW1dsUQE5s4wQ8oSAHMAchCKCMyazlAANhAoKMxQGOEwAMzO4RhQ9KYA8kjsyMzWIAC+lGl0XuAQ-oHB+KGUEVEx+GIA7gAEAK4wimDWACwpaRnY2blI+UUlUDTjuN6VAUEhXGGR0bHxMACcg+kmIzl5+GTFLlA4uFgd4eFTUHjc81VLtSv1a00gsBDsAEYQWCwyDa3z+AKBSBgMHQWB84WClFSeyyh1mhCKUimYGYgDAlQDA5oAWDV+AGtifiCW1APYBgAgVQCDKoALFSKQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(3C全部類別)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[@class='c-tagList c-tagList--default']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-category > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoIAmPbp3qb2zbYf39MhgGZ1FEBOZuogC0VAC4TAPQzAUiUvDAg8UEgAcwA5CEUEZncvABsMKHpTAHkkdmRmMgBfSiy6aPAIBKSU-E0vKHSIFBRmWHS0FDATMHSEAH1BsAQqMAysnOx8wqRikDLvKBp53CwAV3T08qgcda2d5ag8bildifxAAKTAGQjAQ2VAQAYbwFWlQHpTQA25QCpFQAODQF4-QF7IwCn5oBod0AL2aALE1AG6KgDW5GEABgsgAflQDoyoAZ7UAZQm3AAccKxgEjnQCOOrd-IAJtwA1HQAJ44tyAewDMTcsQACADEKAgWE4KAA1myEDV6AgWWAaDAulheYBXJUA0ZEswCQcoB8M0ATIqADW0WYAxb0AGFGAb7TAGaBLMAMhaAKDk9SzAGKqgApXU2cRZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}food"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(3C全部類別)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[@class='c-tagList c-tagList--default']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-category > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoIAmPbp3qb2zbYf39MhgGZ1FEBOZuogC0VAC4TAPQzAUiUvDAg8UEgAcwA5CEUEZncvABsMKHpTAHkkdmRmMgBfSiy6aPAIBKSU-E0vKHSIFBRmWHS0FDATMHSEAH1BsAQqMAysnOx8wqRikDLvKBp53CwAV3T08qgcda2d5ag8bildifxAAKTAGQjAQ2VAQAYbwFWlQHpTQA25QCpFQAODQF4-QF7IwCn5oBod0AL2aALE1AG6KgDW5GEABgsgAflQDoyoAZ7UAZQm3AAccKxgEjnQCOOrd-IAJtwA1HQAJ44tyAewDMTcsQACADEKAgWE4KAA1myEDV6AgWWAaDAulheYBXJUA0ZEswCQcoB8M0ATIqADW0WYAxb0AGFGAb7TAGaBLMAMhaAKDk9SzAGKqgApXU2cRZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}life"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(3C全部類別)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[@class='c-tagList c-tagList--default']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-category > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoIAmPbp3qb2zbYf39MhgGZ1FEBOZuogC0VAC4TAPQzAUiUvDAg8UEgAcwA5CEUEZncvABsMKHpTAHkkdmRmMgBfSiy6aPAIBKSU-E0vKHSIFBRmWHS0FDATMHSEAH1BsAQqMAysnOx8wqRikDLvKBp53CwAV3T08qgcda2d5ag8bildifxAAKTAGQjAQ2VAQAYbwFWlQHpTQA25QCpFQAODQF4-QF7IwCn5oBod0AL2aALE1AG6KgDW5GEABgsgAflQDoyoAZ7UAZQm3AAccKxgEjnQCOOrd-IAJtwA1HQAJ44tyAewDMTcsQACADEKAgWE4KAA1myEDV6AgWWAaDAulheYBXJUA0ZEswCQcoB8M0ATIqADW0WYAxb0AGFGAb7TAGaBLMAMhaAKDk9SzAGKqgApXU2cRZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}outdoor"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(3C全部類別)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[@class='c-tagList c-tagList--default']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-category > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoIAmPbp3qb2zbYf39MhgGZ1FEBOZuogC0VAC4TAPQzAUiUvDAg8UEgAcwA5CEUEZncvABsMKHpTAHkkdmRmMgBfSiy6aPAIBKSU-E0vKHSIFBRmWHS0FDATMHSEAH1BsAQqMAysnOx8wqRikDLvKBp53CwAV3T08qgcda2d5ag8bildifxAAKTAGQjAQ2VAQAYbwFWlQHpTQA25QCpFQAODQF4-QF7IwCn5oBod0AL2aALE1AG6KgDW5GEABgsgAflQDoyoAZ7UAZQm3AAccKxgEjnQCOOrd-IAJtwA1HQAJ44tyAewDMTcsQACADEKAgWE4KAA1myEDV6AgWWAaDAulheYBXJUA0ZEswCQcoB8M0ATIqADW0WYAxb0AGFGAb7TAGaBLMAMhaAKDk9SzAGKqgApXU2cRZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}beauty"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(3C全部類別)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[@class='c-tagList c-tagList--default']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-category > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoIAmPbp3qb2zbYf39MhgGZ1FEBOZuogC0VAC4TAPQzAUiUvDAg8UEgAcwA5CEUEZncvABsMKHpTAHkkdmRmMgBfSiy6aPAIBKSU-E0vKHSIFBRmWHS0FDATMHSEAH1BsAQqMAysnOx8wqRikDLvKBp53CwAV3T08qgcda2d5ag8bildifxAAKTAGQjAQ2VAQAYbwFWlQHpTQA25QCpFQAODQF4-QF7IwCn5oBod0AL2aALE1AG6KgDW5GEABgsgAflQDoyoAZ7UAZQm3AAccKxgEjnQCOOrd-IAJtwA1HQAJ44tyAewDMTcsQACADEKAgWE4KAA1myEDV6AgWWAaDAulheYBXJUA0ZEswCQcoB8M0ATIqADW0WYAxb0AGFGAb7TAGaBLMAMhaAKDk9SzAGKqgApXU2cRZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(新品首發)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}vogue"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[1]/div[1]/div[2]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.row.u-mt24 > div.col-3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGu2b1O7gCY9PW1dsUQE5s4wQ8oSAHMAchCKCMyazlAANhAoKMxQGOEwAMzO4RhQ9KYA8kjsyMzWIAC+lGl0XuAQ-oHB+KGUEVEx+GIA7gAEAK4wimDWACwpaRnY2blI+UUlUDTjuN6VAUEhXGGR0bHxMACcg+kmIzl5+GTFLlA4uFgd4eFTUHjc81VLtSv1a00gsBDsAEYQWCwyDa3z+AKBSBgMHQWB84WClFSeyyh1mhCKUimYGYgDAlQDA5oAWDV+AGtifiCW1APYBgAgVQCDKoALFSKQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(3C全部類別)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[@class='c-tagList c-tagList--default']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-category > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoIAmPbp3qb2zbYf39MhgGZ1FEBOZuogC0VAC4TAPQzAUiUvDAg8UEgAcwA5CEUEZncvABsMKHpTAHkkdmRmMgBfSiy6aPAIBKSU-E0vKHSIFBRmWHS0FDATMHSEAH1BsAQqMAysnOx8wqRikDLvKBp53CwAV3T08qgcda2d5ag8bildifxAAKTAGQjAQ2VAQAYbwFWlQHpTQA25QCpFQAODQF4-QF7IwCn5oBod0AL2aALE1AG6KgDW5GEABgsgAflQDoyoAZ7UAZQm3AAccKxgEjnQCOOrd-IAJtwA1HQAJ44tyAewDMTcsQACADEKAgWE4KAA1myEDV6AgWWAaDAulheYBXJUA0ZEswCQcoB8M0ATIqADW0WYAxb0AGFGAb7TAGaBLMAMhaAKDk9SzAGKqgApXU2cRZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(新品首發)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "${DOMAIN.WEB}${SIGN_PATH}books"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//section[1]/div[1]/div[2]/div[2]/div[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.row.u-mt24 > div.col-3:nth-child(2)"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGu2b1O7gCY9PW1dsUQE5s4wQ8oSAHMAchCKCMyazlAANhAoKMxQGOEwAMzO4RhQ9KYA8kjsyMzWIAC+lGl0XuAQ-oHB+KGUEVEx+GIA7gAEAK4wimDWACwpaRnY2blI+UUlUDTjuN6VAUEhXGGR0bHxMACcg+kmIzl5+GTFLlA4uFgd4eFTUHjc81VLtSv1a00gsBDsAEYQWCwyDa3z+AKBSBgMHQWB84WClFSeyyh1mhCKUimYGYgDAlQDA5oAWDV+AGtifiCW1APYBgAgVQCDKoALFSKQA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 2,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "(3C全部類別)"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='root']/div[1]/main[1]/div[1]/div[1]/div[1]/section[12]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//ul[@class='c-tagList c-tagList--default']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-category > div.c-listTitle > div.c-listTitle__title > div.c-listTitle__text > h3"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAORIMGMMIC6HLtwIyAthDRZ5MzjwWytGudpQIoYTGoIAmPbp3qb2zbYf39MhgGZ1FEBOZuogC0VAC4TAPQzAUiUvDAg8UEgAcwA5CEUEZncvABsMKHpTAHkkdmRmMgBfSiy6aPAIBKSU-E0vKHSIFBRmWHS0FDATMHSEAH1BsAQqMAysnOx8wqRikDLvKBp53CwAV3T08qgcda2d5ag8bildifxAAKTAGQjAQ2VAQAYbwFWlQHpTQA25QCpFQAODQF4-QF7IwCn5oBod0AL2aALE1AG6KgDW5GEABgsgAflQDoyoAZ7UAZQm3AAccKxgEjnQCOOrd-IAJtwA1HQAJ44tyAewDMTcsQACADEKAgWE4KAA1myEDV6AgWWAaDAulheYBXJUA0ZEswCQcoB8M0ATIqADW0WYAxb0AGFGAb7TAGaBLMAMhaAKDk9SzAGKqgApXU2cRZAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

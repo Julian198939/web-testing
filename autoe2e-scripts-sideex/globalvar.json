@@ -1,0 +1,14 @@
+{
+  "ACC": "pchomeqatest@gmail.com",
+  "PWD": "pchomeqa",
+  "STORE_ID": "DBDX00",
+  "PROD_ID": "DBDX00-A900GX1EV",
+  "DOMAIN.WEB": "https://24h.pchome.com.tw/",
+  "LOGIN_PAGE": "https://ecvip.pchome.com.tw/login/v3/login.htm",
+  "DOMAIN.WEB.ECVIP": "https://ecvip.pchome.com.tw/",
+  "SIGN_PATH": "sign/",
+  "REGION_PATH": "region/",
+  "STORE_PATH": "store/",
+  "PROD_PATH": "prod/",
+  "DOMAIN.CART": "https://ecssl.pchome.com.tw/sys/cflow/fsindex/BigCar/BIGCAR/ItemList"
+}

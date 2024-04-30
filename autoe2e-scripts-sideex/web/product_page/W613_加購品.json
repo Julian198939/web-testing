@@ -1,0 +1,1740 @@
+{
+  "time": 1713326248453,
+  "version": {
+    "sideex": [
+      4,
+      0,
+      0
+    ],
+    "format": [
+      2,
+      0,
+      2
+    ]
+  },
+  "suites": [
+    {
+      "title": "W613_加購品",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "W613_好康加購_商品卡(無規格)顯示確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "INCLUDE",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "COMMON.LOGIN"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GXA3I"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "//*[@class='c-prodInfo__img']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='prod_addMore']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//label[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-additional__addProdItem.is-singleSelect.gtmClickV2:nth-child(2) > div.c-prodInfo.c-prodInfo--vertical"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQBBdpzCYsEADbCAuhy7cCSzjzXKeAJnUq9LWRABGCWav2ar3QxssUQGMM0AWioH0rQLvygd2jAkHKAIFUAAOUARX39AUGUAMwwkCBoaWQQ0GgZsBAIAFniAVxQACgBOBkAfpMA0ZUBu50Bgl09AHpiAakLSysBD5MBaDLrAYhtAKbVALy9AZY1AHusASkcMCDxQSABzADkIAFsEZg1HKGMUFGZYGiQMTiwogAItnb2omHhkKSg5R1kMa6lsAHkkdmRmMgBfSnu6cfAIDN5ot8MtKKsIOtNjAIBI0I8ZLIAPpI2Hsba7eEIOYHNAoGDoLCTBIocwIKBgA6TMBzVZoKAAazgOkc7HoEBg1LmMCxcyRAiWAE8IAArADMERh+QADNKIgwABwALwAbKz2ZyaTywNikTIFm4vH4gqEwgcokgDrF4ghcclUhkDtkUAcCsVylU6g0Pa0Oj0BsNKGzIJruWgsG8qB91SGudrdbI8WB+exmGjsDGOXHtvSQSB0gBWaWZ0MwKBZJBIBBYKCC5hYMCpoMauMARyyEAb8Lr+DIzdjWrgeJgVag1bAMGwBKgVerMHyBHyAHYl9L8kiCCqxQqPiql4uS3Gh-iImhUBOpygZwg5wvl6v15vt7v9-lD4Ph2BnHJ4Hi0CYEhgKQFnnRcVzXDctx3XtZXfbljxgBhIRgU8q3YUD7wgp9oMIW57noaQXjeJBmBZb4nCgbY8CwLJZFkH4oBwXAJkBWYDVBLgVjWDZ8FgNF4WkOQUVJBIKTwh5CNed58DIhioDwbgWKBdiQDGSgGCrCJmC4yEeJAY5MX2DAUUTLAGSpGk6UZZlHAFfBxII54pJI3sQE+BQGJcfBrQSJIUiwNJMlkHJcgIHQFUmQYYEAfDNAElFQAnINyOZW3SQUxUgFgIEGA4viAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "確認加購品圖存在",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "//*[@class='c-prodInfo__body']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-gtm-item_name='回歸測試_無規格加購品']//*[@data-regression='prod_addMore_pic']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//label[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-additional__addProdItem.is-singleSelect.gtmClickV2:nth-child(2) > div.c-prodInfo.c-prodInfo--vertical"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQBBdpzCYsEADbCAuhy7cCSzjzXKeAJnUq9LWRABGCWav2ar3QxssUQGMM0AWioH0rQLvygd2jAkHKAIFUAAOUARX39AUGUAMwwkCBoaWQQ0GgZsBAIAFniAVxQACgBOBkAfpMA0ZUBu50Bgl09AHpiAakLSysBD5MBaDLrAYhtAKbVALy9AZY1AHusASkcMCDxQSABzADkIAFsEZg1HKGMUFGZYGiQMTiwogAItnb2omHhkKSg5R1kMa6lsAHkkdmRmMgBfSnu6cfAIDN5ot8MtKKsIOtNjAIBI0I8ZLIAPpI2Hsba7eEIOYHNAoGDoLCTBIocwIKBgA6TMBzVZoKAAazgOkc7HoEBg1LmMCxcyRAiWAE8IAArADMERh+QADNKIgwABwALwAbKz2ZyaTywNikTIFm4vH4gqEwgcokgDrF4ghcclUhkDtkUAcCsVylU6g0Pa0Oj0BsNKGzIJruWgsG8qB91SGudrdbI8WB+exmGjsDGOXHtvSQSB0gBWaWZ0MwKBZJBIBBYKCC5hYMCpoMauMARyyEAb8Lr+DIzdjWrgeJgVag1bAMGwBKgVerMHyBHyAHYl9L8kiCCqxQqPiql4uS3Gh-iImhUBOpygZwg5wvl6v15vt7v9-lD4Ph2BnHJ4Hi0CYEhgKQFnnRcVzXDctx3XtZXfbljxgBhIRgU8q3YUD7wgp9oMIW57noaQXjeJBmBZb4nCgbY8CwLJZFkH4oBwXAJkBWYDVBLgVjWDZ8FgNF4WkOQUVJBIKTwh5CNed58DIhioDwbgWKBdiQDGSgGCrCJmC4yEeJAY5MX2DAUUTLAGSpGk6UZZlHAFfBxII54pJI3sQE+BQGJcfBrQSJIUiwNJMlkHJcgIHQFUmQYYEAfDNAElFQAnINyOZW3SQUxUgFgIEGA4viAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "確認加購品圖片存在"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "//*[@class='c-prodInfo__body']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-gtm-item_name='回歸測試_無規格加購品']//*[@title='回歸測試_無規格加購品']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//label[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-additional__addProdItem.is-singleSelect.gtmClickV2:nth-child(2) > div.c-prodInfo.c-prodInfo--vertical"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQBBdpzCYsEADbCAuhy7cCSzjzXKeAJnUq9LWRABGCWav2ar3QxssUQGMM0AWioH0rQLvygd2jAkHKAIFUAAOUARX39AUGUAMwwkCBoaWQQ0GgZsBAIAFniAVxQACgBOBkAfpMA0ZUBu50Bgl09AHpiAakLSysBD5MBaDLrAYhtAKbVALy9AZY1AHusASkcMCDxQSABzADkIAFsEZg1HKGMUFGZYGiQMTiwogAItnb2omHhkKSg5R1kMa6lsAHkkdmRmMgBfSnu6cfAIDN5ot8MtKKsIOtNjAIBI0I8ZLIAPpI2Hsba7eEIOYHNAoGDoLCTBIocwIKBgA6TMBzVZoKAAazgOkc7HoEBg1LmMCxcyRAiWAE8IAArADMERh+QADNKIgwABwALwAbKz2ZyaTywNikTIFm4vH4gqEwgcokgDrF4ghcclUhkDtkUAcCsVylU6g0Pa0Oj0BsNKGzIJruWgsG8qB91SGudrdbI8WB+exmGjsDGOXHtvSQSB0gBWaWZ0MwKBZJBIBBYKCC5hYMCpoMauMARyyEAb8Lr+DIzdjWrgeJgVag1bAMGwBKgVerMHyBHyAHYl9L8kiCCqxQqPiql4uS3Gh-iImhUBOpygZwg5wvl6v15vt7v9-lD4Ph2BnHJ4Hi0CYEhgKQFnnRcVzXDctx3XtZXfbljxgBhIRgU8q3YUD7wgp9oMIW57noaQXjeJBmBZb4nCgbY8CwLJZFkH4oBwXAJkBWYDVBLgVjWDZ8FgNF4WkOQUVJBIKTwh5CNed58DIhioDwbgWKBdiQDGSgGCrCJmC4yEeJAY5MX2DAUUTLAGSpGk6UZZlHAFfBxII54pJI3sQE+BQGJcfBrQSJIUiwNJMlkHJcgIHQFUmQYYEAfDNAElFQAnINyOZW3SQUxUgFgIEGA4viAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "商品名稱"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-gtm-item_name='回歸測試_無規格加購品']//*[@data-regression='prod_addMore_price']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "價格"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-gtm-item_name='回歸測試_無規格加購品']//*[@data-regression='prod_addMore_select_num']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "商品數量"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W613_好康加購_商品卡(有規格)顯示確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "//*[@class='c-prodInfo__img']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-regression='prod_addMore']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//label[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-additional__addProdItem.is-singleSelect.gtmClickV2:nth-child(2) > div.c-prodInfo.c-prodInfo--vertical"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQBBdpzCYsEADbCAuhy7cCSzjzXKeAJnUq9LWRABGCWav2ar3QxssUQGMM0AWioH0rQLvygd2jAkHKAIFUAAOUARX39AUGUAMwwkCBoaWQQ0GgZsBAIAFniAVxQACgBOBkAfpMA0ZUBu50Bgl09AHpiAakLSysBD5MBaDLrAYhtAKbVALy9AZY1AHusASkcMCDxQSABzADkIAFsEZg1HKGMUFGZYGiQMTiwogAItnb2omHhkKSg5R1kMa6lsAHkkdmRmMgBfSnu6cfAIDN5ot8MtKKsIOtNjAIBI0I8ZLIAPpI2Hsba7eEIOYHNAoGDoLCTBIocwIKBgA6TMBzVZoKAAazgOkc7HoEBg1LmMCxcyRAiWAE8IAArADMERh+QADNKIgwABwALwAbKz2ZyaTywNikTIFm4vH4gqEwgcokgDrF4ghcclUhkDtkUAcCsVylU6g0Pa0Oj0BsNKGzIJruWgsG8qB91SGudrdbI8WB+exmGjsDGOXHtvSQSB0gBWaWZ0MwKBZJBIBBYKCC5hYMCpoMauMARyyEAb8Lr+DIzdjWrgeJgVag1bAMGwBKgVerMHyBHyAHYl9L8kiCCqxQqPiql4uS3Gh-iImhUBOpygZwg5wvl6v15vt7v9-lD4Ph2BnHJ4Hi0CYEhgKQFnnRcVzXDctx3XtZXfbljxgBhIRgU8q3YUD7wgp9oMIW57noaQXjeJBmBZb4nCgbY8CwLJZFkH4oBwXAJkBWYDVBLgVjWDZ8FgNF4WkOQUVJBIKTwh5CNed58DIhioDwbgWKBdiQDGSgGCrCJmC4yEeJAY5MX2DAUUTLAGSpGk6UZZlHAFfBxII54pJI3sQE+BQGJcfBrQSJIUiwNJMlkHJcgIHQFUmQYYEAfDNAElFQAnINyOZW3SQUxUgFgIEGA4viAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "確認加購品圖存在",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "//*[@class='c-prodInfo__body']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-gtm-item_name='回歸測試_有規格加購品']//*[@data-regression='prod_addMore_pic']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//label[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-additional__addProdItem.is-singleSelect.gtmClickV2:nth-child(2) > div.c-prodInfo.c-prodInfo--vertical"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQBBdpzCYsEADbCAuhy7cCSzjzXKeAJnUq9LWRABGCWav2ar3QxssUQGMM0AWioH0rQLvygd2jAkHKAIFUAAOUARX39AUGUAMwwkCBoaWQQ0GgZsBAIAFniAVxQACgBOBkAfpMA0ZUBu50Bgl09AHpiAakLSysBD5MBaDLrAYhtAKbVALy9AZY1AHusASkcMCDxQSABzADkIAFsEZg1HKGMUFGZYGiQMTiwogAItnb2omHhkKSg5R1kMa6lsAHkkdmRmMgBfSnu6cfAIDN5ot8MtKKsIOtNjAIBI0I8ZLIAPpI2Hsba7eEIOYHNAoGDoLCTBIocwIKBgA6TMBzVZoKAAazgOkc7HoEBg1LmMCxcyRAiWAE8IAArADMERh+QADNKIgwABwALwAbKz2ZyaTywNikTIFm4vH4gqEwgcokgDrF4ghcclUhkDtkUAcCsVylU6g0Pa0Oj0BsNKGzIJruWgsG8qB91SGudrdbI8WB+exmGjsDGOXHtvSQSB0gBWaWZ0MwKBZJBIBBYKCC5hYMCpoMauMARyyEAb8Lr+DIzdjWrgeJgVag1bAMGwBKgVerMHyBHyAHYl9L8kiCCqxQqPiql4uS3Gh-iImhUBOpygZwg5wvl6v15vt7v9-lD4Ph2BnHJ4Hi0CYEhgKQFnnRcVzXDctx3XtZXfbljxgBhIRgU8q3YUD7wgp9oMIW57noaQXjeJBmBZb4nCgbY8CwLJZFkH4oBwXAJkBWYDVBLgVjWDZ8FgNF4WkOQUVJBIKTwh5CNed58DIhioDwbgWKBdiQDGSgGCrCJmC4yEeJAY5MX2DAUUTLAGSpGk6UZZlHAFfBxII54pJI3sQE+BQGJcfBrQSJIUiwNJMlkHJcgIHQFUmQYYEAfDNAElFQAnINyOZW3SQUxUgFgIEGA4viAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "確認加購品圖片存在",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "//*[@class='c-prodInfo__body']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-gtm-item_name='回歸測試_有規格加購品']//*[@title='回歸測試_有規格加購品']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//label[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-additional__addProdItem.is-singleSelect.gtmClickV2:nth-child(2) > div.c-prodInfo.c-prodInfo--vertical"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQBBdpzCYsEADbCAuhy7cCSzjzXKeAJnUq9LWRABGCWav2ar3QxssUQGMM0AWioH0rQLvygd2jAkHKAIFUAAOUARX39AUGUAMwwkCBoaWQQ0GgZsBAIAFniAVxQACgBOBkAfpMA0ZUBu50Bgl09AHpiAakLSysBD5MBaDLrAYhtAKbVALy9AZY1AHusASkcMCDxQSABzADkIAFsEZg1HKGMUFGZYGiQMTiwogAItnb2omHhkKSg5R1kMa6lsAHkkdmRmMgBfSnu6cfAIDN5ot8MtKKsIOtNjAIBI0I8ZLIAPpI2Hsba7eEIOYHNAoGDoLCTBIocwIKBgA6TMBzVZoKAAazgOkc7HoEBg1LmMCxcyRAiWAE8IAArADMERh+QADNKIgwABwALwAbKz2ZyaTywNikTIFm4vH4gqEwgcokgDrF4ghcclUhkDtkUAcCsVylU6g0Pa0Oj0BsNKGzIJruWgsG8qB91SGudrdbI8WB+exmGjsDGOXHtvSQSB0gBWaWZ0MwKBZJBIBBYKCC5hYMCpoMauMARyyEAb8Lr+DIzdjWrgeJgVag1bAMGwBKgVerMHyBHyAHYl9L8kiCCqxQqPiql4uS3Gh-iImhUBOpygZwg5wvl6v15vt7v9-lD4Ph2BnHJ4Hi0CYEhgKQFnnRcVzXDctx3XtZXfbljxgBhIRgU8q3YUD7wgp9oMIW57noaQXjeJBmBZb4nCgbY8CwLJZFkH4oBwXAJkBWYDVBLgVjWDZ8FgNF4WkOQUVJBIKTwh5CNed58DIhioDwbgWKBdiQDGSgGCrCJmC4yEeJAY5MX2DAUUTLAGSpGk6UZZlHAFfBxII54pJI3sQE+BQGJcfBrQSJIUiwNJMlkHJcgIHQFUmQYYEAfDNAElFQAnINyOZW3SQUxUgFgIEGA4viAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "確認加購品圖片存在"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-gtm-item_name='回歸測試_有規格加購品']//*[@data-regression='prod_addMore_price']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "價格"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-gtm-item_name='回歸測試_有規格加購品']//*[@data-regression='prod_addMore_select_num']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "商品數量"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W613_好康加購_選擇加購N件商品數量預設確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@title='回歸測試_主商品有加購品']/ancestor::*[4]/following-sibling::*/div/div"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "1"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@title='回歸測試_有規格加購品']/ancestor::*[4]/following-sibling::*[@data-regression='prod_addMore_select_num']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "1"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Additional']/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[3]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-additionalToolBar__item"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "選擇加購\n0\n件商品"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W613_好康加購_主商品數量與加購品數量選單的關聯確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@title='回歸測試_主商品有加購品']/ancestor::*[4]/following-sibling::*/div/div"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "點擊主商品下拉式選單",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@title='回歸測試_主商品有加購品']/ancestor::*[4]/following-sibling::*/div/div/ul/li[3]/div"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "選3個主商品",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@title='回歸測試_無規格加購品']/ancestor::*[4]/following-sibling::*/div/div"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "點擊無規格加購品下拉式選單",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@title='回歸測試_無規格加購品']/ancestor::*[4]/following-sibling::*/div/div/ul/li[3]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "檢查是否有三個加購品",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyNotPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@title='回歸測試_無規格加購品']/ancestor::*[4]/following-sibling::*/div/div/ul/li[4]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "檢查沒有4個加購品",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W613_好康加購_一起購買按紐預設狀態",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "COMMENT",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "好康加購區中的購買按鈕，預設為disable且文字為【一起購買】加購區下方文案為「選擇加購0件商品」"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GXA3I"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_addMore_button_buyAll']"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "一起購買"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "樣式或文字不符則會 not found",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_addMore_button_buyAll' and @disabled]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "預設狀態有屬性disabled",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W613_好康加購_勾選加購品後一起購買按鈕狀態",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "COMMENT",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "好康加購區中的購買按鈕，在勾選加購品後，按鈕從 disable 變成可點擊，下方文案也變為「選擇加購1件商品」，金額為主商品+加購品。"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GXA3I"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_addMore_add']/input"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyNotPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_addMore_button_buyAll' and @disabled]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "按鈕為enable",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W613_好康加購_勾選加購品後選擇加購N件商品數量異動確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GXA3I"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_addMore_add']/input"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_addMore_add']/input"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Additional']/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[3]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-additionalToolBar__item"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "選擇加購\n2\n件商品"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W613_好康加購_勾選加購品後總金額即時計算功能確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GXA3I"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyNotPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Additional']/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[3]/div[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-additionalToolBar__number.c-additionalToolBar__number--price"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_addMore_add']/input"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "//*[@data-regression='prod_addMore_add']/input"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Additional']/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[3]/div[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-additionalToolBar__number.c-additionalToolBar__number--price"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Additional']/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[3]/div[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-additionalToolBar__number.c-additionalToolBar__number--price"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "共 $31"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W613_好康加購_加購品燈箱確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "COMMENT",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "選擇有規格的加購品點選【一起購買】，未選擇規格時要出現紅字提醒訊息。"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "加購品是有規格的商品",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${DOMAIN.WEB}${PROD_PATH}DBDX00-A900GXA3I"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 1,
+                "options": [
+                  {
+                    "type": "tac",
+                    "value": "//*[@class='c-prodInfo__img']"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//*[@data-gtm-item_name='回歸測試_無規格加購品']//*[@data-regression='prod_addMore_pic']"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//label[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-additional__addProdItem.is-singleSelect.gtmClickV2:nth-child(2) > div.c-prodInfo.c-prodInfo--vertical"
+                  }
+                ],
+                "tac": "TAC_LOCATOR:N4IgLghgxgtAbgUwE4GcCWB7AdiAXCARgDpiCQAaEADwAcIwALPEAehYBM04BtAATXYBeAOQBBdpzCYsEADbCAuhy7cCSzjzXKeAJnUq9LWRABGCWav2ar3QxssUQGMM0AWioH0rQLvygd2jAkHKAIFUAAOUARX39AUGUAMwwkCBoaWQQ0GgZsBAIAFniAVxQACgBOBkAfpMA0ZUBu50Bgl09AHpiAakLSysBD5MBaDLrAYhtAKbVALy9AZY1AHusASkcMCDxQSABzADkIAFsEZg1HKGMUFGZYGiQMTiwogAItnb2omHhkKSg5R1kMa6lsAHkkdmRmMgBfSnu6cfAIDN5ot8MtKKsIOtNjAIBI0I8ZLIAPpI2Hsba7eEIOYHNAoGDoLCTBIocwIKBgA6TMBzVZoKAAazgOkc7HoEBg1LmMCxcyRAiWAE8IAArADMERh+QADNKIgwABwALwAbKz2ZyaTywNikTIFm4vH4gqEwgcokgDrF4ghcclUhkDtkUAcCsVylU6g0Pa0Oj0BsNKGzIJruWgsG8qB91SGudrdbI8WB+exmGjsDGOXHtvSQSB0gBWaWZ0MwKBZJBIBBYKCC5hYMCpoMauMARyyEAb8Lr+DIzdjWrgeJgVag1bAMGwBKgVerMHyBHyAHYl9L8kiCCqxQqPiql4uS3Gh-iImhUBOpygZwg5wvl6v15vt7v9-lD4Ph2BnHJ4Hi0CYEhgKQFnnRcVzXDctx3XtZXfbljxgBhIRgU8q3YUD7wgp9oMIW57noaQXjeJBmBZb4nCgbY8CwLJZFkH4oBwXAJkBWYDVBLgVjWDZ8FgNF4WkOQUVJBIKTwh5CNed58DIhioDwbgWKBdiQDGSgGCrCJmC4yEeJAY5MX2DAUUTLAGSpGk6UZZlHAFfBxII54pJI3sQE+BQGJcfBrQSJIUiwNJMlkHJcgIHQFUmQYYEAfDNAElFQAnINyOZW3SQUxUgFgIEGA4viAA"
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Additional']/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='回歸測試_無規格加購品'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-prodInfoV2__img > img[alt=\"回歸測試_無規格加購品\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        },
+        {
+          "title": "W613_好康加購_加購品燈箱元素確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": -1,
+          "records": [
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Additional']/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/img[1]"
+                  },
+                  {
+                    "type": "xpath:img",
+                    "value": "xpath=(//img[@alt='回歸測試_無規格加購品'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-prodInfoV2__img > img[alt=\"回歸測試_無規格加購品\"]"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "燈箱商品圖片"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyPresence",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Additional']/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-prodInfoV2__title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "商品名稱"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='Additional']/div[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.c-prodInfoV2__price"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "加購價\n6"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "商品加價購",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            },
+            {
+              "name": "INCLUDE",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "COMMON.LOGOUT"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false,
+              "indent": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

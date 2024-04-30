@@ -1,0 +1,5866 @@
+{
+  "time": 1675826346709,
+  "version": {
+    "sideex": [
+      3,
+      7,
+      4
+    ],
+    "format": [
+      2,
+      0,
+      0
+    ]
+  },
+  "suites": [
+    {
+      "title": "M102_首頁選單Button內容確認",
+      "description": "",
+      "enableOnPlaying": true,
+      "cases": [
+        {
+          "title": "M102_首頁_路標連結類別內容確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 6.86,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[1]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "3C"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[2]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "周邊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[3]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "NB"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[4]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "通訊"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[5]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "數位"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[6]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "家電"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[7]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "日用"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[8]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "食品"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[9]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "生活"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[10]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "運動戶外"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[11]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "美妝"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[12]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "衣鞋包錶"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[13]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "書店"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_「顧客中心」的頁面正常顯示",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 2.97,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "11,13"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 5,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//li[@id='goVIP']/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.client"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "19,6"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://ecvip.pchome.com.tw/m/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_購物車按鈕導向登入畫面",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 2.7,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,9"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//li[@id='goCart']/span[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.prod_amount:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "56,31"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://ecvip.pchome.com.tw/login/v3/login.htm?&rurl=https://ecvip.pchome.com.tw/cart.php"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_購物車按鈕導向購物車",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://ecvip.pchome.com.tw/login/v3/login.htm?&rurl=https://ecvip.pchome.com.tw/cart.php"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=loginAcc"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='CONTENT']/div[1]/div[1]/dl[1]/dd[2]/dl[1]/dd[1]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='loginAcc']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#loginAcc"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "pchomeqatest@gmail.com"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "sendKeys",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=loginPwd"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='CONTENT']/div[1]/div[1]/dl[1]/dd[2]/dl[1]/dd[2]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[2]/div[1]/div[1]/input[1]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//input[@id='loginPwd']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#loginPwd"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "pchomeqa"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=btnLogin"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='CONTENT']/div[1]/div[1]/dl[1]/dd[2]/dl[1]/dd[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'登入')]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//a[@id='btnLogin']"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='javascript:void(0)'])[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#btnLogin"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=登入"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://ecssl.pchome.com.tw/sys/cflow/fsm/BigCar/BIGCAR/ItemList"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "0,9"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//li[@id='goCart']/span[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.prod_amount:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "56,31"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://ecvip.pchome.com.tw/m/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "//*[@id=\"logoutUrl\"]"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='CONTENT']/div[1]/dl[1]/dd[1]/ul[1]/li[2]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[2]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//li[@id='accountImg']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#accountImg"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "21,23"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 6,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "chooseOkOnNextConfirmation",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "id",
+                    "value": "id=logoutUrl"
+                  },
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//li[@id='accountText']/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//dd[1]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'pcho********@gmail.com')]"
+                  },
+                  {
+                    "type": "xpath:attributes",
+                    "value": "//a[@id='logoutUrl']"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='#'])[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=#logoutUrl"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=pcho********@gmail.com"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "90,13"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "chooseOkOnNextConfirmation",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_「全站分類X」的頁面正常顯示",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 5.67,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "17,4"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 31,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='SIDEWRAP']/div[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[1]/div[1]/div[1]/div[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=div.head:nth-child(2)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "46,13"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "storeIsVisible",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[3]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[3]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(3) > span.collapsible_hd > span.right:nth-child(2) > span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "sign_button_should_be_hide"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "IF",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "${sign_button_should_be_hide}==false"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "echo",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "PASS"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "ELSE",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "assertURL",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "123"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "END",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_『3C』選單功能確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 17.58,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[1]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "4,4"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[1]/ul[1]/li[7]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[7]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'筆 記 電 腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DHAA']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(7) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=筆 記 電 腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "筆 記 電 腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[1]/ul[1]/li[8]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[8]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'桌 上 電 腦')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DSAA']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(8) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=桌 上 電 腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "桌 上 電 腦"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[1]/ul[1]/li[12]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[12]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'電競螢幕')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DSBB']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(12) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=電競螢幕"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "電競螢幕"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[1]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ui-arrow-u:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_『周邊』選單功能確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 17.36,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/ul[1]/li[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(2) > span.collapsible_hd"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[2]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'Logitech /羅技')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DSAR']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(2) > ul.collapsible_bd:nth-child(2) > li:nth-child(2) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=Logitech /羅技"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Logitech /羅技"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[2]/ul[1]/li[9]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/ul[1]/li[9]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'喇叭')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DCAI']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(2) > ul.collapsible_bd:nth-child(2) > li:nth-child(9) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=喇叭"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "喇叭"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[2]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'微軟Office')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DCAO']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(2) > ul.collapsible_bd:nth-child(2) > li:nth-child(5) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=微軟Office"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "微軟Office"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/ul[1]/li[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(2) > span.collapsible_hd"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_『NB』選單功能確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 15.7,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[3]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/ul[1]/li[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(2) > span.collapsible_hd"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[3]/ul[1]/li[8]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[3]/ul[1]/li[8]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'微軟 Surface')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DHAY']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(3) > ul.collapsible_bd:nth-child(2) > li:nth-child(8) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=微軟 Surface"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "微軟 Surface"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[2]/ul[1]/li[9]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/ul[1]/li[9]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'喇叭')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DCAI']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(2) > ul.collapsible_bd:nth-child(2) > li:nth-child(9) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=喇叭"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "喇叭"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[2]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[2]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'微軟Office')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DCAO']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(2) > ul.collapsible_bd:nth-child(2) > li:nth-child(5) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=微軟Office"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "微軟Office"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[3]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//div[2]/ul[1]/li[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(2) > span.collapsible_hd"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_『通訊』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 4.06,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[4]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[4]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(4) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[4]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[4]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'APPLE')])[2]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/region/DYAJ'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(4) > ul.collapsible_bd:nth-child(2) > li:nth-child(2) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=APPLE"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "APPLE"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[4]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[4]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'Google')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DYAT']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(4) > ul.collapsible_bd:nth-child(2) > li:nth-child(5) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=Google"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Google"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[4]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[4]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'Android')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DYAB']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(4) > ul.collapsible_bd:nth-child(2) > li:nth-child(4) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=Android"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Android"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[4]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[4]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(4) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_『數位』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 105.94,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[5]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[5]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(5) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[5]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[5]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'Xbox')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DGCV']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(5) > ul.collapsible_bd:nth-child(2) > li:nth-child(4) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=Xbox"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Xbox"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[5]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[5]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'Nintendo')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DGCW']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(5) > ul.collapsible_bd:nth-child(2) > li:nth-child(2) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=Nintendo"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Nintendo"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[5]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[5]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'PlayStation')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DGCK']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(5) > ul.collapsible_bd:nth-child(2) > li:nth-child(3) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=PlayStation"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "PlayStation"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[5]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[5]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(5) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_『家電』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 114.85,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[6]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(6) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[6]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'石頭科技')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DMBT']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(6) > ul.collapsible_bd:nth-child(2) > li:nth-child(5) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=石頭科技"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "石頭科技"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[6]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'三星旗艦館')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DPAM']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(6) > ul.collapsible_bd:nth-child(2) > li:nth-child(4) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=三星旗艦館"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "三星旗艦館"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[6]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'dyson')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DMBF']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(6) > ul.collapsible_bd:nth-child(2) > li:nth-child(2) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=dyson"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "dyson"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[6]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[6]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(6) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_『日用』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 113.49,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[7]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[7]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(7) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[7]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[7]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'舒潔')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DAAQ']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(7) > ul.collapsible_bd:nth-child(2) > li:nth-child(2) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=舒潔"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "舒潔"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[7]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[7]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'五月花')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DAAS']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(7) > ul.collapsible_bd:nth-child(2) > li:nth-child(5) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=五月花"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "五月花"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[7]/ul[1]/li[7]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[7]/ul[1]/li[7]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'春風')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DABK']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(7) > ul.collapsible_bd:nth-child(2) > li:nth-child(7) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=春風"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "春風"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[7]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[7]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(7) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_『食品』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 134.2,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[8]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[7]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(7) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[8]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[8]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'PChome生鮮')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DBCV']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(8) > ul.collapsible_bd:nth-child(2) > li:nth-child(2) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=PChome生鮮"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "PChome生鮮"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[8]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[8]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'電子票券')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DBCR']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(8) > ul.collapsible_bd:nth-child(2) > li:nth-child(3) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=電子票券"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "電子票券"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[8]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[8]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'PChome生鮮')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DBCV']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(8) > ul.collapsible_bd:nth-child(2) > li:nth-child(4) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=PChome生鮮"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "熟食"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[8]/ul[1]/li[11]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[8]/ul[1]/li[11]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'零食')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DBAC']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(8) > ul.collapsible_bd:nth-child(2) > li:nth-child(11) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=零食"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "團購"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[8]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[8]/ul[1]/li[5]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'年菜')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DBCX']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(8) > ul.collapsible_bd:nth-child(2) > li:nth-child(5) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=年菜"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "蔬果甜點"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[8]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[7]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(7) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_『生活』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 94.9,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[9]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[7]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(7) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[9]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[9]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'MUJI 無印良品')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DEDK']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(9) > ul.collapsible_bd:nth-child(2) > li:nth-child(2) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=MUJI 無印良品"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "MUJI 無印良品"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[9]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[9]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'樂高®')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DEDJ']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(9) > ul.collapsible_bd:nth-child(2) > li:nth-child(3) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=樂高®"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "樂高®"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[9]/ul[1]/li[7]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[9]/ul[1]/li[7]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'膳魔師')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DECL']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(9) > ul.collapsible_bd:nth-child(2) > li:nth-child(7) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=膳魔師"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "膳魔師"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[9]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[7]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(7) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_『運動戶外』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[10]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[7]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(7) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[10]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[10]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'GARMIN')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DXAO']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(10) > ul.collapsible_bd:nth-child(2) > li:nth-child(2) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=GARMIN"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "GARMIN"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[10]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[9]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'樂高®')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DEDJ']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(9) > ul.collapsible_bd:nth-child(2) > li:nth-child(3) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=樂高®"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "TheNorthFace"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[10]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[9]/ul[1]/li[7]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'膳魔師')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DECL']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(9) > ul.collapsible_bd:nth-child(2) > li:nth-child(7) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=膳魔師"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "Mizuno"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[10]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[7]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(7) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_『美妝』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[11]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[11]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(11) > span.collapsible_hd > span.right:nth-child(2) > span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[11]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[11]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'保濕日')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DDDL']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(11) > ul.collapsible_bd:nth-child(2) > li:nth-child(2) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=保濕日"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "保濕日"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[11]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[9]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'樂高®')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DEDJ']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(9) > ul.collapsible_bd:nth-child(2) > li:nth-child(3) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=樂高®"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "碧兒泉"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[11]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[9]/ul[1]/li[7]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'膳魔師')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DECL']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(9) > ul.collapsible_bd:nth-child(2) > li:nth-child(7) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=膳魔師"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "寶拉珍選"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[11]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[11]/span[1]/span[2]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(11) > span.collapsible_hd > span.right:nth-child(2) > span.title"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_『衣鞋包錶』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[12]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[12]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(12) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[12]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[12]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "xpath=(//a[contains(text(),'MUJI 無印良品')])[2]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "xpath=(//a[@href='/region/DEDK'])[2]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(12) > ul.collapsible_bd:nth-child(2) > li:nth-child(2) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=MUJI 無印良品"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "MUJI 無印良品"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[12]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[9]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'樂高®')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DEDJ']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(9) > ul.collapsible_bd:nth-child(2) > li:nth-child(3) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=樂高®"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "泰國購物"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[12]/ul[1]/li[4]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[9]/ul[1]/li[7]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'膳魔師')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DECL']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(9) > ul.collapsible_bd:nth-child(2) > li:nth-child(7) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=膳魔師"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "PORTER"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[12]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[12]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(12) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        },
+        {
+          "title": "M102_首頁_『書店』連結確認",
+          "description": "",
+          "enableOnPlaying": true,
+          "networkSpeed": 0,
+          "records": [
+            {
+              "name": "open",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "https://24h.m.pchome.com.tw/"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//div[@id='BlockHeader']/ul[1]/li[1]/a[1]/span[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//a[1]/span[1]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=span.ico.catalog"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "5,10"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 3,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[13]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[13]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(13) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[13]/ul[1]/li[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[13]/ul[1]/li[1]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'讀墨電子書')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DJBN']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(13) > ul.collapsible_bd:nth-child(2) > li > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=讀墨電子書"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "讀墨電子書"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[13]/ul[1]/li[2]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[9]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'樂高®')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DEDJ']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(9) > ul.collapsible_bd:nth-child(2) > li:nth-child(3) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=樂高®"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "閱讀器"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "verifyText",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[13]/ul[1]/li[3]/a[1]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[9]/ul[1]/li[7]/a[1]"
+                  },
+                  {
+                    "type": "xpath:link",
+                    "value": "//a[contains(text(),'膳魔師')]"
+                  },
+                  {
+                    "type": "xpath:href",
+                    "value": "//a[@href='/region/DECL']"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li.actived:nth-child(9) > ul.collapsible_bd:nth-child(2) > li:nth-child(7) > a"
+                  },
+                  {
+                    "type": "link",
+                    "value": "link=膳魔師"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": "金石堂"
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            },
+            {
+              "name": "clickAt",
+              "target": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "xpath:idRelative",
+                    "value": "//ul[@id='SignContainer']/li[13]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "xpath:position",
+                    "value": "//li[13]/span[1]/span[2]/span[3]"
+                  },
+                  {
+                    "type": "css:position",
+                    "value": "css=li:nth-child(13) > span.collapsible_hd > span.right:nth-child(2) > span.ui-arrow-d:nth-child(3)"
+                  }
+                ],
+                "tac": ""
+              },
+              "value": {
+                "usedIndex": 0,
+                "options": [
+                  {
+                    "type": "other",
+                    "value": ""
+                  }
+                ],
+                "tac": ""
+              },
+              "description": "",
+              "pwt": {
+                "pbw": 0,
+                "paw": 0,
+                "prw": 0,
+                "pdw": 0
+              },
+              "comment": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

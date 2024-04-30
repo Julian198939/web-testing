@@ -1,0 +1,304 @@
+stageResultMap = [:]
+
+pipeline {
+    agent any
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '20', artifactNumToKeepStr: '20'))
+    }
+
+    parameters {
+        string(name: 'chunkSize', defaultValue: '6', description: '同時執行數量', trim: true)
+        string(name: 'dryRunSleepSeconds', defaultValue: '0', description: 'Run dry-run sleep seconds, set 0 to start Rapi', trim: true)
+        string(name: 'cpu', defaultValue: '4', description: '單個 Container CPU 用量', trim: true)
+        string(name: 'memory', defaultValue: '6', description: '單個 Container 記憶體用量 (GB)', trim: true)
+        string(name: 'platform', defaultValue: 'web', description: 'Platform: web, mobile_web', trim: true)
+        string(name: 'imageVersion', defaultValue: '27fcc6c', description: 'Container tag name, 使用 GitHub short SHA, docker build 後需調整此值', trim: true)
+        string(name: 'jobName', defaultValue: 'rapi-runner', description:'任務名稱, 需為此 Jenkins Job 唯一值', trim: true)
+        string(name: 'checkoutBranch', defaultValue: 'main', description:'Rapi 使用哪個 git branch 的腳本', trim: true)
+        string(name: 'runSuite', defaultValue: 'ALL', description:'只跑特定 Test Suite 代號，參數值格式 ( 字串 ) 如：W104,W303。ALL表示測試所有 suite', trim: true)
+        string(name: 'isRunStageEnvironment', defaultValue: '0', description:'設定是否進行 stage 環境測試，設定為 1 即為測試 stage，設定為 0 為測試 production', trim: true)
+        string(name: 'triggerBy', defaultValue: 'Jenkins', description:'觸發執行來源', trim: true)
+        string(name: 'chatRoomWebhookUrl', defaultValue: 'https://chat.googleapis.com/v1/spaces/AAAAlPQz94Y/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=MlOjwtdt1oPaDQpocuPw6szzBLdnFYoXyoJK62j1h3Q', description: 'URL of Webhook', trim: true)
+
+        // prod chatroom
+        //      https://chat.googleapis.com/v1/spaces/AAAAlPQz94Y/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=MlOjwtdt1oPaDQpocuPw6szzBLdnFYoXyoJK62j1h3Q
+        // chatRoomWebhookUrl: SQA Test Room
+        //      https://chat.googleapis.com/v1/spaces/AAAAXQ6KAPM/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=MVNMB6BaoTrHXFXlIIa3GuIbYggnBfZIvAgSdRuKpV0%3D
+        // walker test
+        //      https://chat.googleapis.com/v1/spaces/AAAAhQdBW0g/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=VwFPbXfNkhVFTFvZlc-k6lYEKD87TE7FKsp6bK0pW10%3D
+    }
+
+    environment {
+        DATE_TIME_STRING = sh(script: "date +'%Y-%m-%d-%H-%M'", returnStdout: true).trim()
+        DATE_TIME_SECOND_STRING = sh(script: "date +'%Y%m%d-%H%M%S'", returnStdout: true).trim()
+        JOB_NAME_STRING = "${params.jobName}-job-${DATE_TIME_SECOND_STRING}"
+        RUN_ENVIRONMENT_NAME = "${params.isRunStageEnvironment == "1" ? "staging" : "production"}"
+    }
+
+    stages {
+        stage('Checkout from GitHub'){
+            steps {
+                cleanWs()
+
+                script {
+                    git branch: "${params.checkoutBranch}",
+                    credentialsId: 'SqaJenkinsServer',
+                    url: 'https://github.com/PChome24h/sqa_web_testing.git'
+                }
+            }
+        }
+
+        stage("Split config and Upload to GCS") {
+            steps{
+                script {
+                    // 根據平行度進行TC切分，提供後續給 Rapi runner 使用
+                    sh("python3 autoe2e-handler/splitter/chunk_suites.py autoe2e-scripts-sideex/${params.platform} ${params.chunkSize} ${params.runSuite}")
+
+                    // 上傳 configX.json 和 globalvar.json 至 GCS
+                    withCredentials([file(credentialsId: 'github-autoe2e-web', variable: 'GC_Cred')]) {
+                        sh("gcloud auth activate-service-account --key-file=${GC_Cred}")
+                        sh("gsutil cp config_splitted/*.json gs://e2e-testing-sideex/config/")
+                        sh("gsutil cp autoe2e-scripts-sideex/globalvar.json gs://e2e-testing-sideex/config/")
+                    }
+                }
+            }
+        }
+
+        stage("Deploy jobs") {
+            steps {
+                withCredentials([file(credentialsId: 'jenkins-ops', variable: 'GC_Cred')]) {
+                    sh("gcloud config set project pchomeec-devops")
+                    sh("gcloud auth activate-service-account --key-file=${GC_Cred}")
+
+                    script {
+                        echo "[INFO] Run tests on ${env.RUN_ENVIRONMENT_NAME}"
+
+                        def parallelStagesMap = [:]
+                        for (int i = 0; i < params.chunkSize.toInteger(); i++) {
+                            def sequenceId = "${i}"
+                            def src_tc_conf = "gs://e2e-testing-sideex/config/config${i}.json"
+                            def run_job = "${env.JOB_NAME_STRING}-${sequenceId}"
+
+                            // 觸發部署 cloud run container
+                            parallelStagesMap["stage-${sequenceId}"] = {
+                                stage("Deploy Cloud Run job ${sequenceId}") {
+                                    sh "gcloud beta run jobs deploy ${run_job} \
+                                        --project pchomeec-devops \
+                                        --image asia.gcr.io/pchomeec-devops/${params.jobName}:${params.imageVersion} \
+                                        --region asia-east1 \
+                                        --cpu ${params.cpu.toInteger()} \
+                                        --memory ${params.memory.toInteger()}G \
+                                        --set-env-vars SRC_TC_CONF=${src_tc_conf} \
+                                        --set-env-vars BUCKET=e2e-testing-sideex \
+                                        --set-env-vars JOB_NAME=${run_job} \
+                                        --set-env-vars DEBUG=${params.dryRunSleepSeconds.toInteger()} \
+                                        --set-env-vars RUN_BRANCH=${params.checkoutBranch} \
+                                        --set-env-vars STAGE=${params.isRunStageEnvironment} \
+                                        --task-timeout 30m --max-retries=1"
+                                }
+                            }
+                        }
+                        parallel parallelStagesMap
+                    }
+                }
+            }
+        }
+
+        stage("Enable proxy service firewall rule"){
+            when {
+                expression {
+                    params.isRunStageEnvironment == '1'
+                }
+            }
+            steps {
+                script {
+                    try {
+                        withCredentials([file(credentialsId: 'jenkins-ops', variable: 'GC_Cred')]) {
+                            sh("gcloud config set project pchomeec-devops")
+                            sh("gcloud auth activate-service-account --key-file=${GC_Cred}")
+
+                            // enable proxy firewall
+                            // 新增防火牆規則，container會把自己取代的外部ip加入
+                            echo "[INFO] Enable firewall rule"
+                            sh('gcloud beta compute firewall-rules update allow-ingress-sideex-proxy-tcp-3456 --no-disabled --project pchomeec-devops')
+                            stageResultMap.isEnabledFirewall = true
+                        }
+                    } catch (Exception e) {
+                        stageResultMap.isEnabledFirewall = false
+                    }
+                }
+            }
+        }
+
+        stage('Execute jobs') {
+            steps {
+                withCredentials([file(credentialsId: 'jenkins-ops', variable: 'GC_Cred')]) {
+                    sh("gcloud auth activate-service-account --key-file=${GC_Cred}")
+                    sh("gcloud config set project pchomeec-devops")
+                    script {
+                        // 觸發執行 container
+                        def parallelStagesMap = [:]
+                        for (int i = 0; i < params.chunkSize.toInteger(); i++) {
+                            def sequenceId = "${i}"
+                            def run_job = "${env.JOB_NAME_STRING}-${sequenceId}"
+
+                            parallelStagesMap["stage-${sequenceId}"] = {
+                                stage("Execute Cloud Run job ${sequenceId}") {
+                                    sh("gcloud beta run jobs execute ${run_job} --project pchomeec-devops --region asia-east1 --quiet")
+                                }
+                            }
+                        }
+                        parallel parallelStagesMap
+                    }
+                }
+            }
+        }
+
+        stage('Check jobs done') {
+            steps {
+                sleep time: 30, unit: 'SECONDS'
+
+                withCredentials([file(credentialsId: 'jenkins-ops', variable: 'GC_Cred')]) {
+                    sh("gcloud auth activate-service-account --key-file=${GC_Cred}")
+                    sh("gcloud config set project pchomeec-devops")
+
+                    script {
+                        // 監控 container 狀態，等待所有完成並退出
+                        while (true) {
+                            // check the number of running container
+                            def jobStatus = sh(returnStdout: true, script: '''
+                            gcloud beta run jobs executions list --region asia-east1 --filter="metadata.name~'''+env.JOB_NAME_STRING+'''" | \
+                            grep '0 / 1' | wc -l
+                            ''').trim()
+                            echo "[INFO] Running job: ${jobStatus}"
+                            if (jobStatus.toInteger() == 0) {
+                                sh("sleep 5")
+                                break
+                            }
+                            sh("sleep 10")
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Finalize jobs') {
+            steps {
+                withCredentials([file(credentialsId: 'jenkins-ops', variable: 'GC_Cred')]) {
+                    sh("gcloud auth activate-service-account --key-file=${GC_Cred}")
+                    sh("gcloud config set project pchomeec-devops")
+
+                    script {
+                        // 執行完畢，刪除所有 container
+                        def parallelStagesMap = [:]
+                        for (int i = 0; i < params.chunkSize.toInteger(); i++) {
+                            def sequenceId = "${i}"
+                            def run_job = "${env.JOB_NAME_STRING}-${sequenceId}"
+
+                            parallelStagesMap["stage-${sequenceId}"] = {
+                                stage("Delete Cloud Run job ${sequenceId}") {
+                                    sh("gcloud beta run jobs delete ${run_job} --region asia-east1 --quiet")
+                                }
+                            }
+                        }
+
+                        if (stageResultMap.isEnabledFirewall == true) {
+                            parallelStagesMap["disableFirewallRule"] = {
+                                stage("Disable proxy service firewall rule"){
+                                    disableFirewallRule()
+                                    stageResultMap.isEnabledFirewall = false
+                                }
+                            }
+                        }
+
+                        parallel parallelStagesMap
+                    }
+                }
+            }
+        }
+
+        stage('Finalize results') {
+            steps{
+                withCredentials([file(credentialsId: 'github-autoe2e-web', variable: 'GC_Cred')]) {
+                    sh("gcloud auth activate-service-account --key-file=${GC_Cred}")
+
+                    script {
+                        def testPlatform = params.platform
+
+                        sh("mkdir report-${testPlatform}")
+
+                        // 拉回 Report JSON
+                        for (int i = 0; i < params.chunkSize.toInteger(); i++) {
+                            sh("gsutil cp gs://e2e-testing-sideex/output/${testPlatform}/${env.JOB_NAME_STRING}-${i}* report-${testPlatform}/")
+                        }
+
+                        // 同步 TC 對應
+                        sh("gsutil cp gs://e2e-testing-sideex/testrun_dic/Testcase_name_dic.txt .")
+
+                        def parallelStagesMap = [:]
+                        parallelStagesMap["markCasesAndCreateTickets"] = {
+                            stage("Mark test cases and create tickets") {
+                                // 進行 Mark 與 開票
+                                sh("python3 autoe2e-handler/testlodge/Mark_and_Create.py report-${testPlatform} 52624")
+
+                                // 上傳 fail case 到 GCS
+                                sh("gsutil cp failed_TestCaseURL_list.txt gs://e2e-testing-sideex/report/failed/failed_TestCaseURL_list.txt")
+                                sh("gsutil -m cp -r log gs://e2e-testing-sideex/Mark_and_Create_log/${env.JOB_NAME_STRING}")
+                            }
+                        }
+
+                        parallelStagesMap["sendMessage"] = {
+                            stage("Send message to Google Chat") {
+                                // write url to file for send msg card to Google Chat
+                                writeFile file: 'chatbot_url.txt', text: params.chatRoomWebhookUrl
+
+                                // 發送測試結果通知到 Google Chat
+                                sh("python3 autoe2e-handler/reports/report_message.py report-${testPlatform} ${params.checkoutBranch} ${params.isRunStageEnvironment} ${testPlatform} '${params.triggerBy}'")
+                                sh("cat test_report.json")
+                                sh("gsutil cp test_report.json gs://e2e-testing-sideex/report/${testPlatform}/${env.JOB_NAME_STRING}_report.json")
+                            }
+                        }
+
+                        if (params.isRunStageEnvironment == '0') {
+                            parallelStagesMap["postDataForDashboard"] = {
+                                stage("Post data for dashboard"){
+                                    withCredentials([file(credentialsId: 'jenkins-ops', variable: 'GC_Cred')]) {
+                                        sh("gcloud auth activate-service-account --key-file=${GC_Cred}")
+                                        dir("autoe2e-handler/dashboard/test_cases") {
+                                            sh("python3 Dashboard_tc.py report-${testPlatform}")
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        parallel parallelStagesMap
+                        archiveArtifacts artifacts: 'test_report.json, failed_TestCaseURL_list.txt', followSymlinks: false
+                    }
+                }
+            }
+        }
+    }  // end of stages //
+
+    post {
+        failure {
+            script {
+                if (stageResultMap.isEnabledFirewall == true) {
+                    disableFirewallRule()
+                }
+            }
+        }
+    }
+}
+
+def disableFirewallRule() {
+    script {
+        withCredentials([file(credentialsId: 'jenkins-ops', variable: 'GC_Cred')]) {
+            sh("gcloud config set project pchomeec-devops")
+            sh("gcloud auth activate-service-account --key-file=${GC_Cred}")
+            echo "[INFO] Disable firewall rule"
+            sh("gcloud beta compute firewall-rules update allow-ingress-sideex-proxy-tcp-3456 --disabled --project pchomeec-devops")
+        }
+    }
+}
